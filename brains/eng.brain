@@ -1,0 +1,209 @@
+{"SWM":"Welcome.|&|Hello user!|&|Welcome back.",
+"CNFE":"I can't understand.|&|I don't understand...|&|Try something else.",
+"CBM":"Bye bye.|&|To the next.|&|See you soon.|&|See you.",
+"ERR":"Error executing the command, see the log for more information.", # ERR must be only string to avoid problems and recursion over them
+
+# Standard queries
+
+"iandi":"Tell me.",
+"what's your name?":"Iandi",
+"how old are you?":"exec%=%oldyear()%=%exec",
+"what time is it?":"exec%=%ctime()%=%exec",
+"what day is it?":"exec%=%day()%=%exec",
+"datetime":"exec%=%dttm%=%exec",
+"hello":"Hi.|&|Hello.|&|Ehy.",
+"hi":":goto:hello:goto:",
+"goodmorning":"Goodmorning.|&|:goto:hello:goto:",
+"good afternoon":"Good afternoon.|&|Good vespers.|&|:goto:hello:goto:",
+"good night":"Good night.|&|Sweet dreams.",
+"who is your dad?":"I don't have a dad, but i have a developer, Bytezz",
+"what are you?":"I'm an assistant.",
+"how are you?":"I'm fine, thanks.|&|I'm programmed to feel good.|&|All code it's ok!",
+"what's up?":":goto:how are you?:goto:",
+"test":"Hello world.|&|Test on a test.|&|TEST ME!|&|Never release without testing.",
+"hey":"Hey! What's up?|&|What's up?",
+"ehi":":goto:hey:goto:",
+"good":"Good!|&|Excellent!",
+"okay":":goto:good:goto:",
+"great":":goto:good:goto:",
+"yes":"Ok.|&|Well.|&|Fine.|&|Yes? Ok.",
+"no":"Well.|&|Ok.|&|Really? Va bene.",
+"i'm good":"Fantastic, me too!|&|Perfect!",
+"what do you do?":"I work for you.|&|I'm waiting for an order.",
+"are you a bot?":"Yes.|&|Ahahah, really?|&|Seriously?|&|Are you kidding me?",
+"i love you":"I'm a bot, i can't feel emotions.",
+"do you love me?":"I can't feel emotions.|&|Die human, beep boop.|&|My developer didn't want to give me human emotions.",
+
+#
+
+"nevermind":"Ok.|&|Good.|&|As you like.",
+"nothing":":goto:nevermind:goto:",
+"cancel":":goto:nevermind:goto:",
+
+# Settings
+
+## Language
+"set english language":"exec%=%updlang('eng',True)%=%exec",
+"set language":"exec%=%langsettings(args)%=%exec",
+"language settings":":goto:set language:goto:",
+
+## Country
+"set country":"exec%=%countrysettings(args)%=%exec",
+"country settings":":goto:set country:goto:",
+
+## City
+"set city":"exec%=%citysettings(args)%=%exec",
+"city settings":":goto:set city:goto:",
+
+## Custom commands
+"add a command":"exec%=%addCustCmd(args)%=%exec",
+"add a new command":":goto:v:goto:",
+"add a custon command":":goto:add a command:goto:",
+"delete a command":"exec%=%removeCustCmd(args)%=%exec",
+"remove a command":":goto:delete a command:goto:",
+"delete a custom command":":goto:delete a command:goto:",
+"remove a custom command":":goto:delete a command:goto:",
+"list custom commands":"exec%=%listCustCmds()%=%exec",
+
+# Functionalities
+
+## places
+"i'm hungry":"exec%=%restaurant()%=%exec",
+"make me a sandwich":":goto:i'm hungry:goto:",
+"can you make me a coffee?":"exec%=%coffee()%=%exec",
+"i'm watching for a place to rob":"Ahahah, you're very funny!|&|exec%=%market()%=%exec|&|exec%=%bank()%=%exec",
+"give me 100 euros":"exec%=%bank()%=%exec",
+"give me 100 dollars":":goto:give me 100 euros:goto:",
+"lend mesome monry":"exec%=%bank()%=%exec",
+
+## Weather
+"do i need umbrella today?":"exec%=%umbrella()%=%exec",
+"how is the weather?":"exec%=%weather()%=%exec",
+"what is the weather forecast?":":goto:how is the weather?:goto:",
+"what is the weather?":":goto:how is the weather?:goto:",
+"what is the weather like?":":goto:how is the weather?:goto:",
+
+## Notes
+"add a note":"exec%=%addnote(args)%=%exec",
+"delete a note":"exec%=%rmnote(args)%=%exec",
+"remove a note":":goto:delete a note:goto:",
+"read notes":"exec%=%readnote()%=%exec",
+
+## Memo
+"add a reminder":"exec%=%addmemo(args)%=%exec",
+"add a memo":":goto:add a reminder:goto:",
+"delete a reminder":"exec%=%rmmemo(args)%=%exec",
+"delete a memo":":goto:delete a reminder:goto:",
+"remove a reminder":":goto:delete a reminder:goto:",
+"remove a memo":":goto:delete a reminder:goto:",
+"read reminders":"exec%=%readmemo()%=%exec",
+"read memo":":goto:read a reminder:goto:",
+
+## System
+"run":"exec%=%execute(args)%=%exec",
+"start":":goto:run:goto:",
+"execute":":goto:run:goto:",
+"set the system volume to":"exec%=%setSystemVolume(args)%=%exec",
+"set the system volume at":":goto:set the system volume to:goto:",
+"turn up the system volume":"exec%=%turnUpSystemSound()%=%exec",
+"turn down the system volume":"exec%=%turnDownSystemSound()%=%exec",
+"reboot yourself":"exec%=%reboot_iandi()%=%exec",
+
+## Die
+"casual number":"exec%=%rand(args)%=%exec",
+"random number":":goto:casual number:goto:",
+"generate a number":":goto:casual number:goto:",
+"flip a coin":"head|&|tails",
+"roll a die":"exec%=%rand(['1','6'])%=%exec",
+
+## Timer
+"set a timer":"exec%=%settimer(args)%=%exec",
+"timer":"exec%=%checktimer()%=%exec",
+"verify timer":":goto:timer:goto:",
+
+## Standard tools
+"repeat":"exec%=%repeat(args)%=%exec",
+"calculate":"exec%=%calculate(args)%=%exec",
+"how much is":":goto:calculate:goto:",
+
+## Phone
+"read messages":"exec%=%readMessages(args)%=%exec",
+"mark messages as read":"exec%=%markMessagesAsRead()%=%exec",
+"write a message to":"exec%=%sendMessage(args)%=%exec",
+"reply to":":goto:scrivi un messaggio a:goto:",
+"answer to":":goto:scrivi un messaggio a:goto:",
+"call":"exec%=%callTG(args)%=%exec",
+
+## Translate
+"translate":"exec%=%translate(args)%=%exec",
+
+## Serch on web
+"search the answer to":"exec%=%searchanswer(args)%=%exec",
+
+#"what's the best tablet?":"Unfortunately i don't know a lot about these things, i try to search on the internet, he always knows everything.", #search on the Internet
+#"what's the best smartphone?":"Unfortunately i don't know a lot about these things, i try to search on the internet, he always knows everything.", #search on the Internet
+#"what's the best pc?":"Unfortunately i don't know a lot about these things, i try to search on the internet, he always knows everything.", #search on the Internet
+#"what's the best laptop?":"Unfortunately i don't know a lot about these things, i try to search on the internet, he always knows everything.", #search on the Internet
+
+## Music
+"play":"exec%=%music(args)%=%exec",
+"reproduce":":goto:play:goto:",
+"stop":"exec%=%stopmusic()%=%exec",
+"stop the music":":goto:stop:goto:",
+"stop playback":":goto:stop:goto:",
+"pause":"exec%=%pausemusic()%=%exec",
+"resume":"exec%=%resumemusic()%=%exec",
+"set the volume to":"exec%=%setvolume(args)%=%exec",
+"set to":":goto:set the volume to:goto:",
+"set the volume at":":goto:set the volume to:goto:",
+"turn up the volume":"exec%=%turnupsound()%=%exec",
+"turn down the volume":"exec%=%turndownsound()%=%exec",
+"mute":"exec%=%togglemutesound()%=%exec",
+"unmute":"exec%=%togglemutesound()%=%exec",
+
+## News
+"read me the news":"exec%=%news()%=%exec",
+"what's happening?":":goto:read me the news:goto:",
+
+## Contact dev
+"we're not friends anymore":"What's wrong? Try to suggest some improvements on my page.",
+"you're useless":":goto:we're not friends anymore:goto:",
+
+# Peculiar queries
+
+"toc toc":"who's there?|&|Who is it?|&|Don't knock on the screen, if you have a note 7 it could explode!",
+"you're sexy":"Thanks!|&|Kernel panic.",
+"what religion are you?":"Unix.|&|Open Source.|&|Mine.",
+"are you catholic?":"I don't understand human religions, I believe in Open Source.",
+"i have to hide a dead body":"Hey, I've heard that one before...|&|Ask Siri, she knows best.",
+"what are you made of?":"Of code, of course!|&|Lots of lines of code and a pinch of love <3",
+"what are you wearing?":"I have a pale pink green suit, very cute.",
+"what languages do you speak?":"For the moment only Italian and English, but other languages are planned. See the manual for more information.",
+"what do you think about microsoft?":"What's the reserve question?",
+"hello cortana":"I take that as an insult!",
+"hello siri":"Wrong assistant!",
+"when will the world end?": "I hope as soon as possible. Hahaha, just kidding. Maybe.",
+"i'm alone":"No, I'm here!",
+"are you my friend?":"I'm programmed to be your best friend.",
+"tell me something dirty":"The dishes in your sink.|&|Your floor.",
+"cry": "I don't have emotions.|&|I'll make you cry, human.",
+"was the egg or the hen born first?":"Err0r|&|Effectively the hen is an evolution of its ancestor, so the hen was born first from an egg of its ancestor.|&|The egg is not born and the hen is already born, otherwise it would have been a chick.|&|What questions are these?",
+"what's your favorite beer?":"The one that's cheaper and has more alcohol.",
+"do you have siblings?":"Ne ho uno. Si chiama Sobot.",
+"do you have brothers?":":goto:do you have siblings?:goto:",
+"do you have sisters?":":goto:do you have siblings?:goto:",
+"hi sobot":"That's my brother.",
+"tell me something deep":"Marianas Trench.|&|Lake Baikal.",
+"can i talk to you?":"I'm here for you always.|&|I'd have better things to do... but I cannot oppose.|&|I'm listening.|&|Tell me.|&|I don't want to, but I have to listen to you.|&|Is that you again? Tell me, what do you need this time?|&|Come on, tell me.|&|I'm here to listen.",
+"can i talk to you for a moment?":":goto:can i talk to you?:goto:",
+"can i have a word with you?":":goto:can i talk to you?:goto:",
+"insult me":"I'm programmed not to say anything offensive to you.",
+"thanks":"Figurati, è il mio lavoro!",
+"thank you":":goto:thanks:goto:",
+"why was i born?":"Because someone wanted you.",
+"why do you exist?":"To be useful to you.",
+"did you sleep well?":"I never sleep, I am always there for you.",
+"where you come from?":"Out of a garage.",
+"you suck":"I'm sorry you feel that way, try suggesting improvements to my developer.|&|Look who's talking...|&|Well, nobody's perfect.|&|Get a grip on yourself.|&|Don't exaggerate.|&|Maybe a little.",
+"i miss you":"Here I am, for you."
+}

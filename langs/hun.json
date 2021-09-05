@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Milyen feljegyz\u00e9st kell t\u00f6r\u00f6ln\u00f6m?"
+		], 
+		"memoremoved": [
+			"Memo deleted:\\n{}"
+		], 
+		"notenotfound": [
+			"A feljegyz\u00e9s nem tal\u00e1lhat\u00f3."
+		]
+	}, 
+	"one": [
+		"egy"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Vannak ", 
+			"aftstr": "jegyzetek"
+		}, 
+		"one": {
+			"prestr": "Van ", 
+			"aftstr": "megjegyz\u00e9s"
+		}
+	}, 
+	"second": "m\u00e1sodik", 
+	"weather": {
+		"clear": " \u00e9s vil\u00e1gos.", 
+		"cloudy": " \u00e9s felh\u0151s.", 
+		"bitcloudy": " \u00e9s egy kicsit felh\u0151s.", 
+		"degrees": " vannak {} fokozatok", 
+		"at": "{}", 
+		"rain": ", esik az es\u0151", 
+		"drizzle": ", z\u00fag a sz\u00e9l"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Nyelv be\u00e1ll\u00edt\u00e1sa: {}"
+		], 
+		"say": [
+			"Mondja meg a be\u00e1ll\u00edtand\u00f3 nyelvet."
+		], 
+		"notindb": [
+			"Nem tal\u00e1lom ezt a nyelvet."
+		]
+	}, 
+	"cancel": [
+		"semmi"
+	], 
+	"news": {
+		"error": [
+			"Hiba."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} utca {} h\u00e1zsz\u00e1m {}"
+		], 
+		"near": [
+			"Vannak {} piacok a k\u00f6zelben."
+		], 
+		"no": [
+			"Nincsenek piacok a k\u00f6zelben."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Nem tal\u00e1ltam v\u00e1laszt a k\u00e9rd\u00e9s\u00e9re."
+		], 
+		"what": [
+			"Milyen v\u00e1laszt keressek?"
+		], 
+		"internetneeded": [
+			"A k\u00e9rd\u00e9s keres\u00e9s\u00e9hez internetkapcsolatra van sz\u00fcks\u00e9gem."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"%d %m %Y %H:%M:%S %-\u00e1n %H:%M:%S-kor"
+		], 
+		"multiple": {
+			"prestr": "Vannak", 
+			"aftstr": "eml\u00e9keztet\u0151k"
+		}, 
+		"one": {
+			"prestr": "Van", 
+			"aftstr": "eml\u00e9keztet\u0151"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Mit kell kisz\u00e1m\u00edtanom?"
+		], 
+		"notvalid": [
+			"\u00c9rv\u00e9nytelen kifejez\u00e9s."
+		]
+	}, 
+	"for": "a  oldalon.", 
+	"divided": "osztott", 
+	"weekdays": [
+		"szombat"
+	], 
+	"music": {
+		"what": [
+			"Mit kell reproduk\u00e1lnom?"
+		], 
+		"downloading": [
+			"Let\u00f6lt\u00e9s {}..."
+		], 
+		"setvolumeask": [
+			"Milyen magasra kell \u00e1ll\u00edtani a hanger\u0151t?"
+		], 
+		"wasnothingplay": [
+			"Semmi sem j\u00e1tszott."
+		], 
+		"nothingplay": [
+			"Semmi sem j\u00e1tszik."
+		], 
+		"setvolumepercentage": [
+			"Mondja meg a mennyis\u00e9g sz\u00e1zal\u00e9kos ar\u00e1ny\u00e1t."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} utca {} h\u00e1zsz\u00e1m {}"
+		], 
+		"near": [
+			"A k\u00f6zelben {} bankok vannak."
+		], 
+		"no": [
+			"A k\u00f6zelben nincsenek bankok."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"City setted: {}"
+		], 
+		"say": [
+			"Mondd meg, melyik v\u00e1rost kell be\u00e1ll\u00edtani."
+		], 
+		"notindb": [
+			"Nem tal\u00e1lom ezt a v\u00e1rost."
+		]
+	}, 
+	"todayis": [
+		"Ma ez {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} utca {} h\u00e1zsz\u00e1m {}"
+		], 
+		"near": [
+			"Vannak k\u00e1v\u00e9z\u00f3k a k\u00f6zelben."
+		], 
+		"no": [
+			"A k\u00f6zelben nincsenek k\u00e1v\u00e9z\u00f3k."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Mit kell megism\u00e9telnem?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Igen, esik az es\u0151."
+		], 
+		"0": [
+			"Szit\u00e1l, \u00e9rdemes bev\u00e1llalni."
+		], 
+		"3": [
+			"Nincs sz\u00fcks\u00e9g eserny\u0151re."
+		], 
+		"2": [
+			"Felh\u0151s az id\u0151, lehet, hogy esni fog. Vigy\u00e9tek."
+		]
+	}, 
+	"seconds": "m\u00e1sodpercek", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Milyen magasra kell \u00e1ll\u00edtani a rendszer hangerej\u00e9t?"
+		], 
+		"setvolumepercentage": [
+			"Mondja meg a rendszer t\u00e9rfogat\u00e1nak sz\u00e1zal\u00e9kos ar\u00e1ny\u00e1t."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} utca {} h\u00e1zsz\u00e1m {}"
+		], 
+		"near": [
+			"Vannak {} sz\u00e1llod\u00e1k a k\u00f6zelben."
+		], 
+		"no": [
+			"A k\u00f6zelben nincsenek sz\u00e1llod\u00e1k."
+		]
+	}, 
+	"hours": "\u00f3r\u00e1k", 
+	"phone": {
+		"noUnreadMessages": [
+			"Nincs elolvasand\u00f3 \u00fczenet."
+		], 
+		"messageSent": [
+			"\u00dczenet elk\u00fcldve a {} c\u00edmre."
+		], 
+		"contactNotFound": [
+			"Kapcsolat nem tal\u00e1lhat\u00f3."
+		], 
+		"messageSentShort": [
+			"{} k\u00fcld\u00f6tt {}."
+		], 
+		"textOfMessage": [
+			"Mit \u00edrjak {}?"
+		], 
+		"readMsgList": [
+			"{}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Kinek k\u00fcldjem el az \u00fczenetet?"
+		], 
+		"markedAsRead": [
+			"Olvasottk\u00e9nt megjel\u00f6lt \u00fczenetek."
+		], 
+		"notLogged": [
+			"Ehhez a funkci\u00f3hoz be kell jelentkeznie a Telegramba."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Csak {} egy\u00e9ni parancs van:\\n{}"
+		], 
+		"listmore": [
+			"Vannak {} egy\u00e9ni parancsok:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Mondja meg az elt\u00e1vol\u00edtand\u00f3 egy\u00e9ni parancsot."
+		], 
+		"listno": [
+			"Nincsenek egy\u00e9ni parancsok."
+		], 
+		"paired": [
+			"\u00daj parancs \"{}\" p\u00e1ros\u00edtva \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Mondja meg a hozz\u00e1adand\u00f3 parancsot."
+		], 
+		"tellcmdpair": [
+			"Mondja meg a p\u00e1ros\u00edt\u00e1s parancs\u00e1t."
+		], 
+		"removed": [
+			"Az \"{}\" egy\u00e9ni parancs elt\u00e1vol\u00edtva."
+		], 
+		"rmnotfound": [
+			"Az elt\u00e1vol\u00edtand\u00f3 egy\u00e9ni parancs nem tal\u00e1lhat\u00f3."
+		]
+	}, 
+	"negative": [
+		"nincs"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Megjegyz\u00e9s hozz\u00e1adva:\\n{}"
+		], 
+		"saynote": [
+			"Mondja meg a hozz\u00e1adand\u00f3 jegyzetet."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Az id\u0151z\u00edt\u0151 {} m\u00falva j\u00e1r le."
+		], 
+		"notimer": [
+			"Nincsenek be\u00e1ll\u00edtott id\u0151z\u00edt\u0151k."
+		]
+	}, 
+	"affirmative": [
+		"igen"
+	], 
+	"day": "nap", 
+	"minute": "perc", 
+	"execute": {
+		"executing": [
+			"V\u00e9grehajt\u00e1s {}..."
+		], 
+		"what": [
+			"Mit kell v\u00e9grehajtanom?"
+		], 
+		"error": [
+			"Hiba a v\u00e9grehajt\u00e1sban."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"A {} id\u0151z\u00edt\u0151je be\u00e1ll\u00edtva."
+		], 
+		"howmany": [
+			"H\u00e1ny m\u00e1sodperc?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Ez..."
+		]
+	}, 
+	"hour": "\u00f3ra", 
+	"restaurant": {
+		"print": [
+			"{} utca {} h\u00e1zsz\u00e1m {}"
+		], 
+		"near": [
+			"Vannak {} \u00e9ttermek a k\u00f6zelben."
+		], 
+		"no": [
+			"A k\u00f6zelben nincsenek \u00e9ttermek."
+		]
+	}, 
+	"internetneeded": [
+		"Ez a funkci\u00f3 internetet ig\u00e9nyel."
+	], 
+	"months": [
+		"December"
+	], 
+	"days": "napok", 
+	"oldyear": [
+		"\u00c9n {} \u00e9ves vagyok."
+	], 
+	"plus": "plusz", 
+	"removenote": {
+		"notenotfound": [
+			"Megjegyz\u00e9s nem tal\u00e1lhat\u00f3."
+		], 
+		"noteremoved": [
+			"Megjegyz\u00e9s t\u00f6r\u00f6lve:\\n{}"
+		], 
+		"saynote": [
+			"Milyen jegyzetet kell t\u00f6r\u00f6ln\u00f6m?"
+		]
+	}, 
+	"notWorkingYet": [
+		"M\u00e9g nem m\u0171k\u00f6dik."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Mondja meg, hogy a feljegyz\u00e9st hozz\u00e1 kell adni."
+		], 
+		"memoadded": [
+			"Memo hozz\u00e1adva:\\n{}"
+		], 
+		"when": [
+			"Mondja meg, mikor \u00e1ll\u00edtsam be az eml\u00e9keztet\u0151t."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Country setted: {}"
+		], 
+		"say": [
+			"Mondja meg, melyik orsz\u00e1got kell be\u00e1ll\u00edtani."
+		], 
+		"notindb": [
+			"Nem tal\u00e1lom ezt az orsz\u00e1got."
+		]
+	}, 
+	"minutes": "percek", 
+	"minus": "m\u00ednusz", 
+	"two": [
+		"k\u00e9t"
+	]
+}

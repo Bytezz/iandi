@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Que memorando tenho de apagar?"
+		], 
+		"memoremoved": [
+			"Memo apagado:\"{}\"n\"{}"
+		], 
+		"notenotfound": [
+			"Memo n\u00e3o encontrado."
+		]
+	}, 
+	"one": [
+		"um"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Existem ", 
+			"aftstr": "notas"
+		}, 
+		"one": {
+			"prestr": "H\u00e1 ", 
+			"aftstr": "nota"
+		}
+	}, 
+	"second": "segundo", 
+	"weather": {
+		"clear": " e \u00e9 claro.", 
+		"cloudy": " e est\u00e1 nublado.", 
+		"bitcloudy": " e est\u00e1 um pouco nublado.", 
+		"degrees": " existem {} graus", 
+		"at": "Em {}", 
+		"rain": "est\u00e1 a chover", 
+		"drizzle": "est\u00e1 a abanar"
+	}, 
+	"langsettings": {
+		"setted": [
+			"L\u00edngua definida: {}"
+		], 
+		"say": [
+			"Diz-me a l\u00edngua a definir."
+		], 
+		"notindb": [
+			"N\u00e3o consigo encontrar esta l\u00edngua."
+		]
+	}, 
+	"cancel": [
+		"nada"
+	], 
+	"news": {
+		"error": [
+			"Erro."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} rua {} n\u00famero {}"
+		], 
+		"near": [
+			"Existem {} mercados nas proximidades."
+		], 
+		"no": [
+			"N\u00e3o h\u00e1 mercados nas proximidades."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"N\u00e3o consegui encontrar a resposta \u00e0 sua pergunta."
+		], 
+		"what": [
+			"Que resposta devo procurar?"
+		], 
+		"internetneeded": [
+			"Para pesquisar a sua pergunta, preciso de uma liga\u00e7\u00e3o \u00e0 Internet."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Em %d %m %Y a %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Existem", 
+			"aftstr": "lembretes"
+		}, 
+		"one": {
+			"prestr": "H\u00e1", 
+			"aftstr": "lembrete"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"O que tenho a calcular?"
+		], 
+		"notvalid": [
+			"Express\u00e3o inv\u00e1lida."
+		]
+	}, 
+	"for": "para", 
+	"divided": "dividido", 
+	"weekdays": [
+		"s\u00e1bado"
+	], 
+	"music": {
+		"what": [
+			"O que devo reproduzir?"
+		], 
+		"downloading": [
+			"Descarregar {}..."
+		], 
+		"setvolumeask": [
+			"A que altura devo fixar o volume?"
+		], 
+		"wasnothingplay": [
+			"N\u00e3o havia nada a tocar."
+		], 
+		"nothingplay": [
+			"N\u00e3o h\u00e1 nada a tocar."
+		], 
+		"setvolumepercentage": [
+			"Diga-me a percentagem do volume."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} rua {} n\u00famero {}"
+		], 
+		"near": [
+			"Existem {} bancos nas proximidades."
+		], 
+		"no": [
+			"N\u00e3o h\u00e1 bancos nas proximidades."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Cidade definida: {}"
+		], 
+		"say": [
+			"Diz-me a cidade a p\u00f4r."
+		], 
+		"notindb": [
+			"N\u00e3o consigo encontrar esta cidade."
+		]
+	}, 
+	"todayis": [
+		"Hoje \u00e9 {} {} {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} rua {} n\u00famero {}"
+		], 
+		"near": [
+			"H\u00e1 {} caf\u00e9s nas proximidades."
+		], 
+		"no": [
+			"N\u00e3o h\u00e1 caf\u00e9s nas proximidades."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"O que tenho de repetir?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Sim, est\u00e1 a chover."
+		], 
+		"0": [
+			"Est\u00e1 a chuviscar, vale a pena tom\u00e1-lo."
+		], 
+		"3": [
+			"N\u00e3o \u00e9 necess\u00e1rio guarda-chuva."
+		], 
+		"2": [
+			"Est\u00e1 nublado, pode come\u00e7ar a chover. Tomem-no."
+		]
+	}, 
+	"seconds": "segundos", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Qu\u00e3o alto devo definir o volume do sistema?"
+		], 
+		"setvolumepercentage": [
+			"Diga-me a percentagem do volume do sistema."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} rua {} n\u00famero {}"
+		], 
+		"near": [
+			"Existem {} hot\u00e9is nas proximidades."
+		], 
+		"no": [
+			"N\u00e3o h\u00e1 hot\u00e9is nas proximidades."
+		]
+	}, 
+	"hours": "horas", 
+	"phone": {
+		"noUnreadMessages": [
+			"N\u00e3o h\u00e1 mensagens a ler."
+		], 
+		"messageSent": [
+			"Mensagem enviada para {}."
+		], 
+		"contactNotFound": [
+			"Contacto n\u00e3o encontrado."
+		], 
+		"messageSentShort": [
+			"{} enviado para {}."
+		], 
+		"textOfMessage": [
+			"A que devo escrever {}?"
+		], 
+		"readMsgList": [
+			"De {\\n\"{\\n\"{\\n\")"
+		], 
+		"toWhoMessage": [
+			"A quem devo enviar a mensagem?"
+		], 
+		"markedAsRead": [
+			"Mensagens marcadas como lidas."
+		], 
+		"notLogged": [
+			"\u00c9 necess\u00e1rio estar ligado ao Telegrama para esta funcionalidade."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"H\u00e1 apenas o comando personalizado:\"{}n\"{}."
+		], 
+		"listmore": [
+			"Existem comandos personalizados:\"{}\"n\"{}"
+		], 
+		"tellcmdrm": [
+			"Diga-me o comando personalizado para remover."
+		], 
+		"listno": [
+			"N\u00e3o h\u00e1 comandos personalizados."
+		], 
+		"paired": [
+			"Novo comando \"{}\" emparelhado a \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Diz-me o comando para acrescentar."
+		], 
+		"tellcmdpair": [
+			"Diz-me o comando para emparelhar."
+		], 
+		"removed": [
+			"Comando personalizado \"{}\" removido."
+		], 
+		"rmnotfound": [
+			"Comando personalizado para remover n\u00e3o encontrado."
+		]
+	}, 
+	"negative": [
+		"n\u00e3o"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Nota adicional:\\n{}"
+		], 
+		"saynote": [
+			"Diga-me a nota a acrescentar."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"O temporizador expirar\u00e1 em {}."
+		], 
+		"notimer": [
+			"N\u00e3o h\u00e1 temporizador definido."
+		]
+	}, 
+	"affirmative": [
+		"sim"
+	], 
+	"day": "dia", 
+	"minute": "minuto", 
+	"execute": {
+		"executing": [
+			"Executando {}..."
+		], 
+		"what": [
+			"O que tenho para executar?"
+		], 
+		"error": [
+			"Erro na execu\u00e7\u00e3o."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Temporizador de {} setted."
+		], 
+		"howmany": [
+			"Quantos segundos?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" sou."
+		], 
+		"its": [
+			"\u00c9 {}:{}"
+		]
+	}, 
+	"hour": "hora", 
+	"restaurant": {
+		"print": [
+			"{} rua {} n\u00famero {}"
+		], 
+		"near": [
+			"Existem {} restaurantes nas proximidades."
+		], 
+		"no": [
+			"N\u00e3o h\u00e1 restaurantes nas proximidades."
+		]
+	}, 
+	"internetneeded": [
+		"Esta fun\u00e7\u00e3o requer internet."
+	], 
+	"months": [
+		"Dezembro"
+	], 
+	"days": "dias", 
+	"oldyear": [
+		"Tenho {} anos de idade."
+	], 
+	"plus": "mais", 
+	"removenote": {
+		"notenotfound": [
+			"Nota n\u00e3o encontrada."
+		], 
+		"noteremoved": [
+			"Nota eliminada:\\n{}"
+		], 
+		"saynote": [
+			"Que nota tenho de apagar?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Ainda n\u00e3o est\u00e1 a funcionar."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Digam-me o memorando a acrescentar."
+		], 
+		"memoadded": [
+			"Memo acrescentado:\\n{}"
+		], 
+		"when": [
+			"Diz-me quando devo preparar o memorando."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Pa\u00eds definido: {}"
+		], 
+		"say": [
+			"Diz-me o pa\u00eds a definir."
+		], 
+		"notindb": [
+			"N\u00e3o consigo encontrar este pa\u00eds."
+		]
+	}, 
+	"minutes": "acta", 
+	"minus": "menos", 
+	"two": [
+		"dois"
+	]
+}

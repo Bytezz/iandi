@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Welke memo moet ik verwijderen?"
+		], 
+		"memoremoved": [
+			"Memo verwijderd: \"{}"
+		], 
+		"notenotfound": [
+			"Memo niet gevonden."
+		]
+	}, 
+	"one": [
+		"een"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Er zijn ", 
+			"aftstr": "nota's"
+		}, 
+		"one": {
+			"prestr": "Er is ", 
+			"aftstr": "noot"
+		}
+	}, 
+	"second": "tweede", 
+	"weather": {
+		"clear": " en het is duidelijk.", 
+		"cloudy": " en het is bewolkt.", 
+		"bitcloudy": " en het is een beetje bewolkt.", 
+		"degrees": " er zijn {} graden", 
+		"at": "Bij {}", 
+		"rain": "het regent", 
+		"drizzle": "Het is aan het ruisen."
+	}, 
+	"langsettings": {
+		"setted": [
+			"Taal ingesteld: {}"
+		], 
+		"say": [
+			"Zeg me welke taal ik moet instellen."
+		], 
+		"notindb": [
+			"Ik kan deze taal niet vinden."
+		]
+	}, 
+	"cancel": [
+		"niets"
+	], 
+	"news": {
+		"error": [
+			"Fout."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} straat {} nummer {}"
+		], 
+		"near": [
+			"Er zijn {} markten in de buurt."
+		], 
+		"no": [
+			"Er zijn geen markten in de buurt."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Ik kon het antwoord op je vraag niet vinden."
+		], 
+		"what": [
+			"Naar welk antwoord moet ik zoeken?"
+		], 
+		"internetneeded": [
+			"Om uw vraag te doorzoeken heb ik een internetverbinding nodig."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Op %d %m %Y om %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Er zijn", 
+			"aftstr": "herinneringen"
+		}, 
+		"one": {
+			"prestr": "Er is", 
+			"aftstr": "herinnering"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Wat moet ik berekenen?"
+		], 
+		"notvalid": [
+			"Ongeldige uitdrukking."
+		]
+	}, 
+	"for": "voor", 
+	"divided": "verdeeld", 
+	"weekdays": [
+		"zaterdag"
+	], 
+	"music": {
+		"what": [
+			"Wat moet ik reproduceren?"
+		], 
+		"downloading": [
+			"{\\a6}Download..."
+		], 
+		"setvolumeask": [
+			"Hoe hoog moet ik het volume zetten?"
+		], 
+		"wasnothingplay": [
+			"Er speelde niets."
+		], 
+		"nothingplay": [
+			"Er speelt niets."
+		], 
+		"setvolumepercentage": [
+			"Vertel me het percentage van het volume."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} straat {} nummer {}"
+		], 
+		"near": [
+			"Er zijn {\\a6}banken in de buurt."
+		], 
+		"no": [
+			"Er zijn geen banken in de buurt."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Stad ingesteld: {}"
+		], 
+		"say": [
+			"Vertel me de stad in te stellen."
+		], 
+		"notindb": [
+			"Ik kan deze stad niet vinden."
+		]
+	}, 
+	"todayis": [
+		"Vandaag is het {} {} {} {}}."
+	], 
+	"coffee": {
+		"print": [
+			"{} straat {} nummer {}"
+		], 
+		"near": [
+			"Er zijn {y}caf\u00e9s in de buurt."
+		], 
+		"no": [
+			"Er zijn geen caf\u00e9s in de buurt."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Wat moet ik herhalen?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Ja, het regent."
+		], 
+		"0": [
+			"Het miezert, de moeite waard om het te nemen."
+		], 
+		"3": [
+			"Geen paraplu nodig."
+		], 
+		"2": [
+			"Het is bewolkt, misschien gaat het regenen. Neem het."
+		]
+	}, 
+	"seconds": "seconden", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Hoe hoog moet ik het systeemvolume instellen?"
+		], 
+		"setvolumepercentage": [
+			"Vertel me het percentage van het systeemvolume."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} straat {} nummer {}"
+		], 
+		"near": [
+			"Er zijn {y}hotels in de buurt."
+		], 
+		"no": [
+			"Er zijn geen hotels in de buurt."
+		]
+	}, 
+	"hours": "uren", 
+	"phone": {
+		"noUnreadMessages": [
+			"Geen berichten te lezen."
+		], 
+		"messageSent": [
+			"Bericht verzonden naar {}."
+		], 
+		"contactNotFound": [
+			"Contact niet gevonden."
+		], 
+		"messageSentShort": [
+			"{} gestuurd naar {}."
+		], 
+		"textOfMessage": [
+			"Wat moet ik aan {} schrijven?"
+		], 
+		"readMsgList": [
+			"Van..."
+		], 
+		"toWhoMessage": [
+			"Van..."
+		], 
+		"markedAsRead": [
+			"Van..."
+		], 
+		"notLogged": [
+			"Van..."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Van..."
+		], 
+		"listmore": [
+			"Van..."
+		], 
+		"tellcmdrm": [
+			"Van..."
+		], 
+		"listno": [
+			"Van..."
+		], 
+		"paired": [
+			"Van..."
+		], 
+		"tellcmdadd": [
+			"Van..."
+		], 
+		"tellcmdpair": [
+			"Van..."
+		], 
+		"removed": [
+			"Van..."
+		], 
+		"rmnotfound": [
+			"Van..."
+		]
+	}, 
+	"negative": [
+		"Van..."
+	], 
+	"addnote": {
+		"noteadded": [
+			"Van..."
+		], 
+		"saynote": [
+			"Van..."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Van..."
+		], 
+		"notimer": [
+			"Van..."
+		]
+	}, 
+	"affirmative": [
+		"ja"
+	], 
+	"day": "dag", 
+	"minute": "minuut", 
+	"execute": {
+		"executing": [
+			"{\\a6}Uitvoeren..."
+		], 
+		"what": [
+			"Wat ik moet uitvoeren?"
+		], 
+		"error": [
+			"Fout bij het uitvoeren."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Timer van {} ingesteld."
+		], 
+		"howmany": [
+			"Hoeveel seconden?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Het is {}:{}"
+		]
+	}, 
+	"hour": "uur", 
+	"restaurant": {
+		"print": [
+			"{} straat {} nummer {}"
+		], 
+		"near": [
+			"Er zijn {y}restaurants in de buurt."
+		], 
+		"no": [
+			"Er zijn geen restaurants in de buurt."
+		]
+	}, 
+	"internetneeded": [
+		"Voor deze functie is internet vereist."
+	], 
+	"months": [
+		"December"
+	], 
+	"days": "dagen", 
+	"oldyear": [
+		"Ik ben {} jaar oud."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Noot niet gevonden."
+		], 
+		"noteremoved": [
+			"Noot geschrapt."
+		], 
+		"saynote": [
+			"Welk briefje moet ik verwijderen?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Werkt nog niet."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Vertel me de memo toe te voegen."
+		], 
+		"memoadded": [
+			"Memo toegevoegd."
+		], 
+		"when": [
+			"Zeg me wanneer ik de memo moet plaatsen."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Land ingesteld: {}"
+		], 
+		"say": [
+			"Vertel me het land in te stellen."
+		], 
+		"notindb": [
+			"Ik kan dit land niet vinden."
+		]
+	}, 
+	"minutes": "minuten", 
+	"minus": "min", 
+	"two": [
+		"twee"
+	]
+}

@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"\u6211\u5fc5\u987b\u8981\u5220\u9664\u54ea\u4e9b\u5907\u5fd8\u5f55\uff1f"
+		], 
+		"memoremoved": [
+			"\u5220\u9664\u7684\u5907\u5fd8\u5f55\uff1a\"/n\"{}\u3002"
+		], 
+		"notenotfound": [
+			"\u6ca1\u6709\u627e\u5230\u5907\u5fd8\u5f55\u3002"
+		]
+	}, 
+	"one": [
+		"\u4e00"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "\u6709 ", 
+			"aftstr": "\u7b14\u8bb0"
+		}, 
+		"one": {
+			"prestr": "\u6709 ", 
+			"aftstr": "\u5907\u6ce8"
+		}
+	}, 
+	"second": "\u7b2c\u4e8c", 
+	"weather": {
+		"clear": " \u800c\u4e14\u5f88\u6e05\u695a\u3002", 
+		"cloudy": " \u800c\u4e14\u662f\u9634\u5929\u3002", 
+		"bitcloudy": " \u800c\u4e14\u6709\u70b9\u9634\u5929\u3002", 
+		"degrees": " \u6709{}\u5ea6", 
+		"at": "\u5728{}\u3002", 
+		"rain": "\u4e0b\u96e8\u4e86", 
+		"drizzle": "\u96fe\u6c14\u5f25\u6f2b"
+	}, 
+	"langsettings": {
+		"setted": [
+			"\u8bbe\u7f6e\u7684\u8bed\u8a00\uff1a{}\u3002"
+		], 
+		"say": [
+			"\u544a\u8bc9\u6211\u9700\u8981\u8bbe\u7f6e\u7684\u8bed\u8a00\u3002"
+		], 
+		"notindb": [
+			"\u6211\u627e\u4e0d\u5230\u8fd9\u79cd\u8bed\u8a00\u3002"
+		]
+	}, 
+	"cancel": [
+		"\u6ca1\u6709\u4ec0\u4e48"
+	], 
+	"news": {
+		"error": [
+			"\u9519\u8bef\u3002"
+		]
+	}, 
+	"market": {
+		"print": [
+			"{}\u8857\u9053 {}\u53f7\u7801 {}"
+		], 
+		"near": [
+			"\u9644\u8fd1\u6709{}\u4e2a\u5e02\u573a\u3002"
+		], 
+		"no": [
+			"\u9644\u8fd1\u6ca1\u6709\u5e02\u573a\u3002"
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"\u6211\u6ca1\u80fd\u627e\u5230\u4f60\u95ee\u9898\u7684\u7b54\u6848\u3002"
+		], 
+		"what": [
+			"\u6211\u5e94\u8be5\u5bfb\u627e\u4ec0\u4e48\u7b54\u6848\uff1f"
+		], 
+		"internetneeded": [
+			"\u8981\u641c\u7d22\u4f60\u7684\u95ee\u9898\uff0c\u6211\u9700\u8981\u4e00\u4e2a\u4e92\u8054\u7f51\u8fde\u63a5\u3002"
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"\u5728 %d %m %Y at %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "\u6709", 
+			"aftstr": "\u63d0\u9192"
+		}, 
+		"one": {
+			"prestr": "\u6709", 
+			"aftstr": "\u63d0\u9192"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"\u6211\u9700\u8981\u8ba1\u7b97\u4ec0\u4e48\uff1f"
+		], 
+		"notvalid": [
+			"\u65e0\u6548\u8868\u8fbe\u3002"
+		]
+	}, 
+	"for": "\u4e3a", 
+	"divided": "\u5206\u88c2\u7684", 
+	"weekdays": [
+		"\u5468\u65e5"
+	], 
+	"music": {
+		"what": [
+			"\u6211\u5e94\u8be5\u91cd\u73b0\u4ec0\u4e48\uff1f"
+		], 
+		"downloading": [
+			"\u4e0b\u8f7d{}..."
+		], 
+		"setvolumeask": [
+			"\u6211\u5e94\u8be5\u628a\u97f3\u91cf\u8bbe\u7f6e\u591a\u9ad8\uff1f"
+		], 
+		"wasnothingplay": [
+			"\u6ca1\u6709\u4efb\u4f55\u4e1c\u897f\u5728\u64ad\u653e\u3002"
+		], 
+		"nothingplay": [
+			"\u6ca1\u6709\u4efb\u4f55\u4e1c\u897f\u5728\u64ad\u653e\u3002"
+		], 
+		"setvolumepercentage": [
+			"\u544a\u8bc9\u6211\u6570\u91cf\u7684\u767e\u5206\u6bd4\u3002"
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{}\u8857\u9053 {}\u53f7\u7801 {}"
+		], 
+		"near": [
+			"\u9644\u8fd1\u6709{}\u5bb6\u94f6\u884c\u3002"
+		], 
+		"no": [
+			"\u9644\u8fd1\u6ca1\u6709\u94f6\u884c\u3002"
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"\u8bbe\u7f6e\u7684\u57ce\u5e02\uff1a{}\u3002"
+		], 
+		"say": [
+			"\u8bf7\u544a\u8bc9\u6211\uff0c\u8981\u8bbe\u7f6e\u7684\u57ce\u5e02\u3002"
+		], 
+		"notindb": [
+			"\u6211\u627e\u4e0d\u5230\u8fd9\u4e2a\u57ce\u5e02\u3002"
+		]
+	}, 
+	"todayis": [
+		"\u4eca\u5929\u662f{}{}{}{}\u3002"
+	], 
+	"coffee": {
+		"print": [
+			"{}\u8857\u9053 {}\u53f7\u7801 {}"
+		], 
+		"near": [
+			"\u9644\u8fd1\u6709{}\u5bb6\u5496\u5561\u9986\u3002"
+		], 
+		"no": [
+			"\u9644\u8fd1\u6ca1\u6709\u5496\u5561\u9986\u3002"
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"\u6211\u5fc5\u987b\u91cd\u590d\u4ec0\u4e48\uff1f"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"\u662f\u7684\uff0c\u4e0b\u96e8\u4e86\u3002"
+		], 
+		"0": [
+			"\u4e0b\u7740\u5c0f\u96e8\uff0c\u503c\u5f97\u4e00\u8bd5\u3002"
+		], 
+		"3": [
+			"\u4e0d\u9700\u8981\u96e8\u4f1e\u3002"
+		], 
+		"2": [
+			"\u9634\u5929\uff0c\u53ef\u80fd\u5f00\u59cb\u4e0b\u96e8\u3002\u62ff\u53bb\u5427\u3002"
+		]
+	}, 
+	"seconds": "\u79d2", 
+	"systemaudio": {
+		"setvolumeask": [
+			"\u6211\u5e94\u8be5\u628a\u7cfb\u7edf\u97f3\u91cf\u8bbe\u7f6e\u591a\u9ad8\uff1f"
+		], 
+		"setvolumepercentage": [
+			"\u544a\u8bc9\u6211\u7cfb\u7edf\u5bb9\u91cf\u7684\u767e\u5206\u6bd4\u3002"
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{}\u8857\u9053 {}\u53f7\u7801 {}"
+		], 
+		"near": [
+			"\u9644\u8fd1\u6709{}\u5bb6\u9152\u5e97\u3002"
+		], 
+		"no": [
+			"\u9644\u8fd1\u6ca1\u6709\u65c5\u9986\u3002"
+		]
+	}, 
+	"hours": "\u5c0f\u65f6", 
+	"phone": {
+		"noUnreadMessages": [
+			"\u6ca1\u6709\u6d88\u606f\u53ef\u8bfb\u3002"
+		], 
+		"messageSent": [
+			"\u4fe1\u606f\u5df2\u53d1\u9001\u5230{}\u3002"
+		], 
+		"contactNotFound": [
+			"\u672a\u627e\u5230\u8054\u7cfb\u4eba\u3002"
+		], 
+		"messageSentShort": [
+			"{}\u53d1\u9001\u81f3{}\u3002"
+		], 
+		"textOfMessage": [
+			"\u6211\u5e94\u8be5\u7ed9{}\u5199\u4ec0\u4e48\uff1f"
+		], 
+		"readMsgList": [
+			"\u6765\u81ea{}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"\u6211\u5e94\u8be5\u628a\u4fe1\u606f\u53d1\u7ed9\u8c01\uff1f"
+		], 
+		"markedAsRead": [
+			"\u6807\u8bb0\u4e3a\u5df2\u8bfb\u7684\u4fe1\u606f\u3002"
+		], 
+		"notLogged": [
+			"\u4f60\u9700\u8981\u767b\u5f55\u5230Telegram\u624d\u80fd\u4f7f\u7528\u8fd9\u4e2a\u529f\u80fd\u3002"
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"\u53ea\u6709{}\u6761\u81ea\u5b9a\u4e49\u547d\u4ee4\uff1a\"n\"{}\u3002"
+		], 
+		"listmore": [
+			"\u6709{}\u4e2a\u81ea\u5b9a\u4e49\u547d\u4ee4\uff1a\"n\"{}\u3002"
+		], 
+		"tellcmdrm": [
+			"\u544a\u8bc9\u6211\u9700\u8981\u5220\u9664\u7684\u81ea\u5b9a\u4e49\u547d\u4ee4\u3002"
+		], 
+		"listno": [
+			"\u6ca1\u6709\u81ea\u5b9a\u4e49\u7684\u547d\u4ee4\u3002"
+		], 
+		"paired": [
+			"\u65b0\u547d\u4ee4\"{}\"\u4e0e\"{}\"\u914d\u5bf9\u3002"
+		], 
+		"tellcmdadd": [
+			"\u544a\u8bc9\u6211\u9700\u8981\u6dfb\u52a0\u7684\u547d\u4ee4\u3002"
+		], 
+		"tellcmdpair": [
+			"\u544a\u8bc9\u6211\u914d\u5bf9\u7684\u547d\u4ee4\u3002"
+		], 
+		"removed": [
+			"\u79fb\u9664\u81ea\u5b9a\u4e49\u547d\u4ee4\"{}\"\u3002"
+		], 
+		"rmnotfound": [
+			"\u672a\u627e\u5230\u8981\u5220\u9664\u7684\u81ea\u5b9a\u4e49\u547d\u4ee4\u3002"
+		]
+	}, 
+	"negative": [
+		"\u4e0d"
+	], 
+	"addnote": {
+		"noteadded": [
+			"\u8865\u5145\u8bf4\u660e\uff1a\"{}\"\u3002"
+		], 
+		"saynote": [
+			"\u544a\u8bc9\u6211\u9700\u8981\u6dfb\u52a0\u7684\u6ce8\u91ca\u3002"
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"\u8ba1\u65f6\u5668\u5c06\u5728{}\u4e2d\u8fc7\u671f\u3002"
+		], 
+		"notimer": [
+			"\u6ca1\u6709\u56fa\u5b9a\u7684\u5b9a\u65f6\u5668\u3002"
+		]
+	}, 
+	"affirmative": [
+		"\u662f"
+	], 
+	"day": "\u5929", 
+	"minute": "\u5206", 
+	"execute": {
+		"executing": [
+			"\u6267\u884c{}..."
+		], 
+		"what": [
+			"\u6211\u5fc5\u987b\u8981\u6267\u884c\u4ec0\u4e48\uff1f"
+		], 
+		"error": [
+			"\u6267\u884c\u8fc7\u7a0b\u4e2d\u51fa\u73b0\u9519\u8bef\u3002"
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"\u8bbe\u7f6e\u4e86{}\u7684\u5b9a\u65f6\u5668\u3002"
+		], 
+		"howmany": [
+			"\u6709\u591a\u5c11\u79d2\uff1f"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" \u4e0a\u5348\u3002"
+		], 
+		"its": [
+			"\u8fd9\u662f{}\uff1a{}\u3002"
+		]
+	}, 
+	"hour": "\u5c0f\u65f6", 
+	"restaurant": {
+		"print": [
+			"{}\u8857\u9053 {}\u53f7\u7801 {}"
+		], 
+		"near": [
+			"\u9644\u8fd1\u6709{}\u5bb6\u9910\u9986\u3002"
+		], 
+		"no": [
+			"\u9644\u8fd1\u6ca1\u6709\u9910\u9986\u3002"
+		]
+	}, 
+	"internetneeded": [
+		"\u8fd9\u4e2a\u529f\u80fd\u9700\u8981\u4e92\u8054\u7f51\u3002"
+	], 
+	"months": [
+		"12\u6708"
+	], 
+	"days": "\u5929", 
+	"oldyear": [
+		"\u6211\u5df2\u7ecf{}\u5c81\u4e86\u3002"
+	], 
+	"plus": "\u52a0", 
+	"removenote": {
+		"notenotfound": [
+			"\u672a\u627e\u5230\u6ce8\u91ca\u3002"
+		], 
+		"noteremoved": [
+			"\u6ce8\u91ca\u5220\u9664\uff1a\"{}\"\u3002"
+		], 
+		"saynote": [
+			"\u6211\u5fc5\u987b\u8981\u5220\u9664\u54ea\u4e9b\u7b14\u8bb0\uff1f"
+		]
+	}, 
+	"notWorkingYet": [
+		"\u8fd8\u6ca1\u6709\u5de5\u4f5c\u3002"
+	], 
+	"addmemo": {
+		"saymemo": [
+			"\u544a\u8bc9\u6211\u9700\u8981\u6dfb\u52a0\u7684\u5907\u5fd8\u5f55\u3002"
+		], 
+		"memoadded": [
+			"Memo added:\"{}\"\u3002"
+		], 
+		"when": [
+			"\u544a\u8bc9\u6211\u4f55\u65f6\u8bbe\u7f6e\u5907\u5fd8\u5f55\u3002"
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"\u8bbe\u5b9a\u7684\u56fd\u5bb6\uff1a{}\u3002"
+		], 
+		"say": [
+			"\u544a\u8bc9\u6211\uff0c\u8981\u8bbe\u7f6e\u7684\u56fd\u5bb6\u3002"
+		], 
+		"notindb": [
+			"\u6211\u627e\u4e0d\u5230\u8fd9\u4e2a\u56fd\u5bb6\u3002"
+		]
+	}, 
+	"minutes": "\u5206\u949f", 
+	"minus": "\u51cf\u53bb", 
+	"two": [
+		"\u4e8c"
+	]
+}

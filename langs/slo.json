@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Wich memo m\u00e1m vymaza\u0165?"
+		], 
+		"memoremoved": [
+			"Vymazan\u00e1 pozn\u00e1mka:\\n{}"
+		], 
+		"notenotfound": [
+			"Pozn\u00e1mka nebola n\u00e1jden\u00e1."
+		]
+	}, 
+	"one": [
+		"jeden"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Existuj\u00fa ", 
+			"aftstr": "pozn\u00e1mky"
+		}, 
+		"one": {
+			"prestr": "Existuje ", 
+			"aftstr": "Pozn\u00e1mka"
+		}
+	}, 
+	"second": "druh\u00fd", 
+	"weather": {
+		"clear": " a je to jasn\u00e9.", 
+		"cloudy": " a je zamra\u010den\u00e9.", 
+		"bitcloudy": " a je trochu zamra\u010den\u00e9.", 
+		"degrees": " existuje {} stup\u0148ov", 
+		"at": "V {}", 
+		"rain": ", pr\u0161\u00ed", 
+		"drizzle": ", to je rizzling"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Nastaven\u00fd jazyk: {}"
+		], 
+		"say": [
+			"Povedzte mi, ak\u00fd jazyk m\u00e1m nastavi\u0165."
+		], 
+		"notindb": [
+			"Nem\u00f4\u017eem n\u00e1js\u0165 tento jazyk."
+		]
+	}, 
+	"cancel": [
+		"ni\u010d"
+	], 
+	"news": {
+		"error": [
+			"Chyba."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} ulica {} \u010d\u00edslo {}"
+		], 
+		"near": [
+			"V bl\u00edzkosti sa nach\u00e1dzaj\u00fa {} trhy."
+		], 
+		"no": [
+			"V bl\u00edzkosti nie s\u00fa trhy."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Na va\u0161u ot\u00e1zku som nena\u0161iel odpove\u010f."
+		], 
+		"what": [
+			"Ak\u00fa odpove\u010f m\u00e1m h\u013eada\u0165?"
+		], 
+		"internetneeded": [
+			"Na vyh\u013eadanie va\u0161ej ot\u00e1zky potrebujem pripojenie na internet."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"D\u0148a %d %m %Y o %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Existuj\u00fa", 
+			"aftstr": "pripomenutia"
+		}, 
+		"one": {
+			"prestr": "Existuje", 
+			"aftstr": "pripomienka"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"\u010co m\u00e1m vypo\u010d\u00edta\u0165?"
+		], 
+		"notvalid": [
+			"Neplatn\u00fd v\u00fdraz."
+		]
+	}, 
+	"for": "pre", 
+	"divided": "rozdelen\u00e9", 
+	"weekdays": [
+		"sobota"
+	], 
+	"music": {
+		"what": [
+			"\u010co m\u00e1m reprodukova\u0165?"
+		], 
+		"downloading": [
+			"S\u0165ahovanie {}..."
+		], 
+		"setvolumeask": [
+			"Ako vysoko m\u00e1m nastavi\u0165 hlasitos\u0165?"
+		], 
+		"wasnothingplay": [
+			"Ni\u010d sa nehralo."
+		], 
+		"nothingplay": [
+			"Ni\u010d sa tu nehr\u00e1."
+		], 
+		"setvolumepercentage": [
+			"Povedzte mi percento objemu."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} ulica {} \u010d\u00edslo {}"
+		], 
+		"near": [
+			"V bl\u00edzkosti sa nach\u00e1dzaj\u00fa {} banky."
+		], 
+		"no": [
+			"V bl\u00edzkosti nie s\u00fa banky."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Mesto nastaven\u00e9: {}"
+		], 
+		"say": [
+			"Povedzte mi, ktor\u00e9 mesto m\u00e1m nastavi\u0165."
+		], 
+		"notindb": [
+			"Toto mesto nem\u00f4\u017eem n\u00e1js\u0165."
+		]
+	}, 
+	"todayis": [
+		"Dnes je to {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} ulica {} \u010d\u00edslo {}"
+		], 
+		"near": [
+			"V bl\u00edzkosti sa nach\u00e1dzaj\u00fa {} kaviarne."
+		], 
+		"no": [
+			"V bl\u00edzkosti nie s\u00fa kaviarne."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"\u010co m\u00e1m zopakova\u0165?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"\u00c1no, pr\u0161\u00ed."
+		], 
+		"0": [
+			"Mrhol\u00ed, stoj\u00ed to za to."
+		], 
+		"3": [
+			"Nie je potrebn\u00fd d\u00e1\u017ednik."
+		], 
+		"2": [
+			"Je zamra\u010den\u00e9, m\u00f4\u017ee za\u010da\u0165 pr\u0161a\u0165. Vezmite si ho."
+		]
+	}, 
+	"seconds": "sekundy", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Ako vysoko m\u00e1m nastavi\u0165 hlasitos\u0165 syst\u00e9mu?"
+		], 
+		"setvolumepercentage": [
+			"Povedzte mi percento objemu syst\u00e9mu."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} ulica {} \u010d\u00edslo {}"
+		], 
+		"near": [
+			"V bl\u00edzkosti sa nach\u00e1dzaj\u00fa {} hotely."
+		], 
+		"no": [
+			"V bl\u00edzkosti nie s\u00fa hotely."
+		]
+	}, 
+	"hours": "hodiny", 
+	"phone": {
+		"noUnreadMessages": [
+			"\u017diadne spr\u00e1vy na \u010d\u00edtanie."
+		], 
+		"messageSent": [
+			"Spr\u00e1va odoslan\u00e1 na adresu {}."
+		], 
+		"contactNotFound": [
+			"Kontakt nebol n\u00e1jden\u00fd."
+		], 
+		"messageSentShort": [
+			"{} odoslan\u00e9 na {}."
+		], 
+		"textOfMessage": [
+			"\u010co m\u00e1m nap\u00edsa\u0165 {}?"
+		], 
+		"readMsgList": [
+			"Z {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Komu m\u00e1m posla\u0165 spr\u00e1vu?"
+		], 
+		"markedAsRead": [
+			"Spr\u00e1vy ozna\u010den\u00e9 ako pre\u010d\u00edtan\u00e9."
+		], 
+		"notLogged": [
+			"Pre t\u00fato funkciu mus\u00edte by\u0165 prihl\u00e1sen\u00ed do slu\u017eby Telegram."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Existuje len {} vlastn\u00fd pr\u00edkaz:\\n{}"
+		], 
+		"listmore": [
+			"Existuj\u00fa {} vlastn\u00e9 pr\u00edkazy:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Povedzte mi vlastn\u00fd pr\u00edkaz na odstr\u00e1nenie."
+		], 
+		"listno": [
+			"Neexistuj\u00fa \u017eiadne vlastn\u00e9 pr\u00edkazy."
+		], 
+		"paired": [
+			"Nov\u00fd pr\u00edkaz \"{}\" sp\u00e1rovan\u00fd na \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Povedzte mi pr\u00edkaz na pridanie."
+		], 
+		"tellcmdpair": [
+			"Povedzte mi pr\u00edkaz na sp\u00e1rovanie."
+		], 
+		"removed": [
+			"Odstr\u00e1nenie vlastn\u00e9ho pr\u00edkazu \"{}\"."
+		], 
+		"rmnotfound": [
+			"Vlastn\u00fd pr\u00edkaz na odstr\u00e1nenie nebol n\u00e1jden\u00fd."
+		]
+	}, 
+	"negative": [
+		"nie"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Pridan\u00e1 pozn\u00e1mka:\\n{}"
+		], 
+		"saynote": [
+			"Povedzte mi, ak\u00fa pozn\u00e1mku prida\u0165."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"\u010casova\u010d vypr\u0161\u00ed za {}."
+		], 
+		"notimer": [
+			"Nie je nastaven\u00fd \u010dasova\u010d."
+		]
+	}, 
+	"affirmative": [
+		"\u00e1no"
+	], 
+	"day": "de\u0148", 
+	"minute": "min\u00fata", 
+	"execute": {
+		"executing": [
+			"Vykon\u00e1vanie {}..."
+		], 
+		"what": [
+			"\u010co m\u00e1m vykona\u0165?"
+		], 
+		"error": [
+			"Chyba pri vykon\u00e1van\u00ed."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"\u010casova\u010d {} nastaven\u00fd."
+		], 
+		"howmany": [
+			"Ko\u013eko sek\u00fand?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Je to {}:{}"
+		]
+	}, 
+	"hour": "hodina", 
+	"restaurant": {
+		"print": [
+			"{} ulica {} \u010d\u00edslo {}"
+		], 
+		"near": [
+			"V bl\u00edzkosti sa nach\u00e1dzaj\u00fa {} re\u0161taur\u00e1cie."
+		], 
+		"no": [
+			"V bl\u00edzkosti nie s\u00fa re\u0161taur\u00e1cie."
+		]
+	}, 
+	"internetneeded": [
+		"T\u00e1to funkcia vy\u017eaduje internet."
+	], 
+	"months": [
+		"December"
+	], 
+	"days": "dni", 
+	"oldyear": [
+		"M\u00e1m {} rokov."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Pozn\u00e1mka nebola n\u00e1jden\u00e1."
+		], 
+		"noteremoved": [
+			"Pozn\u00e1mka vypusten\u00e1:\\n{}"
+		], 
+		"saynote": [
+			"Ktor\u00fa pozn\u00e1mku m\u00e1m vymaza\u0165?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Zatia\u013e nefunguje."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Povedzte mi, ak\u00fa pozn\u00e1mku prida\u0165."
+		], 
+		"memoadded": [
+			"Pridan\u00e1 pozn\u00e1mka:\\n{}"
+		], 
+		"when": [
+			"Povedzte mi, kedy m\u00e1m nastavi\u0165 pozn\u00e1mku."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Nastaven\u00e1 krajina: {}"
+		], 
+		"say": [
+			"Povedzte mi, ktor\u00fa krajinu nastavi\u0165."
+		], 
+		"notindb": [
+			"Nem\u00f4\u017eem n\u00e1js\u0165 t\u00fato krajinu."
+		]
+	}, 
+	"minutes": "z\u00e1pisnice", 
+	"minus": "m\u00ednus", 
+	"two": [
+		"dva"
+	]
+}

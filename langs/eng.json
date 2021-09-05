@@ -1,0 +1,397 @@
+{
+	"cancel":[
+		"cancel",
+		"nevermind",
+		"nothing"
+	],
+
+	"affirmative":[
+		"yes"
+	],
+	"negative":[
+		"no"
+	],
+
+	"notWorkingYet":[
+		"Not working yet."
+	],
+
+	"internetneeded":[
+		"Internet not available.",
+		"Internet needed.",
+		"This function requires internet."
+	],
+
+	"weekdays":["sunday","monday","tuesday","wednesday","thursday","friday","saturday"],
+	"months":["January","February","March","April","May","June","July","August","September","October","November","December"],
+	"one":[
+		"one"
+	],
+	"two":[
+		"two"
+	],
+	"plus":"plus",
+	"minus":"minus",
+	"for":"for",
+	"divided":"divided",
+
+	"day":"day",
+	"days":"days",
+	"hour":"hour",
+	"hours":"hours",
+	"minute":"minute",
+	"minutes":"minutes",
+	"second":"second",
+	"seconds":"seconds",
+
+	"oldyear":[
+		"I'm {} years old."
+	],
+	"ctime":{
+		"ofmorning":[
+			" am."
+		],
+		"its":[
+			"It's {}:{}"
+		]
+	},
+	"todayis":[
+		"Today it's {} {} {} {}."
+	],
+
+	"langsettings":{
+		"say":[
+			"Tell me the language to set."
+		],
+		"notindb":[
+			"Language not found.",
+			"I can't find this language."
+		],
+		"setted":[
+			"{} setted as language.",
+			"Language setted: {}"
+		]
+	},
+	"countrysettings":{
+		"say":[
+			"Tell me the country to set."
+		],
+		"notindb":[
+			"Country not found.",
+			"I can't find this country."
+		],
+		"setted":[
+			"{} setted as country.",
+			"Country setted: {}"
+		]
+	},
+	"citysettings":{
+		"say":[
+			"Tell me the city to set."
+		],
+		"notindb":[
+			"City not found.",
+			"I can't find this city."
+		],
+		"setted":[
+			"{} setted as city.",
+			"City setted: {}"
+		]
+	},
+
+	"umbrella":{
+		"0":[
+			"It's drizzling, worth taking it."
+		],
+		"1":[
+			"Yes, it's raining."
+		],
+		"2":[
+			"It's cloudy, may start raining. Take it."
+		],
+		"3":[
+			"No umbrella needed."
+		]
+	},
+	"weather":{
+		"at":"At {}",
+		"degrees":" there are {} degrees",
+		"drizzle":", it's rizzling",
+		"rain":", it's raining",
+		"cloudy":" and it's cloudy.",
+		"bitcloudy":" and it's a bit cloudy.",
+		"clear":" and it's clear."
+	},
+	"addnote":{
+		"saynote":[
+			"Tell me the note to add."
+		],
+		"noteadded":[
+			"Note added:\n{}"
+		]
+	},
+	"removenote":{
+		"saynote":[
+			"Wich note I've to delete?"
+		],
+		"noteremoved":[
+			"Note deleted:\n{}"	
+		],
+		"notenotfound":[
+			"Note not found."
+		]
+	},
+	"readnote":{
+		"one":{
+			"prestr":"There is ",
+			"aftstr":"note"
+		},
+		"multiple":{
+			"prestr":"There are ",
+			"aftstr":"notes"
+		},
+		"print":[
+			"{} {} {}:\n{}"
+		]
+	},
+	"addmemo":{
+		"saymemo":[
+			"Tell me the reminder to add.",
+			"Tell me the memo to add."
+		],
+		"when":[
+			"Tell me when to set the reminder.",
+			"Tell me when to set the memo."
+		],
+		"memoadded":[
+			"Reminder added:\n{}",
+			"Memo added:\n{}"
+		]
+	},
+	"removememo":{
+		"saymemo":[
+			"Wich reminder I've to delete?",
+			"Wich memo I've to delete?"
+		],
+		"memoremoved":[
+			"Reminder deleted:\n{}",
+			"Memo deleted:\n{}"
+		],
+		"notenotfound":[
+			"Reminder not found.",
+			"Memo not found."
+		]
+	},
+	"readmemo":{
+		"one":{
+			"prestr":"There is",
+			"aftstr":"reminder"
+		},
+		"multiple":{
+			"prestr":"There are",
+			"aftstr":"reminders"
+		},
+		"oneprint":[
+			"On %d %m %Y at %H:%M:%S"
+		],
+		"print":[
+			"{} {} {}:\n{}"
+		]
+	},
+	"settimer":{
+		"howmany":[
+			"How many seconds?"
+		],
+		"setted":[
+			"Timer of {} setted."
+		]
+	},
+	"checktimer":{
+		"eta":[
+			"The timer will expire in {}."
+		],
+		"notimer":[
+			"There aren't setted timer."
+		]
+	},
+	"repeat":{
+		"what":[
+			"What I've to repeat?"
+		]
+	},
+	"execute":{
+		"what":[
+			"What I've to execute?"
+		],
+		"executing":[
+			"Executing {}..."
+		],
+		"error":[
+			"Error in executing."
+		]
+	},
+	"calculate":{
+		"what":[
+			"What I've to calculate?"
+		],
+		"notvalid":[
+			"Invalid expression."
+		]
+	},
+	"custCmds":{
+		"tellcmdadd":[
+			"Tell me the command to add."
+		],
+		"tellcmdpair":[
+			"Tell me the command to pair."
+		],
+		"paired":[
+			"New command \"{}\" paired to \"{}\"."
+		],
+		"tellcmdrm":[
+			"Tell me the custom command to remove."
+		],
+		"removed":[
+			"Custom command \"{}\" removed."
+		],
+		"rmnotfound":[
+			"Custom command to remove not found."
+		],
+		"listone":[
+			"There are only {} custom command:\n{}"
+		],
+		"listmore":[
+			"There are {} custom commands:\n{}"
+		],
+		"listno":[
+			"There are no custom commands."
+		]
+	},
+	"phone":{
+		"notLogged":[
+			"You need to be logged into Telegram for this feature."
+		],
+		"readMsgList":[
+			"From {}:\n{}\n"
+		],
+		"noUnreadMessages":[
+			"No messages to read."
+		],
+		"markedAsRead":[
+			"Messages marked as read."
+		],
+		"toWhoMessage":[
+			"Who should I send the message to?"
+		],
+		"textOfMessage":[
+			"What should I write to {}?"
+		],
+		"messageSentShort":[
+			"{} sent to {}."
+		],
+		"messageSent":[
+			"Message sent to {}."
+		],
+		"contactNotFound":[
+			"Contact not found."
+		]
+	},
+	"searchanswer":{
+		"what":[
+			"What answer should I lookin for?"
+		],
+		"notfound":[
+			"I couldn't find the answer to your question."
+		],
+		"internetneeded":[
+			"To search your question I need an internet connection."
+		]
+	},
+	"systemaudio":{
+		"setvolumeask":[
+			"How high should I set the system volume?"
+		],
+		"setvolumepercentage":[
+			"Tell me the percentage of the system volume."
+		]
+	},
+	"music":{
+		"what":[
+			"What should I reproduce?"
+		],
+		"downloading":[
+			"Downloading {}..."
+		],
+		"nothingplay":[
+			"There is nothing playing."
+		],
+		"wasnothingplay":[
+			"There was nothing playing."
+		],
+		"setvolumeask":[
+			"How high should I set the volume?"
+		],
+		"setvolumepercentage":[
+			"Tell me the percentage of the volume."
+		]
+	},
+	"news":{
+		"error":[
+			"Error."
+		]
+	},
+	"restaurant":{
+		"near":[
+			"There are {} restaurants nearby."
+		],
+		"no":[
+			"There aren't restaurants nearby."
+		],
+		"print":[
+			"{} street {} number {}"
+		]
+	},
+	"coffee":{
+		"near":[
+			"There are {} cafes nearby."
+		],
+		"no":[
+			"There aren't cafes nearby."
+		],
+		"print":[
+			"{} street {} number {}"
+		]
+	},
+	"market":{
+		"near":[
+			"There are {} markets nearby."
+		],
+		"no":[
+			"There aren't markets nearby."
+		],
+		"print":[
+			"{} street {} number {}"
+		]
+	},
+	"bank":{
+		"near":[
+			"There are {} banks nearby."
+		],
+		"no":[
+			"There aren't banks nearby."
+		],
+		"print":[
+			"{} street {} number {}"
+		]
+	},"hotel":{
+		"near":[
+			"There are {} hotels nearby."
+		],
+		"no":[
+			"There aren't hotels nearby."
+		],
+		"print":[
+			"{} street {} number {}"
+		]
+	}
+}

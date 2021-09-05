@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Mik\u00e4 muistio minun on poistettava?"
+		], 
+		"memoremoved": [
+			"Muistio poistettu:\\n{}"
+		], 
+		"notenotfound": [
+			"Muistio ei l\u00f6ytynyt."
+		]
+	}, 
+	"one": [
+		"yksi"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "On olemassa ", 
+			"aftstr": "muistiinpanot"
+		}, 
+		"one": {
+			"prestr": "On olemassa ", 
+			"aftstr": "Huomautus"
+		}
+	}, 
+	"second": "toinen", 
+	"weather": {
+		"clear": " ja se on selv\u00e4\u00e4.", 
+		"cloudy": " ja on pilvist\u00e4.", 
+		"bitcloudy": " ja on hieman pilvist\u00e4.", 
+		"degrees": " on {} astetta", 
+		"at": "Klo {}", 
+		"rain": ", sataa", 
+		"drizzle": ", se roihuaa"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Language setted: {}"
+		], 
+		"say": [
+			"Kerro minulle asetettava kieli."
+		], 
+		"notindb": [
+			"En l\u00f6yd\u00e4 t\u00e4t\u00e4 kielt\u00e4."
+		]
+	}, 
+	"cancel": [
+		"ei mit\u00e4\u00e4n"
+	], 
+	"news": {
+		"error": [
+			"Virhe."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} katu {} numero {}"
+		], 
+		"near": [
+			"L\u00e4hist\u00f6ll\u00e4 on {} toreja."
+		], 
+		"no": [
+			"L\u00e4hist\u00f6ll\u00e4 ei ole toreja."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"En l\u00f6yt\u00e4nyt vastausta kysymykseesi."
+		], 
+		"what": [
+			"Mit\u00e4 vastausta minun pit\u00e4isi etsi\u00e4?"
+		], 
+		"internetneeded": [
+			"Jotta voin etsi\u00e4 kysymyst\u00e4si, tarvitsen internetyhteyden."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"%d %m %Y klo %H:%M:%S:%S"
+		], 
+		"multiple": {
+			"prestr": "On olemassa", 
+			"aftstr": "muistutukset"
+		}, 
+		"one": {
+			"prestr": "On olemassa", 
+			"aftstr": "muistutus"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Mit\u00e4 minun on laskettava?"
+		], 
+		"notvalid": [
+			"Virheellinen lauseke."
+		]
+	}, 
+	"for": "for", 
+	"divided": "jaettu", 
+	"weekdays": [
+		"lauantai"
+	], 
+	"music": {
+		"what": [
+			"Mit\u00e4 minun pit\u00e4isi j\u00e4ljent\u00e4\u00e4?"
+		], 
+		"downloading": [
+			"Lataa {}..."
+		], 
+		"setvolumeask": [
+			"Kuinka korkealle \u00e4\u00e4nenvoimakkuus pit\u00e4isi s\u00e4\u00e4t\u00e4\u00e4?"
+		], 
+		"wasnothingplay": [
+			"Mik\u00e4\u00e4n ei pelannut."
+		], 
+		"nothingplay": [
+			"Mik\u00e4\u00e4n ei pelaa."
+		], 
+		"setvolumepercentage": [
+			"Kerro minulle tilavuusprosentti."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} katu {} numero {}"
+		], 
+		"near": [
+			"L\u00e4hist\u00f6ll\u00e4 on {} pankkeja."
+		], 
+		"no": [
+			"L\u00e4hist\u00f6ll\u00e4 ei ole pankkeja."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"City setted: {}"
+		], 
+		"say": [
+			"Kerro minulle kaupunki."
+		], 
+		"notindb": [
+			"En l\u00f6yd\u00e4 t\u00e4t\u00e4 kaupunkia."
+		]
+	}, 
+	"todayis": [
+		"T\u00e4n\u00e4\u00e4n se on {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} katu {} numero {}"
+		], 
+		"near": [
+			"L\u00e4hist\u00f6ll\u00e4 on kahviloita."
+		], 
+		"no": [
+			"L\u00e4hist\u00f6ll\u00e4 ei ole kahviloita."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Mit\u00e4 minun pit\u00e4\u00e4 toistaa?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Kyll\u00e4, sataa."
+		], 
+		"0": [
+			"Sataa tihkusadetta, kannattaa ottaa se."
+		], 
+		"3": [
+			"Sateenvarjoa ei tarvita."
+		], 
+		"2": [
+			"On pilvist\u00e4, voi alkaa sataa. Ota se."
+		]
+	}, 
+	"seconds": "sekuntia", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Kuinka korkealle j\u00e4rjestelm\u00e4n \u00e4\u00e4nenvoimakkuus pit\u00e4isi asettaa?"
+		], 
+		"setvolumepercentage": [
+			"Kerro minulle prosenttiosuus j\u00e4rjestelm\u00e4n tilavuudesta."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} katu {} numero {}"
+		], 
+		"near": [
+			"L\u00e4hist\u00f6ll\u00e4 on {} hotelleja."
+		], 
+		"no": [
+			"L\u00e4hist\u00f6ll\u00e4 ei ole hotelleja."
+		]
+	}, 
+	"hours": "tuntia", 
+	"phone": {
+		"noUnreadMessages": [
+			"Ei viestej\u00e4 luettavaksi."
+		], 
+		"messageSent": [
+			"Viesti l\u00e4hetetty osoitteeseen {}."
+		], 
+		"contactNotFound": [
+			"Yhteyshenkil\u00f6\u00e4 ei l\u00f6ydy."
+		], 
+		"messageSentShort": [
+			"{} l\u00e4hetetty {}."
+		], 
+		"textOfMessage": [
+			"Mit\u00e4 minun pit\u00e4isi kirjoittaa {}?"
+		], 
+		"readMsgList": [
+			"Alkaen {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Kenelle minun pit\u00e4isi l\u00e4hett\u00e4\u00e4 viesti?"
+		], 
+		"markedAsRead": [
+			"Viestit merkitty luetuiksi."
+		], 
+		"notLogged": [
+			"Sinun on oltava kirjautuneena Telegramiin t\u00e4t\u00e4 toimintoa varten."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"On vain {} mukautettu komento:\\n{}"
+		], 
+		"listmore": [
+			"On olemassa mukautettuja komentoja:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Kerro minulle poistettava mukautettu komento."
+		], 
+		"listno": [
+			"Mukautettuja komentoja ei ole."
+		], 
+		"paired": [
+			"Uusi komento \"{}\" pariksi \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Kerro minulle lis\u00e4tt\u00e4v\u00e4 komento."
+		], 
+		"tellcmdpair": [
+			"Kerro minulle komento pariliitosta."
+		], 
+		"removed": [
+			"Mukautettu komento \"{}\" poistettu."
+		], 
+		"rmnotfound": [
+			"Poistettavaa mukautettua komentoa ei l\u00f6ydy."
+		]
+	}, 
+	"negative": [
+		"ei"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Huomautus lis\u00e4tty:\\n{}"
+		], 
+		"saynote": [
+			"Kerro minulle lis\u00e4tt\u00e4v\u00e4 huomautus."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Ajastin p\u00e4\u00e4ttyy {}."
+		], 
+		"notimer": [
+			"Ajastimia ei ole asetettu."
+		]
+	}, 
+	"affirmative": [
+		"kyll\u00e4"
+	], 
+	"day": "p\u00e4iv\u00e4", 
+	"minute": "minuutti", 
+	"execute": {
+		"executing": [
+			"Suoritan {}..."
+		], 
+		"what": [
+			"Mit\u00e4 minun on toteutettava?"
+		], 
+		"error": [
+			"Virhe suorituksessa."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Ajastin {} asetettu."
+		], 
+		"howmany": [
+			"Kuinka monta sekuntia?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Se on..."
+		]
+	}, 
+	"hour": "tunti", 
+	"restaurant": {
+		"print": [
+			"{} katu {} numero {}"
+		], 
+		"near": [
+			"L\u00e4hist\u00f6ll\u00e4 on {} ravintoloita."
+		], 
+		"no": [
+			"L\u00e4hist\u00f6ll\u00e4 ei ole ravintoloita."
+		]
+	}, 
+	"internetneeded": [
+		"T\u00e4m\u00e4 toiminto edellytt\u00e4\u00e4 interneti\u00e4."
+	], 
+	"months": [
+		"Joulukuu"
+	], 
+	"days": "p\u00e4iv\u00e4t", 
+	"oldyear": [
+		"Olen {}-vuotias."
+	], 
+	"plus": "sek\u00e4", 
+	"removenote": {
+		"notenotfound": [
+			"Muistiinpanoa ei l\u00f6ydy."
+		], 
+		"noteremoved": [
+			"Huomautus poistettu:\\n{}"
+		], 
+		"saynote": [
+			"Mik\u00e4 huomautus minun on poistettava?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Ei toimi viel\u00e4."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Kerro minulle lis\u00e4tt\u00e4v\u00e4 muistio."
+		], 
+		"memoadded": [
+			"Muistio lis\u00e4tty:\\n{}"
+		], 
+		"when": [
+			"Kerro minulle, milloin muistio asetetaan."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Country setted: {}"
+		], 
+		"say": [
+			"Kertokaa minulle maa, joka asetetaan."
+		], 
+		"notindb": [
+			"En l\u00f6yd\u00e4 t\u00e4t\u00e4 maata."
+		]
+	}, 
+	"minutes": "minuuttia", 
+	"minus": "miinus", 
+	"two": [
+		"kaksi"
+	]
+}

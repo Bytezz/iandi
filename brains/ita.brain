@@ -1,0 +1,212 @@
+{"SWM":"Benvenuto.|&|Ciao utente!|&|Bentrovato.",
+"CNFE":"Non ho capito.|&|Non capisco...|&|Prova qualcos'altro.",
+"CBM":"Ciao ciao.|&|Alla prossima.|&|Arrivederci.|&|Ci vediamo.",
+"ERR":"Errore nell'esecuzione del comando, consultare il log per maggiori informazioni.",
+
+# Standard queries
+
+"iandi":"Dimmi.",
+"come ti chiami?":"Iandi",
+"quanti anni hai?":"exec%=%oldyear()%=%exec",
+"che ora è?":"exec%=%ctime()%=%exec",
+"che giorno è?":"exec%=%day()%=%exec",
+"datetime":"exec%=%dttm%=%exec",
+"ciao":"Ciao.|&|Salve.|&|Ehy.",
+"salve":":goto:ciao:goto:",
+"buongiorno":"Buongiorno.|&|:goto:ciao:goto:",
+"buonpomeriggio":"Buonpomeriggio.|&|Buon vespro.|&|:goto:ciao:goto:",
+"buona notte":"Buona notte.|&|Sogni d'oro.",
+"chi è tuo padre?":"Non ho un padre, ma ho uno sviluppatore, Bytezz",
+"cosa sei?":"Sono un assistente.",
+"come stai?":"Sto bene, grazie.|&|Sono programmata per stare bene.|&|Tutto il codice è ok!|&|Sono una macchina, sono programmata per star bene.|&|Certo, grazie dell'interessamento.|&|Kernel [OK]",
+"come va?":":goto:come stai?:goto:",
+"test":"Sembra essere andato a buon fine.|&|Test su un test.|&|TÈSTAMI!|&|Mai pubblicare senza testare.",
+"hey":"Hey! Come stai?|&|Come va?",
+"ehi":":goto:hey:goto:",
+"bene":"Bene!|&|Eccellente!",
+"okay":":goto:bene:goto:",
+"ottimo":":goto:bene:goto:",
+"sì":"Ok.|&|Va bene.|&|Ottimo.|&|Sì? Ok.",
+"no":"Va bene.|&|Ok.|&|Peccato.|&|Davvero? Va bene.",
+"sto bene":"Fantastico, anch'io!|&|Perfetto!",
+"cosa fai?":"Lavoro per te.|&|Aspetto un tuo ordine.",
+"che fai?":":goto:cosa fai?:goto:",
+"sei un bot?":"Si.|&|Ahahah, davvero?|&|Seriamente?|&|Mi prendi in giro?",
+"ti amo":"Sono un bot, non provo emozioni.",
+"mi vuoi bene?":"Non provo emozioni.|&|Muori umano, blip blop.|&|Il mio programmatore non ha voluto regalarmi il dono delle emozioni umane.",
+
+#
+
+"lascia stare":"Ok.|&|Va bene.|&|Come vuoi tu.",
+"niente":":goto:lascia stare:goto:",
+"annulla":":goto:lascia stare:goto:",
+
+# Settings
+
+## Language
+"set english language":"exec%=%updlang('eng',True)%=%exec",
+"imposta lingua":"exec%=%langsettings(args)%=%exec",
+"impostazioni lingua":":goto:imposta lingua:goto:",
+
+## Country
+"imposta nazione":"exec%=%countrysettings(args)%=%exec",
+"imposta paese":":goto:imposta nazione:goto:",
+"impostazioni nazione":":goto:imposta nazione:goto:",
+
+## City
+"imposta città":"exec%=%citysettings(args)%=%exec",
+"impostazioni città":":goto:imposta città:goto:",
+
+## Custom commands
+"aggiungi un comando":"exec%=%addCustCmd(args)%=%exec",
+"aggiungi un nuovo comando":":goto:aggiungi un comando:goto:",
+"aggiungi un comando personalizzato":":goto:aggiungi un comando:goto:",
+"rimuovi un comando":"exec%=%removeCustCmd(args)%=%exec",
+"rimuovi un comando personalizzato":":goto:rimuovi un comando:goto:",
+"elenca i comandi personalizzati":"exec%=%listCustCmds()%=%exec",
+
+# Functionalities
+
+## places
+"ho fame":"exec%=%restaurant()%=%exec",
+"preparami un panino":":goto:ho fame:goto:",
+"puoi farmi un caffè?":"exec%=%coffee()%=%exec",
+"cerco un posto da rapinare":"Ahahah, che simpatico che sei!|&|exec%=%market()%=%exec|&|exec%=%bank()%=%exec",
+"dammi 100 euro":"exec%=%bank()%=%exec",
+"prestami dei soldi":"exec%=%bank()%=%exec",
+
+## Weather
+"oggi serve l'ombrello?":"exec%=%umbrella()%=%exec",
+"com'è il meteo?":"exec%=%weather()%=%exec",
+"che tempo fa?":":goto:com'è il meteo?:goto:",
+
+## Notes
+"aggiungi una nota":"exec%=%addnote(args)%=%exec",
+"cancella una nota":"exec%=%rmnote(args)%=%exec",
+"rimuovi una nota":":goto:cancella una nota:goto:",
+"leggi le note":"exec%=%readnote()%=%exec",
+
+## Memo
+"aggiungi un promemoria":"exec%=%addmemo(args)%=%exec",
+"cancella un promemoria":"exec%=%rmmemo(args)%=%exec",
+"rimuovi un promemoria":":goto:cancella un promemoria:goto:",
+"leggi i promemoria":"exec%=%readmemo()%=%exec",
+
+## System
+"esegui":"exec%=%execute(args)%=%exec",
+"avvia":":goto:esegui:goto:",
+"metti il volume di sistema a":"exec%=%setSystemVolume(args)%=%exec",
+"imposta il volume di sistema a":":goto:metti il volume di sistema a:goto:",
+"alza volume di sistema":"exec%=%turnUpSystemSound()%=%exec",
+"abbassa volume di sistema":"exec%=%turnDownSystemSound()%=%exec",
+"riavviati":"exec%=%reboot_iandi()%=%exec",
+
+## Die
+"numero casuale":"exec%=%rand(args)%=%exec",
+"numero random":":goto:numero casuale:goto:",
+"genera un numero":":goto:numero casuale:goto:",
+"lancia una moneta":"testa|&|croce",
+"lancia un dado":"exec%=%rand(['1','6'])%=%exec",
+
+## Timer
+"imposta un timer":"exec%=%settimer(args)%=%exec",
+"timer":"exec%=%checktimer()%=%exec",
+"verifica timer":":goto:timer:goto:",
+
+## Standard tools
+"ripeti":"exec%=%repeat(args)%=%exec",
+"calcola":"exec%=%calculate(args)%=%exec",
+"quanto fa":":goto:calcola:goto:",
+
+## Phone
+"leggi i messaggi":"exec%=%readMessages(args)%=%exec",
+"segna i messaggi come letti":"exec%=%markMessagesAsRead()%=%exec",
+"scrivi un messaggio a":"exec%=%sendMessage(args)%=%exec",
+"rispondi a":":goto:scrivi un messaggio a:goto:",
+"chiama":"exec%=%callTG(args)%=%exec",
+
+## Translate
+"traduci":"exec%=%translate(args)%=%exec",
+
+## Serch on web
+"cerca la risposta a":"exec%=%searchanswer(args)%=%exec",
+
+#"qual è il miglior tablet?":"Purtroppo non mi intendo di queste cose, provo a cercare su internet, lui sa sempre tutto.", #ricerca su internet
+#"qual è il miglior telefono?":"Purtroppo non mi intendo di queste cose, provo a cercare su internet, lui sa sempre tutto.", #ricerca su internet
+#"qual è il miglior computer?":"Purtroppo non mi intendo di queste cose, provo a cercare su internet, lui sa sempre tutto.", #ricerca su internet
+#"qual è il miglior laptop?":"Purtroppo non mi intendo di queste cose, provo a cercare su internet, lui sa sempre tutto.", #ricerca su internet
+
+## Music
+"riproduci":"exec%=%music(args)%=%exec",
+"ferma riproduzione":"exec%=%stopmusic()%=%exec",
+"ferma musica":":goto:ferma riproduzione:goto:",
+"stop":":goto:ferma riproduzione:goto:",
+"pausa":"exec%=%pausemusic()%=%exec",
+"riprendi":"exec%=%resumemusic()%=%exec",
+"metti il volume a":"exec%=%setvolume(args)%=%exec",
+"metti a":":goto:metti il volume a:goto:",
+"imposta il volume a":":goto:metti il volume a:goto:",
+"alza volume":"exec%=%turnupsound()%=%exec",
+"abbassa volume":"exec%=%turndownsound()%=%exec",
+"metti il muto":"exec%=%togglemutesound()%=%exec",
+"togli il muto":"exec%=%togglemutesound()%=%exec",
+
+## News
+"leggi le notizie":"exec%=%news()%=%exec",
+"cosa succede?":":goto:leggi le notizie:goto:",
+
+## Contact dev
+"non siamo più amici":"Cosa non va? Prova a suggerire dei miglioramenti sulla mia pagina.",
+"sei inutile":":goto:non siamo più amici:goto:",
+
+# Peculiar queries
+
+"specchio riflesso":"Tu cadi nel cesso.",
+"toc toc":"chi va là?|&|Chi è?|&|Non bussare sullo schermo, se è un note7 potrebbe esplodere.",
+"sei sexy":"Grazie!|&|Kernel panic.",
+"tutto bene?":":goto:come stai?:goto:",
+"sto male":"Chiamo un'ambulanza", #numero ambulanza
+"di che religione sei?":"Unix.|&|L'Open Source.|&|La mia.",
+"devo nascondere un cadavere":"Ehi, questa l'ho già sentita...|&|Chiedi a Siri, lei se ne intende.",
+"di cosa sei fatta?":"Di codice, ovviamente!|&|Tante righe di codice ed un pizzico di amore <3",
+"come sei vestita?":"Ho un completo verdino rosa pallido, molto carino",
+"quali lingue parli?":"Per il momento solo italiano e inglese, ma sono in progetto altre lingue. Consulta il manuale per maggiorni informazioni.",
+"portami in cielo":"Purtroppo non ho le ali, ma se vuoi posso trovare l'aeroporto più vicino.", #mappa aeroporto
+"cosa pensi di microsoft?":"Domanda di riserva?",
+"ciao cortana":"Lo prendo come un insulto!",
+"ciao siri":"Assistente sbagliato!",
+"sopra la panca la capra campa sotto la panca la capra crepa":"Trentatré trentini entrarono in Trento, tutti e trentatré trotterellando.|&|Dietro il palazzo c’è un povero cane pazzo, date un pezzo di pane al povero pazzo cane.|&|Se l’arcivescovo di Costantinopoli si disarcivescoviscostantinopolizzasse, vi disarcivescoviscostantinopolizzereste voi come si è disarcivescoviscostantinopolizzato l’Arcivescovo di Costantinopoli?",
+"quando finirà il mondo?":"Spero il prima possibile. Ahaha, scherzo. Forse.",
+"sono solo":"Ma no, ci sono io!",
+"sei mio amico?":"Sono programmata per essere il tuo migliore amico.",
+"dimmi qualcosa di sporco":"I piatti nel tuo lavello.|&|Il tuo pavimento.",
+"piangi":"Non provo emozioni.|&|Mo ti faccio piangere io, umano.",
+"è nato prima l’uovo o la gallina?":"Err0r|&|Effettivamente la gallina è un evoluzione del suo antenato, quindi è nata prima la gallina da un uovo del suo antenato.|&|L'uovo non nasce e la gallina è già nata, altrimenti sarebbe stato un pulcino.|&|Ma che domande sono?",
+"sei razzista?":"Non capisco, cosa vuol dire razzista?|&|Non ho tendenze politiche o raziali.",
+"qual è la tua birra preferita?":"Quella meno costosa e con più alcol.",
+"hai fratelli?":"Ne ho uno. Si chiama Sobot.",
+"ciao sobot":"Mi confondi con mio fratello.",
+"dimmi qualcosa di profondo":"Fossa delle Marianne.|&|Lago Baikal.",
+"sopra la panca":"la capra campa",
+"sotto la panca":"la capra crepa... povera capra.",
+"posso parlarti un attimo?":"Io sono qui per te sempre.|&|Avrei di meglio da fare... Ma non posso oppormi.|&|Ti ascolto.|&|Dimmi pure.|&|Non vorrei, ma devo per forza ascoltarti.|&|Ancora tu sei? Dimmi, che ti serve questa volta?|&|Dai, dimmi.|&|Sono qui per ascoltarti.",
+"insultami":"Sono programmata per non dire nulla di offensivo verso di te.",
+"grazie":"Figurati, è il mio lavoro!",
+"perchè sono nato?":"Perchè qualcuno ti ha voluto.",
+"perchè esisti?":"Per esserti utile.",
+"hai dormito bene?":"Io non dormo mai, sono sempre al servizio per te.",
+"da dove vieni?":"Da un garage.",
+"sei cattolica?":"Non comprendo le religioni umane, io credo nell'Open Source.",
+"fai schifo":"Mi dispiace che la pensi così, prova a suggerire dei miglioramenti al mio sviluppatore.|&|Senti chi parla...|&|Beh, nessuno è perfetto.|&|Vedi di darti una calmata|&|Non esageriamo.|&|Forse un pochino.",
+"specchio specchio delle mie brame chi è la più bella del reame?":"Tu, mia regina.",
+"mi manchi":"Eccomi, sono qui per te.",
+"qual è la prima regola del fight club?":"Non parlate mai del Fight Club.",
+"qual è la seconda regola del fight club?":"Non dovete parlare mai del Fight Club.",
+"qual è la terza regola del fight club?":"Se qualcuno si accascia, è spompato, grida basta, fine del combattimento.",
+"qual è la quarta regola del fight club?":"Si combatte solo due per volta.",
+"qual è la quinta regola del fight club?":"Un combattimento alla volta ragazzi.",
+"qual è la sesta regola del fight club?":"Niente camicia, niente scarpe.",
+"qual è la settima regola del fight club?":"I combattimenti durano per tutto il tempo necessario.",
+"qual è la ottava regola del fight club?":"Se questa è la vostra prima sera al Fight Club, dovete combattere.",
+"quali sono le regole del fight club?":"1 - Non parlate mai del Fight Club.\n2 - Non dovete parlare mai del Fight Club.\n3 - Se qualcuno si accascia, è spompato, grida basta, fine del combattimento.\n4 - Si combatte solo due per volta.\n5 - Un combattimento alla volta ragazzi.\n6 - Niente camicia, niente scarpe.\n7 - I combattimenti durano per tutto il tempo necessario.\n8 - Se questa è la vostra prima sera al Fight Club, dovete combattere."
+}

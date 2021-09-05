@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Wich memo moram izbrisati?"
+		], 
+		"memoremoved": [
+			"\u010crtan zapis:\\n{}"
+		], 
+		"notenotfound": [
+			"Spominek ni bil najden."
+		]
+	}, 
+	"one": [
+		"ena"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Obstajajo ", 
+			"aftstr": "opombe"
+		}, 
+		"one": {
+			"prestr": "Obstaja ", 
+			"aftstr": "Opomba: ."
+		}
+	}, 
+	"second": "drugi", 
+	"weather": {
+		"clear": " in jasno je.", 
+		"cloudy": " in je obla\u010dno.", 
+		"bitcloudy": " in je nekoliko obla\u010dno.", 
+		"degrees": " obstaja {} stopenj", 
+		"at": "Pri {}", 
+		"rain": ", de\u017euje", 
+		"drizzle": ", je razburkano"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Nastavljen jezik: {}"
+		], 
+		"say": [
+			"Povejte mi, kateri jezik \u017eelite nastaviti."
+		], 
+		"notindb": [
+			"Tega jezika ne najdem."
+		]
+	}, 
+	"cancel": [
+		"ni\u010d"
+	], 
+	"news": {
+		"error": [
+			"Napaka."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} ulica {} \u0161tevilka {}"
+		], 
+		"near": [
+			"V bli\u017eini so {} tr\u017enice."
+		], 
+		"no": [
+			"V bli\u017eini ni trgov."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Nisem na\u0161el odgovora na va\u0161e vpra\u0161anje."
+		], 
+		"what": [
+			"Kak\u0161en odgovor naj i\u0161\u010dem?"
+		], 
+		"internetneeded": [
+			"Za iskanje va\u0161ega vpra\u0161anja potrebujem internetno povezavo."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Na %d %m %Y ob %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Obstajajo", 
+			"aftstr": "opomniki"
+		}, 
+		"one": {
+			"prestr": "Obstaja", 
+			"aftstr": "opomnik"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Kaj moram izra\u010dunati?"
+		], 
+		"notvalid": [
+			"Nepravilen izraz."
+		]
+	}, 
+	"for": "za", 
+	"divided": "razdeljeno", 
+	"weekdays": [
+		"sobota"
+	], 
+	"music": {
+		"what": [
+			"Kaj naj reproduciram?"
+		], 
+		"downloading": [
+			"Prenos {}..."
+		], 
+		"setvolumeask": [
+			"Kako visoko naj nastavim glasnost?"
+		], 
+		"wasnothingplay": [
+			"Ni\u010d se ni igralo."
+		], 
+		"nothingplay": [
+			"Ni\u010d ne igra."
+		], 
+		"setvolumepercentage": [
+			"Povejte mi odstotek prostornine."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} ulica {} \u0161tevilka {}"
+		], 
+		"near": [
+			"V bli\u017eini so {} banke."
+		], 
+		"no": [
+			"V bli\u017eini ni bank."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Postavljeno mesto: {}"
+		], 
+		"say": [
+			"Povejte mi mesto, ki ga \u017eelite nastaviti."
+		], 
+		"notindb": [
+			"Ne morem najti tega mesta."
+		]
+	}, 
+	"todayis": [
+		"Danes je to {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} ulica {} \u0161tevilka {}"
+		], 
+		"near": [
+			"V bli\u017eini so {} kavarne."
+		], 
+		"no": [
+			"V bli\u017eini ni kavarn."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Kaj moram ponoviti?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Da, de\u017euje."
+		], 
+		"0": [
+			"Mrgoli, vredno ga je vzeti."
+		], 
+		"3": [
+			"De\u017enik ni potreben."
+		], 
+		"2": [
+			"Je obla\u010dno, lahko za\u010dne de\u017eevati. Vzemite ga."
+		]
+	}, 
+	"seconds": "sekunde", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Kako visoko naj nastavim glasnost sistema?"
+		], 
+		"setvolumepercentage": [
+			"Povejte mi odstotek prostornine sistema."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} ulica {} \u0161tevilka {}"
+		], 
+		"near": [
+			"V bli\u017eini so {} hoteli."
+		], 
+		"no": [
+			"V bli\u017eini ni hotelov."
+		]
+	}, 
+	"hours": "ure", 
+	"phone": {
+		"noUnreadMessages": [
+			"Nobenih sporo\u010dil za branje."
+		], 
+		"messageSent": [
+			"Sporo\u010dilo poslano na {}."
+		], 
+		"contactNotFound": [
+			"Kontakt ni bil najden."
+		], 
+		"messageSentShort": [
+			"{} poslano na {}."
+		], 
+		"textOfMessage": [
+			"Kaj naj napi\u0161em {}?"
+		], 
+		"readMsgList": [
+			"Od {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Komu naj po\u0161ljem sporo\u010dilo?"
+		], 
+		"markedAsRead": [
+			"Sporo\u010dila so ozna\u010dena kot prebrana."
+		], 
+		"notLogged": [
+			"Za to funkcijo morate biti prijavljeni v Telegram."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Obstaja samo {} ukaz po meri:\\n{}"
+		], 
+		"listmore": [
+			"Obstajajo {} ukazi po meri:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Povejte mi ukaz po meri, ki ga \u017eelite odstraniti."
+		], 
+		"listno": [
+			"Ukazi po meri niso na voljo."
+		], 
+		"paired": [
+			"Nov ukaz \"{}\" v paru z \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Povejte mi ukaz za dodajanje."
+		], 
+		"tellcmdpair": [
+			"Povejte mi ukaz za zdru\u017eevanje."
+		], 
+		"removed": [
+			"Odstranjen ukaz po meri \"{}\"."
+		], 
+		"rmnotfound": [
+			"Ukaz po meri za odstranitev ni bil najden."
+		]
+	}, 
+	"negative": [
+		"ne"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Dodana opomba:\\n{}"
+		], 
+		"saynote": [
+			"Povejte mi opombo, ki jo je treba dodati."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"\u010casovnik se bo iztekel v {}."
+		], 
+		"notimer": [
+			"Ni nastavljenega \u010dasovnika."
+		]
+	}, 
+	"affirmative": [
+		"da"
+	], 
+	"day": "dan", 
+	"minute": "minuta", 
+	"execute": {
+		"executing": [
+			"Izvajanje {}..."
+		], 
+		"what": [
+			"Kaj moram izvesti?"
+		], 
+		"error": [
+			"Napaka pri izvajanju."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Nastavljen je \u010dasovnik {}."
+		], 
+		"howmany": [
+			"Koliko sekund?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"To je {}: {}"
+		]
+	}, 
+	"hour": "ura", 
+	"restaurant": {
+		"print": [
+			"{} ulica {} \u0161tevilka {}"
+		], 
+		"near": [
+			"V bli\u017eini so {} restavracije."
+		], 
+		"no": [
+			"V bli\u017eini ni restavracij."
+		]
+	}, 
+	"internetneeded": [
+		"Ta funkcija zahteva internet."
+	], 
+	"months": [
+		"December"
+	], 
+	"days": "dni", 
+	"oldyear": [
+		"Star sem {} let."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Opomba ni bila najdena."
+		], 
+		"noteremoved": [
+			"\u010crtana opomba:\\n{}"
+		], 
+		"saynote": [
+			"Wich note moram izbrisati?"
+		]
+	}, 
+	"notWorkingYet": [
+		"\u0160e ne deluje."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Povejte mi opombo, ki jo je treba dodati."
+		], 
+		"memoadded": [
+			"Dodana opomba:\\n{}"
+		], 
+		"when": [
+			"Povejte mi, kdaj naj nastavim opomnik."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Postavljena dr\u017eava: {}"
+		], 
+		"say": [
+			"Povejte mi, katero dr\u017eavo \u017eelite nastaviti."
+		], 
+		"notindb": [
+			"Ne najdem te dr\u017eave."
+		]
+	}, 
+	"minutes": "minute", 
+	"minus": "minus", 
+	"two": [
+		"dva"
+	]
+}

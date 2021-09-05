@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Wich memo, kt\u00f3re musz\u0119 usun\u0105\u0107?"
+		], 
+		"memoremoved": [
+			"Notatka usuni\u0119ta: \"\\\"{}"
+		], 
+		"notenotfound": [
+			"Memo nie zosta\u0142o znalezione."
+		]
+	}, 
+	"one": [
+		"jeden"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Istniej\u0105 ", 
+			"aftstr": "notatki"
+		}, 
+		"one": {
+			"prestr": "Jest ", 
+			"aftstr": "notatka"
+		}
+	}, 
+	"second": "drugi", 
+	"weather": {
+		"clear": " i to jest jasne.", 
+		"cloudy": " i jest pochmurno.", 
+		"bitcloudy": " i jest troch\u0119 pochmurno.", 
+		"degrees": " istnieje {} stopni", 
+		"at": "Na {}", 
+		"rain": ", pada deszcz", 
+		"drizzle": "to jest rizzling"
+	}, 
+	"langsettings": {
+		"setted": [
+			"J\u0119zyk ustawiony: {}"
+		], 
+		"say": [
+			"Podaj mi j\u0119zyk, kt\u00f3ry mam ustawi\u0107."
+		], 
+		"notindb": [
+			"Nie mog\u0119 znale\u017a\u0107 tego j\u0119zyka."
+		]
+	}, 
+	"cancel": [
+		"nic"
+	], 
+	"news": {
+		"error": [
+			"B\u0142\u0105d."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} ulica {} numer {}"
+		], 
+		"near": [
+			"W pobli\u017cu znajduj\u0105 si\u0119 {} rynki."
+		], 
+		"no": [
+			"W pobli\u017cu nie ma targowisk."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Nie mog\u0142em znale\u017a\u0107 odpowiedzi na twoje pytanie."
+		], 
+		"what": [
+			"Jakiej odpowiedzi powinienem szuka\u0107?"
+		], 
+		"internetneeded": [
+			"Aby przeszuka\u0107 twoje pytanie, potrzebuj\u0119 po\u0142\u0105czenia z internetem."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"W dniu %d %m %Y o godzinie %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Istniej\u0105", 
+			"aftstr": "przypomnienia"
+		}, 
+		"one": {
+			"prestr": "Jest", 
+			"aftstr": "przypomnienie"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Co mam obliczy\u0107?"
+		], 
+		"notvalid": [
+			"Nieprawid\u0142owe wyra\u017cenie."
+		]
+	}, 
+	"for": "dla", 
+	"divided": "podzielone", 
+	"weekdays": [
+		"sobota"
+	], 
+	"music": {
+		"what": [
+			"Co powinienem odtworzy\u0107?"
+		], 
+		"downloading": [
+			"Pobieranie {}..."
+		], 
+		"setvolumeask": [
+			"Jak wysoko powinienem ustawi\u0107 g\u0142o\u015bno\u015b\u0107?"
+		], 
+		"wasnothingplay": [
+			"Nic nie gra\u0142o."
+		], 
+		"nothingplay": [
+			"Nic nie gra."
+		], 
+		"setvolumepercentage": [
+			"Powiedz mi, jaki jest procent obj\u0119to\u015bci."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} ulica {} numer {}"
+		], 
+		"near": [
+			"W pobli\u017cu znajduj\u0105 si\u0119 {} banki."
+		], 
+		"no": [
+			"W pobli\u017cu nie ma bank\u00f3w."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Miasto ustawione: {}"
+		], 
+		"say": [
+			"Podaj mi miasto, kt\u00f3re mam ustawi\u0107."
+		], 
+		"notindb": [
+			"Nie mog\u0119 znale\u017a\u0107 tego miasta."
+		]
+	}, 
+	"todayis": [
+		"Dzisiaj jest to {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} ulica {} numer {}"
+		], 
+		"near": [
+			"W pobli\u017cu znajduj\u0105 si\u0119 {} kawiarnie."
+		], 
+		"no": [
+			"W pobli\u017cu nie ma kawiarni."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Co mam powt\u00f3rzy\u0107?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Tak, pada."
+		], 
+		"0": [
+			"Jest m\u017cawka, warto j\u0105 wzi\u0105\u0107."
+		], 
+		"3": [
+			"Nie potrzeba parasola."
+		], 
+		"2": [
+			"Jest pochmurno, mo\u017ce zacz\u0105\u0107 pada\u0107. We\u017a to."
+		]
+	}, 
+	"seconds": "sekundy", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Jak wysoko nale\u017cy ustawi\u0107 g\u0142o\u015bno\u015b\u0107 systemu?"
+		], 
+		"setvolumepercentage": [
+			"Podaj mi procent obj\u0119to\u015bci systemu."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} ulica {} numer {}"
+		], 
+		"near": [
+			"W pobli\u017cu znajduj\u0105 si\u0119 {} hotele."
+		], 
+		"no": [
+			"W pobli\u017cu nie ma hoteli."
+		]
+	}, 
+	"hours": "godziny", 
+	"phone": {
+		"noUnreadMessages": [
+			"Brak wiadomo\u015bci do przeczytania."
+		], 
+		"messageSent": [
+			"Wiadomo\u015b\u0107 wys\u0142ana do {}."
+		], 
+		"contactNotFound": [
+			"Kontakt nie zosta\u0142 znaleziony."
+		], 
+		"messageSentShort": [
+			"{} wys\u0142ane do {}."
+		], 
+		"textOfMessage": [
+			"Co powinienem napisa\u0107 do {}?"
+		], 
+		"readMsgList": [
+			"Od {}:\"{}\"{}\"{}\""
+		], 
+		"toWhoMessage": [
+			"Do kogo mam wys\u0142a\u0107 wiadomo\u015b\u0107?"
+		], 
+		"markedAsRead": [
+			"Wiadomo\u015bci oznaczone jako przeczytane."
+		], 
+		"notLogged": [
+			"Aby korzysta\u0107 z tej funkcji, musisz by\u0107 zalogowany w Telegramie."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Istniej\u0105 tylko {} niestandardowe polecenia:\"{}"
+		], 
+		"listmore": [
+			"Istniej\u0105 {} niestandardowe komendy: \"\\\"."
+		], 
+		"tellcmdrm": [
+			"Podaj mi niestandardowe polecenie do usuni\u0119cia."
+		], 
+		"listno": [
+			"Nie ma \u017cadnych niestandardowych polece\u0144."
+		], 
+		"paired": [
+			"Nowe polecenie \"{}\" sparowane z \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Podaj mi komend\u0119, kt\u00f3r\u0105 mam doda\u0107."
+		], 
+		"tellcmdpair": [
+			"Podaj mi komend\u0119 do pary."
+		], 
+		"removed": [
+			"Usuni\u0119to niestandardowe polecenie \"{}\"."
+		], 
+		"rmnotfound": [
+			"Nie znaleziono niestandardowego polecenia do usuni\u0119cia."
+		]
+	}, 
+	"negative": [
+		"nie"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Uwaga dodana: \"{}"
+		], 
+		"saynote": [
+			"Powiedz mi, jak\u0105 notatk\u0119 mam doda\u0107."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Licznik czasu wyga\u015bnie za {}."
+		], 
+		"notimer": [
+			"Nie ma ustawionego timera."
+		]
+	}, 
+	"affirmative": [
+		"tak"
+	], 
+	"day": "dzie\u0144", 
+	"minute": "minuta", 
+	"execute": {
+		"executing": [
+			"Wykonywanie {}..."
+		], 
+		"what": [
+			"Co mam wykona\u0107?"
+		], 
+		"error": [
+			"B\u0142\u0105d podczas wykonywania."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Timer {} ustawiony."
+		], 
+		"howmany": [
+			"Ile sekund?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"To jest {}:{}"
+		]
+	}, 
+	"hour": "godzina", 
+	"restaurant": {
+		"print": [
+			"{} ulica {} numer {}"
+		], 
+		"near": [
+			"W pobli\u017cu znajduj\u0105 si\u0119 {} restauracje."
+		], 
+		"no": [
+			"W pobli\u017cu nie ma restauracji."
+		]
+	}, 
+	"internetneeded": [
+		"Ta funkcja wymaga dost\u0119pu do Internetu."
+	], 
+	"months": [
+		"Grudzie\u0144"
+	], 
+	"days": "dni", 
+	"oldyear": [
+		"Mam {} lat."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Notatka nie zosta\u0142a znaleziona."
+		], 
+		"noteremoved": [
+			"Uwaga usuni\u0119ta: \"\\\"."
+		], 
+		"saynote": [
+			"Czy musz\u0119 usun\u0105\u0107 notatk\u0119 Wich?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Jeszcze nie dzia\u0142a."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Powiedz mi notatk\u0119, kt\u00f3r\u0105 mam doda\u0107."
+		], 
+		"memoadded": [
+			"Notatka dodana: \"{}"
+		], 
+		"when": [
+			"Powiedz mi, kiedy mam ustawi\u0107 notatk\u0119."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Kraj ustawiony: {}"
+		], 
+		"say": [
+			"Powiedz mi, jaki kraj mam ustawi\u0107."
+		], 
+		"notindb": [
+			"Nie mog\u0119 znale\u017a\u0107 tego kraju."
+		]
+	}, 
+	"minutes": "minuty", 
+	"minus": "minus", 
+	"two": [
+		"dwa"
+	]
+}

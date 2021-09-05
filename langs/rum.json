@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Ce memo trebuie s\u0103 \u0219terg?"
+		], 
+		"memoremoved": [
+			"Memo \u0219ters:\\n{}"
+		], 
+		"notenotfound": [
+			"Memo nu a fost g\u0103sit."
+		]
+	}, 
+	"one": [
+		"unul"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Exist\u0103 ", 
+			"aftstr": "Exist\u0103 "
+		}, 
+		"one": {
+			"prestr": "Exist\u0103 ", 
+			"aftstr": "Exist\u0103 "
+		}
+	}, 
+	"second": "Exist\u0103 ", 
+	"weather": {
+		"clear": "Exist\u0103 ", 
+		"cloudy": "Exist\u0103 ", 
+		"bitcloudy": "Exist\u0103 ", 
+		"degrees": "Exist\u0103 ", 
+		"at": "Exist\u0103 ", 
+		"rain": "Exist\u0103 ", 
+		"drizzle": "Exist\u0103 "
+	}, 
+	"langsettings": {
+		"setted": [
+			"Exist\u0103 "
+		], 
+		"say": [
+			"Exist\u0103 "
+		], 
+		"notindb": [
+			"Exist\u0103 "
+		]
+	}, 
+	"cancel": [
+		"nimic"
+	], 
+	"news": {
+		"error": [
+			"Eroare."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} strada {} num\u0103rul {}"
+		], 
+		"near": [
+			"\u00cen apropiere se afl\u0103 {} pie\u021be."
+		], 
+		"no": [
+			"Nu sunt pie\u021be \u00een apropiere."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Nu am reu\u0219it s\u0103 g\u0103sesc r\u0103spunsul la \u00eentrebarea dumneavoastr\u0103."
+		], 
+		"what": [
+			"Ce r\u0103spuns ar trebui s\u0103 caut?"
+		], 
+		"internetneeded": [
+			"Pentru a c\u0103uta \u00eentrebarea dvs. am nevoie de o conexiune la internet."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Pe %d %m %Y la %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Exist\u0103", 
+			"aftstr": "memento-uri"
+		}, 
+		"one": {
+			"prestr": "Exist\u0103", 
+			"aftstr": "memento"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Ce am de calculat?"
+		], 
+		"notvalid": [
+			"Expresie invalid\u0103."
+		]
+	}, 
+	"for": "pentru", 
+	"divided": "\u00eemp\u0103r\u021bit", 
+	"weekdays": [
+		"s\u00e2mb\u0103t\u0103"
+	], 
+	"music": {
+		"what": [
+			"Ce ar trebui s\u0103 reproduc?"
+		], 
+		"downloading": [
+			"Desc\u0103rcarea {}..."
+		], 
+		"setvolumeask": [
+			"C\u00e2t de mare ar trebui s\u0103 setez volumul?"
+		], 
+		"wasnothingplay": [
+			"Nu se c\u00e2nta nimic."
+		], 
+		"nothingplay": [
+			"Nu se joac\u0103 nimic."
+		], 
+		"setvolumepercentage": [
+			"Spune\u021bi-mi care este procentul din volum."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} strada {} num\u0103rul {}"
+		], 
+		"near": [
+			"\u00cen apropiere se afl\u0103 {} b\u0103nci."
+		], 
+		"no": [
+			"Nu sunt b\u0103nci \u00een apropiere."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Ora\u0219ul setat: {}"
+		], 
+		"say": [
+			"Spune-mi ora\u0219ul pe care s\u0103 \u00eel stabilesc."
+		], 
+		"notindb": [
+			"Nu pot g\u0103si acest ora\u0219."
+		]
+	}, 
+	"todayis": [
+		"Ast\u0103zi este {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} strada {} num\u0103rul {}"
+		], 
+		"near": [
+			"\u00cen apropiere se afl\u0103 {} cafenele."
+		], 
+		"no": [
+			"Nu exist\u0103 cafenele \u00een apropiere."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Ce trebuie s\u0103 repet?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Da, plou\u0103."
+		], 
+		"0": [
+			"Plou\u0103, merit\u0103 s\u0103 o iei."
+		], 
+		"3": [
+			"Nu este nevoie de umbrel\u0103."
+		], 
+		"2": [
+			"Este \u00eennorat, s-ar putea s\u0103 \u00eenceap\u0103 s\u0103 plou\u0103. Ia-o."
+		]
+	}, 
+	"seconds": "secunde", 
+	"systemaudio": {
+		"setvolumeask": [
+			"C\u00e2t de mare ar trebui s\u0103 setez volumul sistemului?"
+		], 
+		"setvolumepercentage": [
+			"Spune\u021bi-mi care este procentul din volumul sistemului."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} strada {} num\u0103rul {}"
+		], 
+		"near": [
+			"Exist\u0103 {} hoteluri \u00een apropiere."
+		], 
+		"no": [
+			"Nu exist\u0103 hoteluri \u00een apropiere."
+		]
+	}, 
+	"hours": "ore", 
+	"phone": {
+		"noUnreadMessages": [
+			"Nu exist\u0103 mesaje de citit."
+		], 
+		"messageSent": [
+			"Mesaj trimis c\u0103tre {}."
+		], 
+		"contactNotFound": [
+			"Contactul nu a fost g\u0103sit."
+		], 
+		"messageSentShort": [
+			"{} trimis la {}."
+		], 
+		"textOfMessage": [
+			"Ce ar trebui s\u0103 scriu la {}?"
+		], 
+		"readMsgList": [
+			"De la {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Cui ar trebui s\u0103 trimit mesajul?"
+		], 
+		"markedAsRead": [
+			"Mesaje marcate ca fiind citite."
+		], 
+		"notLogged": [
+			"Trebuie s\u0103 fi\u021bi conectat la Telegram pentru aceast\u0103 func\u021bie."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Exist\u0103 doar {} comand\u0103 personalizat\u0103:\\n{}"
+		], 
+		"listmore": [
+			"Exist\u0103 {} comenzi personalizate:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Spune\u021bi-mi comanda personalizat\u0103 care trebuie eliminat\u0103."
+		], 
+		"listno": [
+			"Nu exist\u0103 comenzi personalizate."
+		], 
+		"paired": [
+			"Noua comand\u0103 \"{}\" a fost \u00eemperecheat\u0103 cu \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Spune\u021bi-mi ce comand\u0103 s\u0103 adaug."
+		], 
+		"tellcmdpair": [
+			"Spune-mi comanda de \u00eemperechere."
+		], 
+		"removed": [
+			"Comanda personalizat\u0103 \"{}\" a fost eliminat\u0103."
+		], 
+		"rmnotfound": [
+			"Comanda personalizat\u0103 de eliminare nu a fost g\u0103sit\u0103."
+		]
+	}, 
+	"negative": [
+		"nu"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Not\u0103 ad\u0103ugat\u0103:\\n{}"
+		], 
+		"saynote": [
+			"Spune\u021bi-mi ce not\u0103 s\u0103 adaug."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Cronometrul va expira \u00een {}."
+		], 
+		"notimer": [
+			"Nu exist\u0103 un cronometru setat."
+		]
+	}, 
+	"affirmative": [
+		"da"
+	], 
+	"day": "ziua", 
+	"minute": "minut", 
+	"execute": {
+		"executing": [
+			"Executarea {}..."
+		], 
+		"what": [
+			"Ce am de executat?"
+		], 
+		"error": [
+			"Eroare \u00een execu\u021bie."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Cronometru de {} setat."
+		], 
+		"howmany": [
+			"C\u00e2te secunde?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Este {}:{}:{}"
+		]
+	}, 
+	"hour": "or\u0103", 
+	"restaurant": {
+		"print": [
+			"{} strada {} num\u0103rul {}"
+		], 
+		"near": [
+			"\u00cen apropiere se afl\u0103 {} restaurante."
+		], 
+		"no": [
+			"Nu exist\u0103 restaurante \u00een apropiere."
+		]
+	}, 
+	"internetneeded": [
+		"Aceast\u0103 func\u021bie necesit\u0103 internet."
+	], 
+	"months": [
+		"Decembrie"
+	], 
+	"days": "zile", 
+	"oldyear": [
+		"Am {} ani."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Nota nu a fost g\u0103sit\u0103."
+		], 
+		"noteremoved": [
+			"Not\u0103 eliminat\u0103:\\n{}"
+		], 
+		"saynote": [
+			"Ce not\u0103 trebuie s\u0103 \u0219terg?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Nu func\u021bioneaz\u0103 \u00eenc\u0103."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Spune\u021bi-mi ce not\u0103 s\u0103 adaug."
+		], 
+		"memoadded": [
+			"Memorandum ad\u0103ugat:\\n{}"
+		], 
+		"when": [
+			"Spune-mi c\u00e2nd s\u0103 setez memo-ul."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"\u021aara setat\u0103: {}"
+		], 
+		"say": [
+			"Spune\u021bi-mi ce \u021bar\u0103 s\u0103 setez."
+		], 
+		"notindb": [
+			"Nu pot g\u0103si aceast\u0103 \u021bar\u0103."
+		]
+	}, 
+	"minutes": "minute", 
+	"minus": "minus", 
+	"two": [
+		"dou\u0103"
+	]
+}

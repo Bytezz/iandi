@@ -1,0 +1,393 @@
+{
+	"cancel":[
+		"annulla",
+		"lascia stare",
+		"niente"
+	],
+	
+	"affirmative":[
+		"sì"
+	],
+	"negative":[
+		"no"
+	],
+	
+	"notWorkingYet":[
+		"Non ancora funzionante."
+	],
+
+	"internetneeded":[
+		"Internet non disponibile.",
+		"Internet necessario.",
+		"Questa funzione richiede internet."
+	],
+
+	"weekdays":["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"],
+	"months":["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"],
+	"one":[
+		"uno",
+		"un"
+	],
+	"two":[
+		"due"
+	],
+	"plus":"più",
+	"minus":"meno",
+	"for":"per",
+	"divided":"diviso",
+
+	"day":"giorno",
+	"days":"giorni",
+	"hour":"ora",
+	"hours":"ore",
+	"minute":"minuto",
+	"minutes":"minuti",
+	"second":"secondo",
+	"seconds":"secondi",
+
+	"oldyear":[
+		"Ho circa {} anni."
+	],
+	"ctime":{
+		"ofmorning":[
+			" di mattina."
+		],
+		"its":[
+			"Sono le {}:{}"
+		]
+	},
+	"todayis":[
+		"Oggi è {} {} {} {}."
+	],
+
+	"langsettings":{
+		"say":[
+			"Dimmi la lingua da impostare."
+		],
+		"notindb":[
+			"Lingua non trovata.",
+			"Non ho trovato questa lingua."
+		],
+		"setted":[
+			"{} impostata come lingua.",
+			"Lingua impostata: {}"
+		]
+	},
+	"countrysettings":{
+		"say":[
+			"Dimmi la nazione da impostare."
+		],
+		"notindb":[
+			"Nazione non trovata.",
+			"Non ho trovato questa nazione."
+		],
+		"setted":[
+			"{} impostata come nazione.",
+			"Nazione impostata: {}"
+		]
+	},
+	"citysettings":{
+		"say":[
+			"Dimmi la città da impostare."
+		],
+		"notindb":[
+			"Città non trovata.",
+			"Non ho trovato questa città."
+		],
+		"setted":[
+			"{} impostata come città.",
+			"Città impostata: {}"
+		]
+	},
+
+	"umbrella":{
+		"0":[
+			"Sta piovigginando, conviene portarlo."
+		],
+		"1":[
+			"Sì, sta piovendo."
+		],
+		"2":[
+			"È nuvoloso, potrebbe iniziare a piovere. Pòrtalo"
+		],
+		"3":[
+			"Non serve l'ombrello."
+		]
+	},
+	"weather":{
+		"at":"A {}",
+		"degrees":" ci sono {} gradi",
+		"drizzle":", pioviggina",
+		"rain":", piove",
+		"cloudy":" ed è nuvoloso",
+		"bitcloudy":" ed è leggermente nuvoloso",
+		"clear":" ed è sereno"
+	},
+	"addnote":{
+		"saynote":[
+			"Dimmi la nota da aggiungere."
+		],
+		"noteadded":[
+			"Nota aggiunta:\n{}"
+		]
+	},
+	"removenote":{
+		"saynote":[
+			"Quale nota devo rimuovere?"
+		],
+		"noteremoved":[
+			"Nota rimossa:\n{}"	
+		],
+		"notenotfound":[
+			"Nota non trovata."
+		]
+	},
+	"readnote":{
+		"one":{
+			"prestr":"C'è",
+			"aftstr":"nota"
+		},
+		"multiple":{
+			"prestr":"Ci sono",
+			"aftstr":"note"
+		},
+		"print":[
+			"{} {} {}:\n{}"
+		]
+	},
+	"addmemo":{
+		"saymemo":[
+			"Dimmi il promemoria da aggiungere."
+		],
+		"when":[
+			"Dimmi per quando impostare il promemoria."
+		],
+		"memoadded":[
+			"Promemoria aggiunto:\n{}"
+		]
+	},
+	"removememo":{
+		"saymemo":[
+			"Quale promemoria devo rimuovere?"
+		],
+		"memoremoved":[
+			"Promemoria rimosso:\n{}"	
+		],
+		"notenotfound":[
+			"Promemoria non trovato."
+		]
+	},
+	"readmemo":{
+		"one":{
+			"prestr":"C'è",
+			"aftstr":"promemoria"
+		},
+		"multiple":{
+			"prestr":"Ci sono",
+			"aftstr":"promemoria"
+		},
+		"oneprint":[
+			"Il %d %m %Y alle %H:%M:%S"
+		],
+		"print":[
+			"{} {} {}:\n{}"
+		]
+	},
+	"settimer":{
+		"howmany":[
+			"Di quanti secondi?"
+		],
+		"setted":[
+			"Timer di {} impostato."
+		]
+	},
+	"checktimer":{
+		"eta":[
+			"Il timer scadrà tra {}."
+		],
+		"notimer":[
+			"Non c'è nessun timer impostato."
+		]
+	},
+	"repeat":{
+		"what":[
+			"Cosa devo ripetere?"
+		]
+	},
+	"execute":{
+		"what":[
+			"Cosa devo eseguire?"
+		],
+		"executing":[
+			"Eseguo {}."
+		],
+		"error":[
+			"Errore nell'esecuzione."
+		]
+	},
+	"calculate":{
+		"what":[
+			"Cosa devo calcolare?"
+		],
+		"notvalid":[
+			"Espressione non valida."
+		]
+	},
+	"custCmds":{
+		"tellcmdadd":[
+			"Dimmi il comando da aggiungere."
+		],
+		"tellcmdpair":[
+			"Dimmi il comando da associare."
+		],
+		"paired":[
+			"Nuovo comando \"{}\" associato a \"{}\"."
+		],
+		"tellcmdrm":[
+			"Dimmi il comando personalizzato da rimuovere."
+		],
+		"removed":[
+			"Comando personalizzato \"{}\" rimosso."
+		],
+		"rmnotfound":[
+			"Comando personalizzato da rimuovere non trovato."
+		],
+		"listone":[
+			"C'è solo {} comando personalizzato:\n{}"
+		],
+		"listmore":[
+			"Ci sono {} comandi personalizzati:\n{}"
+		],
+		"listno":[
+			"Non ci sono comandi personalizzati."
+		]
+	},
+	"phone":{
+		"notLogged":[
+			"Per questa funzione bisogna fare l'accesso a Telegram."
+		],
+		"readMsgList":[
+			"Da {}:\n{}\n"
+		],
+		"noUnreadMessages":[
+			"Nessun messaggio da leggere."
+		],
+		"markedAsRead":[
+			"Messaggi segnati come letti."
+		],
+		"toWhoMessage":[
+			"A chi devo inviare il messaggio?"
+		],
+		"textOfMessage":[
+			"Cosa devo scrivere a {}?"
+		],
+		"messageSentShort":[
+			"{} inviato a {}."
+		],
+		"messageSent":[
+			"Messaggio inviato a {}."
+		],
+		"contactNotFound":[
+			"Contatto non trovato."
+		]
+	},
+	"searchanswer":{
+		"what":[
+			"Che risposta devo cercare?"
+		],
+		"notfound":[
+			"Non ho trovato la risposta alla tua domanda."
+		],
+		"internetneeded":[
+			"Per cercare la tua domanda necessito di internet."
+		]
+	},
+	"systemaudio":{
+		"setvolumeask":[
+			"A quanto devo impostare il volume di sistema?"
+		],
+		"setvolumepercentage":[
+			"Dimmi la percentuale del volume di sistema."
+		]
+	},
+	"music":{
+		"what":[
+			"Cosa devo riprodurre?"
+		],
+		"downloading":[
+			"Scaricamento {}..."
+		],
+		"nothingplay":[
+			"Non c'è niente in riproduzione."
+		],
+		"wasnothingplay":[
+			"Non c'era niente in riproduzione."
+		],
+		"setvolumeask":[
+			"A quanto devo impostare il volume?"
+		],
+		"setvolumepercentage":[
+			"Dimmi la percentuale del volume."
+		]
+	},
+	"news":{
+		"error":[
+			"Errore."
+		]
+	},
+	"restaurant":{
+		"near":[
+			"Qui vicino ci sono {} ristoranti."
+		],
+		"no":[
+			"Qui vicino non ci sono ristoranti."
+		],
+		"print":[
+			"{} in {} numero {}"
+		]
+	},
+	"coffee":{
+		"near":[
+			"Qui vicino ci sono {} bar."
+		],
+		"no":[
+			"Qui vicino non ci sono bar."
+		],
+		"print":[
+			"{} in {} numero {}"
+		]
+	},
+	"market":{
+		"near":[
+			"Qui vicino ci sono {} super mercati."
+		],
+		"no":[
+			"Qui vicino non ci sono super mercati."
+		],
+		"print":[
+			"{} in {} numero {}"
+		]
+	},
+	"bank":{
+		"near":[
+			"Qui vicino ci sono {} banche."
+		],
+		"no":[
+			"Qui vicino non ci sono banche."
+		],
+		"print":[
+			"{} in {} numero {}"
+		]
+	},
+	"hotel":{
+		"near":[
+			"Qui vicino ci sono {} hotel."
+		],
+		"no":[
+			"Qui vicino non ci sono hotel."
+		],
+		"print":[
+			"{} in {} numero {}"
+		]
+	}
+}

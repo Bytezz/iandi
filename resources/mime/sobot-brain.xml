@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+	<mime-type type="text/brain">
+		<comment>Brain for sobot like bots</comment>
+		<comment xml:lang="it">Brain per sobot e derivati</comment>
+		<glob pattern="*.brain"/>
+		<glob pattern="*.brn"/>
+	</mime-type>
+</mime-info>

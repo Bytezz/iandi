@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Kuri\u0105 atmintin\u0119 turiu i\u0161trinti?"
+		], 
+		"memoremoved": [
+			"I\u0161braukta atmintin\u0117:\\n{}"
+		], 
+		"notenotfound": [
+			"Atmintin\u0117 nerasta."
+		]
+	}, 
+	"one": [
+		"vienas"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Yra ", 
+			"aftstr": "pastabos"
+		}, 
+		"one": {
+			"prestr": "Yra ", 
+			"aftstr": "Pastaba"
+		}
+	}, 
+	"second": "antrasis", 
+	"weather": {
+		"clear": " ir viskas ai\u0161ku.", 
+		"cloudy": " ir debesuota.", 
+		"bitcloudy": " ir \u0161iek tiek debesuota.", 
+		"degrees": " yra {} laipsni\u0173", 
+		"at": "At {}", 
+		"rain": ", lyja lietus", 
+		"drizzle": ", tai rizzling"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Nustatyta kalba: {}"
+		], 
+		"say": [
+			"Pasakykite, koki\u0105 kalb\u0105 nustatyti."
+		], 
+		"notindb": [
+			"Negaliu rasti \u0161ios kalbos."
+		]
+	}, 
+	"cancel": [
+		"nieko"
+	], 
+	"news": {
+		"error": [
+			"Klaida."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} gatv\u0117 {} numeris {}"
+		], 
+		"near": [
+			"Netoliese yra {} turgavie\u010di\u0173."
+		], 
+		"no": [
+			"Netoliese n\u0117ra turgavie\u010di\u0173."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Neradau atsakymo \u012f j\u016bs\u0173 klausim\u0105."
+		], 
+		"what": [
+			"Kokio atsakymo tur\u0117\u010diau ie\u0161koti?"
+		], 
+		"internetneeded": [
+			"Kad gal\u0117\u010diau ie\u0161koti j\u016bs\u0173 klausimo, man reikia interneto ry\u0161io."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"%d %m %Y %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Yra", 
+			"aftstr": "priminimai"
+		}, 
+		"one": {
+			"prestr": "Yra", 
+			"aftstr": "priminimas"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"K\u0105 turiu apskai\u010diuoti?"
+		], 
+		"notvalid": [
+			"Netinkama i\u0161rai\u0161ka."
+		]
+	}, 
+	"for": "for", 
+	"divided": "padalytas", 
+	"weekdays": [
+		"\u0161e\u0161tadienis"
+	], 
+	"music": {
+		"what": [
+			"K\u0105 tur\u0117\u010diau atgaminti?"
+		], 
+		"downloading": [
+			"Atsisiuntimas {}..."
+		], 
+		"setvolumeask": [
+			"Kokio stiprumo gars\u0105 tur\u0117\u010diau nustatyti?"
+		], 
+		"wasnothingplay": [
+			"Nebuvo nieko, kas grot\u0173."
+		], 
+		"nothingplay": [
+			"Nieko n\u0117ra."
+		], 
+		"setvolumepercentage": [
+			"Pasakykite t\u016brio procentin\u0119 dal\u012f."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} gatv\u0117 {} numeris {}"
+		], 
+		"near": [
+			"Netoliese yra {} bank\u0173."
+		], 
+		"no": [
+			"Netoliese n\u0117ra bank\u0173."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Nustatytas miestas: {}"
+		], 
+		"say": [
+			"Pasakykite, kok\u012f miest\u0105 nustatyti."
+		], 
+		"notindb": [
+			"Negaliu rasti \u0161io miesto."
+		]
+	}, 
+	"todayis": [
+		"\u0160iandien tai yra {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} gatv\u0117 {} numeris {}"
+		], 
+		"near": [
+			"Netoliese yra {} kavini\u0173."
+		], 
+		"no": [
+			"Netoliese n\u0117ra kavini\u0173."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"K\u0105 turiu pakartoti?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Taip, lyja."
+		], 
+		"0": [
+			"Dulksna, verta j\u0105 pasiimti."
+		], 
+		"3": [
+			"Sk\u0117\u010dio nereikia."
+		], 
+		"2": [
+			"Debesuota, gali prad\u0117ti lyti. Pasiimkite j\u012f."
+		]
+	}, 
+	"seconds": "sekund\u0117s", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Kok\u012f sistemos garsum\u0105 tur\u0117\u010diau nustatyti?"
+		], 
+		"setvolumepercentage": [
+			"Pasakykite man sistemos t\u016brio procentin\u0119 dal\u012f."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} gatv\u0117 {} numeris {}"
+		], 
+		"near": [
+			"Netoliese yra {} vie\u0161bu\u010di\u0173."
+		], 
+		"no": [
+			"Netoliese n\u0117ra vie\u0161bu\u010di\u0173."
+		]
+	}, 
+	"hours": "valandos", 
+	"phone": {
+		"noUnreadMessages": [
+			"Joki\u0173 prane\u0161im\u0173, kuriuos reikia perskaityti."
+		], 
+		"messageSent": [
+			"Prane\u0161imas i\u0161si\u0173stas \u012f {}."
+		], 
+		"contactNotFound": [
+			"Kontakt\u0173 nerasta."
+		], 
+		"messageSentShort": [
+			"{} i\u0161si\u0173stas \u012f {}."
+		], 
+		"textOfMessage": [
+			"K\u0105 tur\u0117\u010diau para\u0161yti {}?"
+		], 
+		"readMsgList": [
+			"I\u0161 {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Kam tur\u0117\u010diau si\u0173sti \u017einut\u0119?"
+		], 
+		"markedAsRead": [
+			"\u017dinut\u0117s, pa\u017eym\u0117tos kaip perskaitytos."
+		], 
+		"notLogged": [
+			"Nor\u0117dami naudotis \u0161ia funkcija, turite b\u016bti prisijung\u0119 prie \"Telegram\"."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Yra tik {} pasirinktin\u0117 komanda:\\n{}"
+		], 
+		"listmore": [
+			"Yra {} pasirinktini\u0173 komand\u0173:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Pasakykite man pasirinktin\u0119 komand\u0105, kuri\u0105 reikia pa\u0161alinti."
+		], 
+		"listno": [
+			"Pasirinktini\u0173 komand\u0173 n\u0117ra."
+		], 
+		"paired": [
+			"Nauja komanda \"{}\" suporuota su \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Pasakykite, koki\u0105 komand\u0105 prid\u0117ti."
+		], 
+		"tellcmdpair": [
+			"Pasakykite man komand\u0105 porai."
+		], 
+		"removed": [
+			"Pa\u0161alinta pasirinktin\u0117 komanda \"{}\"."
+		], 
+		"rmnotfound": [
+			"Nerandama pasirinktin\u0117s pa\u0161alinimo komandos."
+		]
+	}, 
+	"negative": [
+		"ne"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Prid\u0117ta pastaba: \\n{}"
+		], 
+		"saynote": [
+			"Pasakykite, koki\u0105 pastab\u0105 prid\u0117ti."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Laikmatis baigsis po {}."
+		], 
+		"notimer": [
+			"N\u0117ra nustatyto laikma\u010dio."
+		]
+	}, 
+	"affirmative": [
+		"taip"
+	], 
+	"day": "diena", 
+	"minute": "minut\u0117", 
+	"execute": {
+		"executing": [
+			"Vykdomas {}..."
+		], 
+		"what": [
+			"K\u0105 turiu atlikti?"
+		], 
+		"error": [
+			"Vykdymo klaida."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Nustatytas {} laikmatis."
+		], 
+		"howmany": [
+			"Kiek sekund\u017ei\u0173?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Tai {}:{}"
+		]
+	}, 
+	"hour": "valanda", 
+	"restaurant": {
+		"print": [
+			"{} gatv\u0117 {} numeris {}"
+		], 
+		"near": [
+			"Netoliese yra {} restoran\u0173."
+		], 
+		"no": [
+			"Netoliese n\u0117ra restoran\u0173."
+		]
+	}, 
+	"internetneeded": [
+		"\u0160iai funkcijai reikalingas internetas."
+	], 
+	"months": [
+		"Gruod\u017eio m\u0117n."
+	], 
+	"days": "dienos", 
+	"oldyear": [
+		"Man {} met\u0173."
+	], 
+	"plus": "plius", 
+	"removenote": {
+		"notenotfound": [
+			"Pastaba nerasta."
+		], 
+		"noteremoved": [
+			"I\u0161braukta pastaba: \\n{}"
+		], 
+		"saynote": [
+			"Koki\u0105 pastab\u0105 turiu i\u0161trinti?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Dar neveikia."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Pasakykite, koki\u0105 atmintin\u0119 prid\u0117ti."
+		], 
+		"memoadded": [
+			"Prid\u0117ta atmintin\u0117:\\n{}"
+		], 
+		"when": [
+			"Pasakykite, kada nustatyti atmintin\u0119."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Nustatyta \u0161alis: {}"
+		], 
+		"say": [
+			"Pasakykite, koki\u0105 \u0161al\u012f nustatyti."
+		], 
+		"notindb": [
+			"Negaliu rasti \u0161ios \u0161alies."
+		]
+	}, 
+	"minutes": "minut\u0117s", 
+	"minus": "minus", 
+	"two": [
+		"du"
+	]
+}

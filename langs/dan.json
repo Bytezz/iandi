@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Hvilket memo skal jeg slette?"
+		], 
+		"memoremoved": [
+			"Memo slettet:\\n{}"
+		], 
+		"notenotfound": [
+			"Memo ikke fundet."
+		]
+	}, 
+	"one": [
+		"en"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Der er ", 
+			"aftstr": "noter"
+		}, 
+		"one": {
+			"prestr": "Der er ", 
+			"aftstr": "note"
+		}
+	}, 
+	"second": "anden", 
+	"weather": {
+		"clear": " og det er klart.", 
+		"cloudy": " og det er overskyet.", 
+		"bitcloudy": " og det er en smule overskyet.", 
+		"degrees": " der er {} grader", 
+		"at": "P\u00e5 {}", 
+		"rain": ", det regner", 
+		"drizzle": ", det er brusende"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Sprog indstillet: {}"
+		], 
+		"say": [
+			"Fort\u00e6l mig, hvilket sprog jeg skal indstille."
+		], 
+		"notindb": [
+			"Jeg kan ikke finde dette sprog."
+		]
+	}, 
+	"cancel": [
+		"intet"
+	], 
+	"news": {
+		"error": [
+			"Fejl."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} gade {} nummer {}"
+		], 
+		"near": [
+			"Der er {} markeder i n\u00e6rheden."
+		], 
+		"no": [
+			"Der er ikke nogen markeder i n\u00e6rheden."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Jeg kunne ikke finde svaret p\u00e5 dit sp\u00f8rgsm\u00e5l."
+		], 
+		"what": [
+			"Hvilket svar skal jeg lede efter?"
+		], 
+		"internetneeded": [
+			"For at s\u00f8ge i dit sp\u00f8rgsm\u00e5l skal jeg have en internetforbindelse."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Den %d %m %Y kl. %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Der er", 
+			"aftstr": "p\u00e5mindelser"
+		}, 
+		"one": {
+			"prestr": "Der er", 
+			"aftstr": "p\u00e5mindelse"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Hvad skal jeg beregne?"
+		], 
+		"notvalid": [
+			"Ugyldigt udtryk."
+		]
+	}, 
+	"for": "til", 
+	"divided": "delt", 
+	"weekdays": [
+		"l\u00f8rdag"
+	], 
+	"music": {
+		"what": [
+			"Hvad skal jeg reproducere?"
+		], 
+		"downloading": [
+			"Download af {}..."
+		], 
+		"setvolumeask": [
+			"Hvor h\u00f8jt skal jeg indstille lydstyrken?"
+		], 
+		"wasnothingplay": [
+			"Der var ikke noget, der spillede."
+		], 
+		"nothingplay": [
+			"Der er intet, der spiller."
+		], 
+		"setvolumepercentage": [
+			"Oplys mig om volumenprocenten."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} gade {} nummer {}"
+		], 
+		"near": [
+			"Der er {} banker i n\u00e6rheden."
+		], 
+		"no": [
+			"Der er ingen banker i n\u00e6rheden."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Byen er oprettet: {}"
+		], 
+		"say": [
+			"Fort\u00e6l mig, hvilken by jeg skal indstille."
+		], 
+		"notindb": [
+			"Jeg kan ikke finde denne by."
+		]
+	}, 
+	"todayis": [
+		"I dag er det {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} gade {} nummer {}"
+		], 
+		"near": [
+			"Der er {} caf\u00e9er i n\u00e6rheden."
+		], 
+		"no": [
+			"Der er ikke nogen caf\u00e9er i n\u00e6rheden."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Hvad skal jeg gentage?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Ja, det regner."
+		], 
+		"0": [
+			"Det drysser, det er v\u00e6rd at tage den."
+		], 
+		"3": [
+			"Der er ikke brug for en paraply."
+		], 
+		"2": [
+			"Det er overskyet, og det kan begynde at regne. Tag den."
+		]
+	}, 
+	"seconds": "sekunder", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Hvor h\u00f8jt skal jeg indstille systemets lydstyrke?"
+		], 
+		"setvolumepercentage": [
+			"Angiv den procentvise andel af systemets volumen."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} gade {} nummer {}"
+		], 
+		"near": [
+			"Der er {} hoteller i n\u00e6rheden."
+		], 
+		"no": [
+			"Der er ingen hoteller i n\u00e6rheden."
+		]
+	}, 
+	"hours": "timer", 
+	"phone": {
+		"noUnreadMessages": [
+			"Ingen meddelelser at l\u00e6se."
+		], 
+		"messageSent": [
+			"Besked sendt til {}."
+		], 
+		"contactNotFound": [
+			"Kontakt ikke fundet."
+		], 
+		"messageSentShort": [
+			"{} sendt til {}."
+		], 
+		"textOfMessage": [
+			"Hvad skal jeg skrive til {}?"
+		], 
+		"readMsgList": [
+			"Fra {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Hvem skal jeg sende beskeden til?"
+		], 
+		"markedAsRead": [
+			"Meddelelser markeret som l\u00e6st."
+		], 
+		"notLogged": [
+			"Du skal v\u00e6re logget ind p\u00e5 Telegram for at kunne bruge denne funktion."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Der er kun {} brugerdefinerede kommandoer:\\n{}"
+		], 
+		"listmore": [
+			"Der er {} brugerdefinerede kommandoer:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Fort\u00e6l mig, hvilken brugerdefineret kommando der skal fjernes."
+		], 
+		"listno": [
+			"Der er ingen brugerdefinerede kommandoer."
+		], 
+		"paired": [
+			"Ny kommando \"{}\" parret til \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Fort\u00e6l mig, hvilken kommando der skal tilf\u00f8jes."
+		], 
+		"tellcmdpair": [
+			"Fort\u00e6l mig kommandoen til at parre."
+		], 
+		"removed": [
+			"Brugerdefineret kommando \"{}\" fjernet."
+		], 
+		"rmnotfound": [
+			"Brugerdefineret kommando til at fjerne ikke fundet."
+		]
+	}, 
+	"negative": [
+		"ingen"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Note tilf\u00f8jet:\\n{}"
+		], 
+		"saynote": [
+			"Fort\u00e6l mig, hvilken note jeg skal tilf\u00f8je."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Timeren udl\u00f8ber om {}."
+		], 
+		"notimer": [
+			"Der er ikke indstillet timer."
+		]
+	}, 
+	"affirmative": [
+		"ja"
+	], 
+	"day": "dag", 
+	"minute": "minut", 
+	"execute": {
+		"executing": [
+			"Udf\u00f8relse af {}..."
+		], 
+		"what": [
+			"Hvad skal jeg udf\u00f8re?"
+		], 
+		"error": [
+			"Fejl ved udf\u00f8relse."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Timer p\u00e5 {} indstillet."
+		], 
+		"howmany": [
+			"Hvor mange sekunder?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Det er {}:{}"
+		]
+	}, 
+	"hour": "time", 
+	"restaurant": {
+		"print": [
+			"{} gade {} nummer {}"
+		], 
+		"near": [
+			"Der er {} restauranter i n\u00e6rheden."
+		], 
+		"no": [
+			"Der er ingen restauranter i n\u00e6rheden."
+		]
+	}, 
+	"internetneeded": [
+		"Denne funktion kr\u00e6ver internet."
+	], 
+	"months": [
+		"December"
+	], 
+	"days": "dage", 
+	"oldyear": [
+		"Jeg er {} \u00e5r gammel."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Note ikke fundet."
+		], 
+		"noteremoved": [
+			"Note udg\u00e5r:\\n{}"
+		], 
+		"saynote": [
+			"Hvilken note skal jeg slette?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Virker ikke endnu."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Fort\u00e6l mig, hvilket notat der skal tilf\u00f8jes."
+		], 
+		"memoadded": [
+			"Memo tilf\u00f8jet:\\n{}"
+		], 
+		"when": [
+			"Fort\u00e6l mig, hvorn\u00e5r jeg skal indstille memoet."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Land indstillet: {}"
+		], 
+		"say": [
+			"Fort\u00e6l mig, hvilket land jeg skal indstille."
+		], 
+		"notindb": [
+			"Jeg kan ikke finde dette land."
+		]
+	}, 
+	"minutes": "minutter", 
+	"minus": "minus", 
+	"two": [
+		"to"
+	]
+}

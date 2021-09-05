@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Wich memo man ir j\u0101izdz\u0113\u0161?"
+		], 
+		"memoremoved": [
+			"Izdz\u0113sta piez\u012bme:\\n{}"
+		], 
+		"notenotfound": [
+			"Memo nav atrasts."
+		]
+	}, 
+	"one": [
+		"viens"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Ir ", 
+			"aftstr": "piez\u012bmes"
+		}, 
+		"one": {
+			"prestr": "Ir ", 
+			"aftstr": "Piez\u012bme"
+		}
+	}, 
+	"second": "otrais", 
+	"weather": {
+		"clear": "otrais", 
+		"cloudy": "otrais", 
+		"bitcloudy": "otrais", 
+		"degrees": "otrais", 
+		"at": "otrais", 
+		"rain": "otrais", 
+		"drizzle": "otrais"
+	}, 
+	"langsettings": {
+		"setted": [
+			"otrais"
+		], 
+		"say": [
+			"otrais"
+		], 
+		"notindb": [
+			"otrais"
+		]
+	}, 
+	"cancel": [
+		"otrais"
+	], 
+	"news": {
+		"error": [
+			"otrais"
+		]
+	}, 
+	"market": {
+		"print": [
+			"otrais"
+		], 
+		"near": [
+			"otrais"
+		], 
+		"no": [
+			"otrais"
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"otrais"
+		], 
+		"what": [
+			"otrais"
+		], 
+		"internetneeded": [
+			"otrais"
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"otrais"
+		], 
+		"oneprint": [
+			"otrais"
+		], 
+		"multiple": {
+			"prestr": "otrais", 
+			"aftstr": "otrais"
+		}, 
+		"one": {
+			"prestr": "Ir", 
+			"aftstr": "Ir"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Ir"
+		], 
+		"notvalid": [
+			"Ir"
+		]
+	}, 
+	"for": "Ir", 
+	"divided": "Ir", 
+	"weekdays": [
+		"Ir"
+	], 
+	"music": {
+		"what": [
+			"Ir"
+		], 
+		"downloading": [
+			"Ir"
+		], 
+		"setvolumeask": [
+			"Ir"
+		], 
+		"wasnothingplay": [
+			"Ir"
+		], 
+		"nothingplay": [
+			"Ir"
+		], 
+		"setvolumepercentage": [
+			"Ir"
+		]
+	}, 
+	"bank": {
+		"print": [
+			"Ir"
+		], 
+		"near": [
+			"Ir"
+		], 
+		"no": [
+			"Ir"
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Ir"
+		], 
+		"say": [
+			"Ir"
+		], 
+		"notindb": [
+			"Ir"
+		]
+	}, 
+	"todayis": [
+		"Ir"
+	], 
+	"coffee": {
+		"print": [
+			"Ir"
+		], 
+		"near": [
+			"Ir"
+		], 
+		"no": [
+			"Ir"
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Ir"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Ir"
+		], 
+		"0": [
+			"Ir"
+		], 
+		"3": [
+			"Ir"
+		], 
+		"2": [
+			"Ir"
+		]
+	}, 
+	"seconds": "Ir", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Ir"
+		], 
+		"setvolumepercentage": [
+			"Ir"
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"Ir"
+		], 
+		"near": [
+			"There are {} hotels nearby."
+		], 
+		"no": [
+			"Tuvum\u0101 nav viesn\u012bcu."
+		]
+	}, 
+	"hours": "stundas", 
+	"phone": {
+		"noUnreadMessages": [
+			"Nav las\u0101mu zi\u0146ojumu."
+		], 
+		"messageSent": [
+			"Zi\u0146ojums ir nos\u016bt\u012bts uz {}."
+		], 
+		"contactNotFound": [
+			"Kontakts nav atrasts."
+		], 
+		"messageSentShort": [
+			"{} nos\u016bt\u012bts uz {}."
+		], 
+		"textOfMessage": [
+			"Ko man rakst\u012bt uz {}?"
+		], 
+		"readMsgList": [
+			"No {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Kam nos\u016bt\u012bt zi\u0146ojumu?"
+		], 
+		"markedAsRead": [
+			"Zi\u0146ojumi atz\u012bm\u0113ti k\u0101 izlas\u012bti."
+		], 
+		"notLogged": [
+			"Lai izmantotu \u0161o funkciju, jums ir j\u0101b\u016bt pieteicies Telegram\u0101."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Ir tikai {} pas\u016bt\u012bjuma komanda: \\n{}"
+		], 
+		"listmore": [
+			"Ir {} piel\u0101gotas komandas: \\n{}"
+		], 
+		"tellcmdrm": [
+			"Past\u0101stiet man, kuru piel\u0101goto komandu no\u0146emt."
+		], 
+		"listno": [
+			"Nav piel\u0101gotu komandu."
+		], 
+		"paired": [
+			"Jauna komanda \"{}\" p\u0101r\u012b ar \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Past\u0101stiet, k\u0101du komandu pievienot."
+		], 
+		"tellcmdpair": [
+			"Sakiet man komandu p\u0101rim."
+		], 
+		"removed": [
+			"No\u0146emta piel\u0101got\u0101 komanda \"{}\"."
+		], 
+		"rmnotfound": [
+			"Piel\u0101gota no\u0146em\u0161anas komanda nav atrasta."
+		]
+	}, 
+	"negative": [
+		"nav"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Piez\u012bme pievienots: \\n{}"
+		], 
+		"saynote": [
+			"Pasakiet man piez\u012bmi, kas j\u0101pievieno."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Taimeris beigsies p\u0113c {}."
+		], 
+		"notimer": [
+			"Nav iestat\u012bts taimeris."
+		]
+	}, 
+	"affirmative": [
+		"j\u0101"
+	], 
+	"day": "diena", 
+	"minute": "min\u016bte", 
+	"execute": {
+		"executing": [
+			"Izpilda {}..."
+		], 
+		"what": [
+			"Kas man ir j\u0101izpilda?"
+		], 
+		"error": [
+			"K\u013c\u016bda izpild\u0113."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Iestat\u012bts {} taimeris."
+		], 
+		"howmany": [
+			"Cik sekun\u017eu?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Tas ir {}:{}"
+		]
+	}, 
+	"hour": "stundu", 
+	"restaurant": {
+		"print": [
+			"{} iela {} numurs {}"
+		], 
+		"near": [
+			"Net\u0101lu ir {} restor\u0101ni."
+		], 
+		"no": [
+			"Tuvum\u0101 nav restor\u0101nu."
+		]
+	}, 
+	"internetneeded": [
+		"\u0160ai funkcijai ir nepiecie\u0161ams internets."
+	], 
+	"months": [
+		"Decembris"
+	], 
+	"days": "dienas", 
+	"oldyear": [
+		"Man ir {} gadu."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Piez\u012bme nav atrasta."
+		], 
+		"noteremoved": [
+			"Piez\u012bme sv\u012btrots: \\n{}"
+		], 
+		"saynote": [
+			"K\u0101da piez\u012bme man ir j\u0101izdz\u0113\u0161?"
+		]
+	}, 
+	"notWorkingYet": [
+		"V\u0113l nedarbojas."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Past\u0101stiet man piez\u012bmi, kas j\u0101pievieno."
+		], 
+		"memoadded": [
+			"Piez\u012bme pievienots: \\n{}"
+		], 
+		"when": [
+			"Past\u0101stiet, kad iestat\u012bt piez\u012bmi."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Noteikta valsts: {}"
+		], 
+		"say": [
+			"Past\u0101stiet, kur\u0101 valst\u012b iestat\u012bt."
+		], 
+		"notindb": [
+			"Es nevaru atrast \u0161o valsti."
+		]
+	}, 
+	"minutes": "protokols", 
+	"minus": "m\u012bnus", 
+	"two": [
+		"divi"
+	]
+}

@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Welches Memo muss ich l\u00f6schen?"
+		], 
+		"memoremoved": [
+			"Memo gel\u00f6scht:\\n{}"
+		], 
+		"notenotfound": [
+			"Memo nicht gefunden."
+		]
+	}, 
+	"one": [
+		"eine"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Es gibt ", 
+			"aftstr": "Hinweise"
+		}, 
+		"one": {
+			"prestr": "Es gibt ", 
+			"aftstr": "Hinweis"
+		}
+	}, 
+	"second": "zweite", 
+	"weather": {
+		"clear": " und es ist klar.", 
+		"cloudy": " und es ist bew\u00f6lkt.", 
+		"bitcloudy": " und es ist ein bisschen bew\u00f6lkt.", 
+		"degrees": " es gibt {} Grade", 
+		"at": "Bei {}", 
+		"rain": ", es regnet", 
+		"drizzle": "...es zischt"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Eingestellte Sprache: {}"
+		], 
+		"say": [
+			"Sagen Sie mir, welche Sprache ich einstellen soll."
+		], 
+		"notindb": [
+			"Ich kann diese Sprache nicht finden."
+		]
+	}, 
+	"cancel": [
+		"nichts"
+	], 
+	"news": {
+		"error": [
+			"Fehler."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} Stra\u00dfe {} Nummer {}"
+		], 
+		"near": [
+			"In der N\u00e4he gibt es {} M\u00e4rkte."
+		], 
+		"no": [
+			"Es gibt keine M\u00e4rkte in der N\u00e4he."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Ich konnte die Antwort auf Ihre Frage nicht finden."
+		], 
+		"what": [
+			"Nach welcher Antwort sollte ich suchen?"
+		], 
+		"internetneeded": [
+			"Um Ihre Frage zu suchen, ben\u00f6tige ich eine Internetverbindung."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Am %d %m %Y um %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Es gibt", 
+			"aftstr": "mahnungen"
+		}, 
+		"one": {
+			"prestr": "Es gibt", 
+			"aftstr": "Erinnerung"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Was muss ich berechnen?"
+		], 
+		"notvalid": [
+			"Ung\u00fcltiger Ausdruck."
+		]
+	}, 
+	"for": "f\u00fcr", 
+	"divided": "geteilt", 
+	"weekdays": [
+		"montag"
+	], 
+	"music": {
+		"what": [
+			"montag"
+		], 
+		"downloading": [
+			"montag"
+		], 
+		"setvolumeask": [
+			"montag"
+		], 
+		"wasnothingplay": [
+			"montag"
+		], 
+		"nothingplay": [
+			"montag"
+		], 
+		"setvolumepercentage": [
+			"montag"
+		]
+	}, 
+	"bank": {
+		"print": [
+			"montag"
+		], 
+		"near": [
+			"montag"
+		], 
+		"no": [
+			"montag"
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"montag"
+		], 
+		"say": [
+			"montag"
+		], 
+		"notindb": [
+			"montag"
+		]
+	}, 
+	"todayis": [
+		"montag"
+	], 
+	"coffee": {
+		"print": [
+			"montag"
+		], 
+		"near": [
+			"montag"
+		], 
+		"no": [
+			"montag"
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"montag"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"montag"
+		], 
+		"0": [
+			"montag"
+		], 
+		"3": [
+			"montag"
+		], 
+		"2": [
+			"montag"
+		]
+	}, 
+	"seconds": "montag", 
+	"systemaudio": {
+		"setvolumeask": [
+			"montag"
+		], 
+		"setvolumepercentage": [
+			"montag"
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"montag"
+		], 
+		"near": [
+			"montag"
+		], 
+		"no": [
+			"montag"
+		]
+	}, 
+	"hours": "montag", 
+	"phone": {
+		"noUnreadMessages": [
+			"montag"
+		], 
+		"messageSent": [
+			"montag"
+		], 
+		"contactNotFound": [
+			"montag"
+		], 
+		"messageSentShort": [
+			"montag"
+		], 
+		"textOfMessage": [
+			"montag"
+		], 
+		"readMsgList": [
+			"montag"
+		], 
+		"toWhoMessage": [
+			"montag"
+		], 
+		"markedAsRead": [
+			"montag"
+		], 
+		"notLogged": [
+			"montag"
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"montag"
+		], 
+		"listmore": [
+			"montag"
+		], 
+		"tellcmdrm": [
+			"montag"
+		], 
+		"listno": [
+			"montag"
+		], 
+		"paired": [
+			"montag"
+		], 
+		"tellcmdadd": [
+			"montag"
+		], 
+		"tellcmdpair": [
+			"montag"
+		], 
+		"removed": [
+			"montag"
+		], 
+		"rmnotfound": [
+			"montag"
+		]
+	}, 
+	"negative": [
+		"montag"
+	], 
+	"addnote": {
+		"noteadded": [
+			"montag"
+		], 
+		"saynote": [
+			"montag"
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"montag"
+		], 
+		"notimer": [
+			"montag"
+		]
+	}, 
+	"affirmative": [
+		"montag"
+	], 
+	"day": "montag", 
+	"minute": "montag", 
+	"execute": {
+		"executing": [
+			"montag"
+		], 
+		"what": [
+			"montag"
+		], 
+		"error": [
+			"montag"
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"montag"
+		], 
+		"howmany": [
+			"montag"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			"montag"
+		], 
+		"its": [
+			"montag"
+		]
+	}, 
+	"hour": "montag", 
+	"restaurant": {
+		"print": [
+			"montag"
+		], 
+		"near": [
+			"montag"
+		], 
+		"no": [
+			"montag"
+		]
+	}, 
+	"internetneeded": [
+		"montag"
+	], 
+	"months": [
+		"Dezember"
+	], 
+	"days": "Tage", 
+	"oldyear": [
+		"Ich bin {} Jahre alt."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Hinweis nicht gefunden."
+		], 
+		"noteremoved": [
+			"Hinweis gel\u00f6scht:\\n{}"
+		], 
+		"saynote": [
+			"Welche Notiz muss ich l\u00f6schen?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Funktioniert noch nicht."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Sagen Sie mir, dass das Memo hinzugef\u00fcgt werden soll."
+		], 
+		"memoadded": [
+			"Memo hinzugef\u00fcgt:\\n{}"
+		], 
+		"when": [
+			"Sagen Sie mir, wann ich das Memo setzen soll."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Land eingestellt: {}"
+		], 
+		"say": [
+			"Sagen Sie mir, welches Land ich einstellen soll."
+		], 
+		"notindb": [
+			"Ich kann dieses Land nicht finden."
+		]
+	}, 
+	"minutes": "Minuten", 
+	"minus": "minus", 
+	"two": [
+		"zwei"
+	]
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Iandi
+Comment=Vocal assistant
+Exec=iandi noui
+Terminal=false
+Type=Application
+Icon=/usr/share/icons/iandi.png
+Categories=Utility
+StartupNotify=false
+Hidden=false

@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Quel m\u00e9mo je dois supprimer ?"
+		], 
+		"memoremoved": [
+			"M\u00e9mo supprim\u00e9 : \\n{}"
+		], 
+		"notenotfound": [
+			"M\u00e9mo non trouv\u00e9."
+		]
+	}, 
+	"one": [
+		"un"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {} :\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Il y a ", 
+			"aftstr": "notes"
+		}, 
+		"one": {
+			"prestr": "Il y a ", 
+			"aftstr": "note"
+		}
+	}, 
+	"second": "deuxi\u00e8me", 
+	"weather": {
+		"clear": " et c'est clair.", 
+		"cloudy": " et c'est nuageux.", 
+		"bitcloudy": " et c'est un peu nuageux.", 
+		"degrees": " il y a {} degr\u00e9s", 
+		"at": "\u00c0 {}", 
+		"rain": "Il pleut.", 
+		"drizzle": "il gr\u00e9sille"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Langue s\u00e9lectionn\u00e9e : {}"
+		], 
+		"say": [
+			"Dites-moi la langue \u00e0 d\u00e9finir."
+		], 
+		"notindb": [
+			"Je ne trouve pas cette langue."
+		]
+	}, 
+	"cancel": [
+		"rien"
+	], 
+	"news": {
+		"error": [
+			"Erreur."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} rue {} num\u00e9ro {}"
+		], 
+		"near": [
+			"Il y a {} des march\u00e9s \u00e0 proximit\u00e9."
+		], 
+		"no": [
+			"Il n'y a pas de march\u00e9 \u00e0 proximit\u00e9."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Je n'ai pas trouv\u00e9 la r\u00e9ponse \u00e0 votre question."
+		], 
+		"what": [
+			"Quelle r\u00e9ponse dois-je chercher ?"
+		], 
+		"internetneeded": [
+			"Pour effectuer une recherche sur votre question, j'ai besoin d'une connexion Internet."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {} :\\n{}"
+		], 
+		"oneprint": [
+			"Le %d %m %Y \u00e0 %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Il y a", 
+			"aftstr": "rappels"
+		}, 
+		"one": {
+			"prestr": "Il y a", 
+			"aftstr": "rappel"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Qu'est-ce que je dois calculer ?"
+		], 
+		"notvalid": [
+			"Expression invalide."
+		]
+	}, 
+	"for": "pour", 
+	"divided": "divis\u00e9", 
+	"weekdays": [
+		"samedi"
+	], 
+	"music": {
+		"what": [
+			"Que dois-je reproduire ?"
+		], 
+		"downloading": [
+			"T\u00e9l\u00e9chargement de {}..."
+		], 
+		"setvolumeask": [
+			"A quel niveau dois-je r\u00e9gler le volume ?"
+		], 
+		"wasnothingplay": [
+			"Il n'y avait rien \u00e0 jouer."
+		], 
+		"nothingplay": [
+			"Il n'y a rien \u00e0 jouer."
+		], 
+		"setvolumepercentage": [
+			"Dites-moi le pourcentage du volume."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} rue {} num\u00e9ro {}"
+		], 
+		"near": [
+			"Il y a {} banques \u00e0 proximit\u00e9."
+		], 
+		"no": [
+			"Il n'y a pas de banques \u00e0 proximit\u00e9."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"City setted : {}"
+		], 
+		"say": [
+			"Dites-moi la ville \u00e0 mettre en place."
+		], 
+		"notindb": [
+			"Je ne trouve pas cette ville."
+		]
+	}, 
+	"todayis": [
+		"Aujourd'hui c'est {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} rue {} num\u00e9ro {}"
+		], 
+		"near": [
+			"Il y a des caf\u00e9s \u00e0 proximit\u00e9."
+		], 
+		"no": [
+			"Il n'y a pas de caf\u00e9s \u00e0 proximit\u00e9."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Ce que je dois r\u00e9p\u00e9ter ?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Oui, il pleut."
+		], 
+		"0": [
+			"Il bruine, \u00e7a vaut le coup de le prendre."
+		], 
+		"3": [
+			"Pas besoin de parapluie."
+		], 
+		"2": [
+			"C'est nuageux, il peut commencer \u00e0 pleuvoir. Prenez-le."
+		]
+	}, 
+	"seconds": "secondes", 
+	"systemaudio": {
+		"setvolumeask": [
+			"A quel niveau dois-je r\u00e9gler le volume du syst\u00e8me ?"
+		], 
+		"setvolumepercentage": [
+			"Dites-moi le pourcentage du volume du syst\u00e8me."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} rue {} num\u00e9ro {}"
+		], 
+		"near": [
+			"Il y a {} des h\u00f4tels \u00e0 proximit\u00e9."
+		], 
+		"no": [
+			"Il n'y a pas d'h\u00f4tels \u00e0 proximit\u00e9."
+		]
+	}, 
+	"hours": "heures", 
+	"phone": {
+		"noUnreadMessages": [
+			"Aucun message \u00e0 lire."
+		], 
+		"messageSent": [
+			"Message envoy\u00e9 \u00e0 {}."
+		], 
+		"contactNotFound": [
+			"Contact non trouv\u00e9."
+		], 
+		"messageSentShort": [
+			"{} envoy\u00e9 \u00e0 {}."
+		], 
+		"textOfMessage": [
+			"Qu'est-ce que je dois \u00e9crire \u00e0 {} ?"
+		], 
+		"readMsgList": [
+			"De {} :\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"A qui dois-je envoyer le message ?"
+		], 
+		"markedAsRead": [
+			"Messages marqu\u00e9s comme lus."
+		], 
+		"notLogged": [
+			"Vous devez \u00eatre connect\u00e9 \u00e0 Telegram pour b\u00e9n\u00e9ficier de cette fonctionnalit\u00e9."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Il n'y a que des commandes personnalis\u00e9es : \\n{}"
+		], 
+		"listmore": [
+			"Il existe {} des commandes personnalis\u00e9es : \\n{}"
+		], 
+		"tellcmdrm": [
+			"Dites-moi la commande personnalis\u00e9e \u00e0 supprimer."
+		], 
+		"listno": [
+			"Il n'y a pas de commandes personnalis\u00e9es."
+		], 
+		"paired": [
+			"Nouvelle commande \"{}\" jumel\u00e9e \u00e0 \"{}\"."
+		], 
+		"tellcmdadd": [
+			"Dites-moi la commande \u00e0 ajouter."
+		], 
+		"tellcmdpair": [
+			"Dites-moi l'ordre d'appariement."
+		], 
+		"removed": [
+			"La commande personnalis\u00e9e \"{}\" a \u00e9t\u00e9 supprim\u00e9e."
+		], 
+		"rmnotfound": [
+			"Commande personnalis\u00e9e de suppression non trouv\u00e9e."
+		]
+	}, 
+	"negative": [
+		"pas de"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Note ajout\u00e9e : \\n{}"
+		], 
+		"saynote": [
+			"Dites-moi la note \u00e0 ajouter."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Le d\u00e9lai expirera dans {}."
+		], 
+		"notimer": [
+			"Il n'y a pas de minuterie programm\u00e9e."
+		]
+	}, 
+	"affirmative": [
+		"oui"
+	], 
+	"day": "jour", 
+	"minute": "minute", 
+	"execute": {
+		"executing": [
+			"Ex\u00e9cution de {}..."
+		], 
+		"what": [
+			"Ce que je dois ex\u00e9cuter ?"
+		], 
+		"error": [
+			"Erreur d'ex\u00e9cution."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Minuterie de {} r\u00e9gl\u00e9e."
+		], 
+		"howmany": [
+			"Combien de secondes ?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"C'est {}:{}"
+		]
+	}, 
+	"hour": "heure", 
+	"restaurant": {
+		"print": [
+			"{} rue {} num\u00e9ro {}"
+		], 
+		"near": [
+			"Il y a {} des restaurants \u00e0 proximit\u00e9."
+		], 
+		"no": [
+			"Il n'y a pas de restaurants \u00e0 proximit\u00e9."
+		]
+	}, 
+	"internetneeded": [
+		"Cette fonction n\u00e9cessite l'utilisation de l'internet."
+	], 
+	"months": [
+		"D\u00e9cembre"
+	], 
+	"days": "jours", 
+	"oldyear": [
+		"J'ai {} ans."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Note non trouv\u00e9e."
+		], 
+		"noteremoved": [
+			"Note supprim\u00e9e : \\n{}"
+		], 
+		"saynote": [
+			"Quelle note dois-je supprimer ?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Ne fonctionne pas encore."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Dites-moi le m\u00e9mo \u00e0 ajouter."
+		], 
+		"memoadded": [
+			"M\u00e9mo ajout\u00e9 : \\n{}"
+		], 
+		"when": [
+			"Dis-moi quand mettre le m\u00e9mo."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Pays mis en place : {}"
+		], 
+		"say": [
+			"Dites-moi le pays \u00e0 r\u00e9gler."
+		], 
+		"notindb": [
+			"Je n'arrive pas \u00e0 trouver ce pays."
+		]
+	}, 
+	"minutes": "minutes", 
+	"minus": "moins", 
+	"two": [
+		"deux"
+	]
+}

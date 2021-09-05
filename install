@@ -1,0 +1,665 @@
+#!/bin/bash
+
+# Infos
+installerVersion="0.1"
+while read line; do
+	if [[ $line == "globalvars.version="* ]]; then
+		iandiVersion="$(cut -d'"' -f 2 <<< $line)"
+		break
+	fi
+done < iandi
+
+echo "Iandi $iandiVersion"
+echo -e "Installer $installerVersion\n"
+
+# Check for permissions
+if [[ $UID != 0 ]]; then
+	echo "You are not logged as root (sudo ./install)."
+	read -p "Do you want continue anyway? [y/N] " continueAsNotRoot
+	case $continueAsNotRoot in
+		[yY][eE][sS]|[yY])
+			echo "Yes."
+			continueAsNotRoot=true
+			;;
+		*)
+		echo "No."
+		continueAsNotRoot=false
+		;;
+	esac
+	if ! $continueAsNotRoot ; then
+		exit 4
+	fi
+fi
+
+# Inputs
+## package manager
+while true
+do
+	read -p "Install dependencies? [Y/n] " installDep
+	case $installDep in
+		[nN][oO]|[nN])
+			echo "No."
+			installDep=false
+			break
+			;;
+		*)
+		echo "Yes."
+		installDep=true
+		break
+		;;
+	esac
+done
+if $installDep ; then
+	while true
+	do
+		read -p "Package manager: " pm
+		case $pm in
+			[aA][pP][tT])
+				pm="apt"
+				break
+				;;
+			[dD][nN][fF])
+				pm="dnf"
+				break
+				;;
+			[yY][uU][mM])
+				pm="yum"
+				break
+				;;
+			#[hH][oO][mM][eE][bB][rR][eE][wW]|[bB][rR][eE][wW])
+			#	pm="homebrew"
+			#	break
+			#	;;
+			[pP][aA][cC][mM][aA][nN])
+				pm="pacman"
+				break
+				;;
+			#[pP][oO][rR][tT][aA][gG][eE]|[eE][mM][eE][rR][gG][eE])
+			#	pm="portage"
+			#	break
+			#	;;
+			*)
+				echo "Package manager not supported."
+				echo "Use it manually out of installer."
+				exit 1
+				;;
+		esac
+	done
+	echo "$pm."
+fi
+
+## precompiled snowboy
+while true
+do
+	read -p "Install snowboy? [Y/n] " installSb
+	case $installSb in
+		[nN][oO]|[nN])
+			installSb=false
+			echo "No."
+			break
+			;;
+		*)
+			installSb=true
+			echo "Yes."
+			break
+			;;
+	esac
+done
+if $installSb ; then
+	sbprecomp0="Ubuntu 14.04 (64bit)"
+	sbprecomp1="MacOS X"
+	sbprecomp2="Raspbian 8.0 (Raspberry Pi 1/2/3/Zero)"
+	while true
+	do
+		echo "Select precompiled snowboy binary:"
+		echo "0 - $sbprecomp0"
+		echo "1 - $sbprecomp1"
+		echo "2 - $sbprecomp2"
+		read -p "Number: " snowboyprecomp
+		case $snowboyprecomp in
+			0)
+				echo $sbprecomp0
+				break
+				;;
+			1)
+				echo $sbprecomp1
+				break
+				;;
+			2)
+				echo $sbprecomp2
+				break
+				;;
+			*)
+				echo "Number not valid."
+				;;
+		esac
+	done
+fi
+
+## Procname
+while true
+do
+	read -p "Compile procname? [Y/n] " compileProcname
+	case $compileProcname in
+		[nN][oO]|[nN])
+			echo "No."
+			compileProcname=false
+			break
+			;;
+		*)
+			echo "Yes."
+			compileProcname=true
+			break
+			;;
+	esac
+done
+
+## Terminal Virtual Face
+while true
+do
+	read -p "Get Terminal Virtual Face? [Y/n] " getTermVFace
+	case $getTermVFace in
+		[nN][oO]|[nN])
+			echo "No."
+			getTermVFace=false
+			break
+			;;
+		*)
+			echo "Yes."
+			getTermVFace=true
+			break
+			;;
+	esac
+done
+
+## Tdlib
+while true
+do
+	read -p "Install tdlib? [Y/n] " installTdl
+	case $installTdl in
+		[nN][oO]|[nN])
+			echo "No."
+			installTdl=false
+			break
+			;;
+		*)
+			echo "Yes."
+			installTdl=true
+			break
+			;;
+	esac
+done
+
+## Brain mime type
+while true
+do
+	read -p "Install brain MIME type? [Y/n] " installBrnMime
+	case $installBrnMime in
+		[nN][oO]|[nN])
+			echo "No."
+			installBrnMime=false
+			break
+			;;
+		*)
+			echo "Yes."
+			installBrnMime=true
+			break
+			;;
+	esac
+done
+
+## Install Iandi on system
+while true
+do
+	read -p "Install Iandi on system? [Y/n] " installOnSys
+	case $installOnSys in
+		[nN][oO]|[nN])
+			echo "No."
+			installOnSys=false
+			break
+			;;
+		*)
+			echo "Yes."
+			installOnSys=true
+			break
+			;;
+	esac
+done
+if $installOnSys ; then
+	installOnSysBinDefaultPath="/usr/local/bin/"
+	read -p "Executable path: [$installOnSysBinDefaultPath] " installOnSysBinPath
+	if [ "$installOnSysBinPath" == "" ] ; then
+		installOnSysBinPath=$installOnSysBinDefaultPath
+	fi
+
+	if [ -z ${SUDO_USER} ]; then
+		cuser=$USER
+	else
+		cuser=$SUDO_USER
+	fi
+	if [ "$cuser" == "root" ]; then
+		cuserPath=$HOME
+	else
+		cuserPath="/home/$cuser"
+	fi
+	installOnSysDefaultPath="$cuserPath/.iandi/"
+	read -p "Resources path: [$installOnSysDefaultPath] " installOnSysPath
+	if [ "$installOnSysPath" == "" ] ; then
+		installOnSysPath=$installOnSysDefaultPath
+	fi
+fi
+if $installOnSys ; then
+	read -p "Autostart Iandi on login? [Y/n] " autostartIandi
+	case $autostartIandi in
+		[nN][oO]|[nN])
+			echo "No."
+			autostartIandi=false
+			;;
+		*)
+			echo "Yes."
+			autostartIandi=true
+			;;
+	esac
+fi
+
+echo "[ Ok ] Now you can go afk."
+
+# Checking ram info
+ram=$(grep -i memtotal /proc/meminfo)
+IFS=" "
+read -raramarray<<<"$ram"
+ram=$((${ramarray[1]}/1024/1024))
+if [ $(($ram < 3)) ]; then
+	dosplit=true
+else
+	dosplit=false
+fi
+
+# Dependencies
+if $installDep ; then
+	case $pm in
+		apt)
+			apt-get -y install python-pip python-dev python-gi python-setuptools git portaudio19-dev libpulse-dev libespeak-dev libatlas-base-dev vlc ffmpeg make zlib1g-dev libssl-dev gperf cmake clang libc++-dev libc++abi-dev swig
+			prgexitstatus=$?
+			if [ $prgexitstatus -ne 0 ] ; then
+				echo "apt failed with exit code $prgexitstatus."
+				exit 3
+			fi
+			if $dosplit; then
+				apt-get -y install php-cli
+				prgexitstatus=$?
+				if [ $prgexitstatus -ne 0 ] ; then
+					echo "apt failed with exit code $prgexitstatus."
+					exit 3
+				fi
+			fi
+			;;
+		dnf|yum)
+			$pm -y --setopt=strict=no install python-pip python-devel python2-devel python-setuptools git portaudio-devel pulseaudio-libs-devel libespeak-dev atlas-sse2-static atlas-devel vlc ffmpeg make zlib-devel openssl-devel gperf gcc-c++ cmake clang libcxx libcxxabi swig redhat-rpm-config
+			prgexitstatus=$?
+			if [ $prgexitstatus -ne 0 ] ; then
+				echo "$pm failed with exit code $prgexitstatus."
+				exit 3
+			fi
+			if $dosplit; then
+				$pm -y --setopt=strict=no install php
+				prgexitstatus=$?
+				if [ $prgexitstatus -ne 0 ] ; then
+					echo "$pm failed with exit code $prgexitstatus."
+					exit 3
+				fi
+			fi
+			#wget -O blas-3.9.0-5.rpm https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/33/Everything/x86_64/os/Packages/b/blas-3.9.0-5.fc33.i686.rpm
+			;;
+		homebrew)
+			brew install python python-setuptools git portaudio pulseaudio libespeak-dev vlc ffmpeg make zlib openssl gperf cmake swig
+			prgexitstatus=$?
+			if [ $prgexitstatus -ne 0 ] ; then
+				echo "homebrew failed with exit code $prgexitstatus."
+				exit 3
+			fi
+			if $dosplit; then
+				brew install php
+				prgexitstatus=$?
+				if [ $prgexitstatus -ne 0 ] ; then
+					echo "homebrew failed with exit code $prgexitstatus."
+					exit 3
+				fi
+			fi
+			;;
+		pacman)
+			pacman --noconfirm -S python-pip python-dev python-setuptools git portaudio19-dev libpulse-dev libespeak-dev libatlas-base-dev vlc ffmpeg make zlib1g-dev libssl-dev gperf cmake clang libc++-dev libc++abi-dev swig
+			prgexitstatus=$?
+			if [ $prgexitstatus -ne 0 ] ; then
+				echo "pacman failed with exit code $prgexitstatus."
+				exit 3
+			fi
+			if $dosplit; then
+				pacman --noconfirm -S php-cli
+				prgexitstatus=$?
+				if [ $prgexitstatus -ne 0 ] ; then
+					echo "pacman failed with exit code $prgexitstatus."
+					exit 3
+				fi
+			fi
+			;;
+		portage)
+			emerge python-pip python-dev python-setuptools git portaudio19-dev libpulse-dev libespeak-dev libatlas-base-dev vlc ffmpeg make zlib1g-dev libssl-dev gperf cmake clang libc++-dev libc++abi-dev swig
+			prgexitstatus=$?
+			if [ $prgexitstatus -ne 0 ] ; then
+				echo "emerge failed with exit code $prgexitstatus."
+				exit 3
+			fi
+			if $dosplit; then
+				emerge php-cli
+				prgexitstatus=$?
+				if [ $prgexitstatus -ne 0 ] ; then
+					echo "emerge failed with exit code $prgexitstatus."
+					exit 3
+				fi
+			fi
+			;;
+		*)
+			echo "Unexpected error in dependencies block."
+			exit 2
+			;;
+	esac
+
+	if commad -v pip2 &> /dev/null; then
+		pipcmd="pip2"
+	else
+		pipcmd="pip"
+	fi
+	$pipcmd install --no-input setuptools pyaudio playsound pyttsx3 speechrecognition pocketsphinx pyalsaaudio python-vlc==3.0.11115 youtube-dl
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "$pipcmd failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	
+	echo "[ Ok ] Dependencies installed."
+fi
+
+# Snowboy
+## https://github.com/seasalt-ai/snowboy
+## download precompiled snowboy
+if $installSb; then
+	case $snowboyprecomp in
+		0)
+			sbprecompurl="https://s3-us-west-2.amazonaws.com/snowboy2/snowboy-releases/ubuntu1404-x86_64-1.3.0.tar.bz2"
+			;;
+		1)
+			sbprecompurl="https://s3-us-west-2.amazonaws.com/snowboy2/snowboy-releases/osx-x86_64-1.3.0.tar.bz2"
+			;;
+		2)
+			sbprecompurl="https://s3-us-west-2.amazonaws.com/snowboy2/snowboy-releases/rpi-arm-raspbian-8.0-1.3.0.tar.bz2"
+			;;
+		*)
+			echo "Unexpected error in snowboy block."
+			exit 2
+			;;
+	esac
+	# search an installed program to download the archive
+	if commad -v curl &> /dev/null; then # verify if curl is installed, if true use it to download
+		curl -o snowboyprecomp.tar.bz2 $sbprecompurl
+	elif command -v wget &> /dev/null; then
+		wget -O snowboyprecomp.tar.bz2 $sbprecompurl
+	else
+		GET $sbprecompurl > snowboyprecomp.tar.bz2
+	fi
+	rm -rf snowboyprecompdir
+	mkdir snowboyprecompdir
+	tar -xjf snowboyprecomp.tar.bz2 -C snowboyprecompdir/
+	rm snowboyprecomp.tar.bz2
+	#rm -rf snowboyprecompdir/.*/
+	mv snowboyprecompdir/*/_snowboydetect.so .
+	rm -rf snowboyprecompdir/
+
+	echo "[ Ok ] Snowboy installed."
+fi
+
+# Procname
+if $compileProcname; then
+	cd procname-0.2/
+	make build
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "make failed with exit code $prgexitstatus while compiling procname."
+		exit 3
+	fi
+	mv procname.so ../
+	cd ../
+	echo "[ Ok ] Procname compiled."
+fi
+
+# Terminal Virtual Face
+## https://github.com/Bytezz/VirtualFace
+if $getTermVFace; then
+	rawFileUrl="https://raw.githubusercontent.com/Bytezz/VirtualFace/master/terminal_virtualface.py"
+	# search an installed program to download the raw file
+	if commad -v curl &> /dev/null; then # verify if curl is installed, if true use it to download
+		curl -o terminal_virtualface.py $rawFileUrl
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "curl failed with exit code $prgexitstatus while downloading Terminal Virtual Face."
+			exit 3
+		fi
+	elif command -v wget &> /dev/null; then
+		wget -O terminal_virtualface.py $rawFileUrl
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "wget failed with exit code $prgexitstatus while downloading Terminal Virtual Face."
+			exit 3
+		fi
+	else
+		GET $rawFileUrl > terminal_virtualface.py
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "GET failed with exit code $prgexitstatus while downloading Terminal Virtual Face."
+			exit 3
+		fi
+	fi
+	echo "[ Ok ] Terminal Virtual Face downloaded."
+fi
+
+# Tdlib
+if $installTdl; then
+	rm -rf td/
+	git clone https://github.com/tdlib/td.git
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "git failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	cd td
+	rm -rf build/
+	mkdir build/
+	cd build/
+	if [ "$(grep -Ei 'debian|buntu|mint' /etc/*release)" ]; then
+		CXXFLAGS="-stdlib=libc++" CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local ..
+	else
+		cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local ..
+	fi
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "cmake failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	if $dosplit; then
+		cmake --build . --target prepare_cross_compiling
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "cmake failed with exit code $prgexitstatus."
+			exit 3
+		fi
+		cd ..
+		php SplitSource.php
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "php failed with exit code $prgexitstatus."
+			exit 3
+		fi
+		cd build/
+	fi
+	cmake --build . --target install
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "cmake failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	if $dosplit; then
+		cd ..
+		php SplitSource.php --undo
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "php failed with exit code $prgexitstatus."
+			exit 3
+		fi
+		cd ..
+	else
+		cd ../../
+	fi
+	
+	echo "[ Ok ] Tdlib installed."
+fi
+
+# Brain mime type
+if $installBrnMime; then
+	# Adding mime
+	xdg-mime install resources/mime/sobot-brain.xml
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "xdg-mime failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	# Pairing 48 icon to mime
+	xdg-icon-resource install --context mimetypes --size 48 resources/mime/brain-file-icon-48.png text-brain
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "xdg-icon-resource failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	# Pairing 256 icon to mime
+	xdg-icon-resource install --context mimetypes --size 256 resources/mime/brain-file-icon-256.png text-brain
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "xdg-icon-resource failed with exit code $prgexitstatus."
+		exit 3
+	fi
+fi
+
+# Install Iandi on system
+if $installOnSys; then
+	mkdir -p "$installOnSysBinPath"
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "mkdir failed with exit code $prgexitstatus."
+		exit 3
+	fi
+
+	cp iandi "$installOnSysBinPath"
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "cp failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	#
+	mkdir -p "$installOnSysPath"
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "mkdir failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	
+	rsync -av --exclude=iandi ./* "$installOnSysPath"
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "cp failed with exit code $prgexitstatus."
+		exit 3
+	fi
+
+	if [ "$installOnSysPath" == "$cuserPath/.iandi/" ]; then
+		chown -R user-001:user-001 "$installOnSysPath"
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "chown failed with exit code $prgexitstatus."
+			exit 3
+		fi
+	fi
+	#
+	mkdir -p /usr/share/applications/
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "mkdir failed with exit code $prgexitstatus."
+		exit 3
+	fi
+
+	cp -r resources/launcher/iandi.desktop /usr/share/applications/
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "cp failed with exit code $prgexitstatus."
+		exit 3
+	fi
+
+	chmod +x /usr/share/applications/iandi.desktop
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "chmod failed with exit code $prgexitstatus."
+		exit 3
+	fi
+
+	mkdir -p /usr/share/icons/
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "mkdir failed with exit code $prgexitstatus."
+		exit 3
+	fi
+
+	cp -r resources/icons/icon-round2.png /usr/share/icons/iandi.png
+	prgexitstatus=$?
+	if [ $prgexitstatus -ne 0 ] ; then
+		echo "cp failed with exit code $prgexitstatus."
+		exit 3
+	fi
+	#
+	if $autostartIandi; then
+		if [ "$installOnSysPath" == "$cuserPath/.iandi/" ]; then
+			autostartPath="$cuserPath/.config/autostart/"
+		else
+			autostartPath="$HOME/.config/autostart/"
+		fi
+
+		mkdir -p "$autostartPath"
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "mkdir failed with exit code $prgexitstatus."
+			exit 3
+		fi
+
+		cp -r resources/launcher/iandi.desktop "$autostartPath"
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "cp failed with exit code $prgexitstatus."
+			exit 3
+		fi
+		
+		if [ "$installOnSysPath" == "$cuserPath/.iandi/" ]; then
+			chown -R user-001:user-001 "$autostartPath/iandi.desktop"
+			prgexitstatus=$?
+			if [ $prgexitstatus -ne 0 ] ; then
+				echo "chmod failed with exit code $prgexitstatus."
+				exit 3
+			fi
+		fi
+		
+		chmod +x "$autostartPath/iandi.desktop"
+		prgexitstatus=$?
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "chmod failed with exit code $prgexitstatus."
+			exit 3
+		fi
+	fi
+fi
+
+echo "[Done] Installation completed."
+exit 0

@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Vilket memo m\u00e5ste jag radera?"
+		], 
+		"memoremoved": [
+			"Memo raderat:\\n{}"
+		], 
+		"notenotfound": [
+			"Memo inte hittad."
+		]
+	}, 
+	"one": [
+		"en"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "Det finns ", 
+			"aftstr": "anteckningar"
+		}, 
+		"one": {
+			"prestr": "Det finns ", 
+			"aftstr": "anm\u00e4rkning"
+		}
+	}, 
+	"second": "andra", 
+	"weather": {
+		"clear": " och det \u00e4r tydligt.", 
+		"cloudy": " och det \u00e4r molnigt.", 
+		"bitcloudy": " och det \u00e4r lite molnigt.", 
+		"degrees": " Det finns {} grader.", 
+		"at": "Vid {}", 
+		"rain": ", det regnar", 
+		"drizzle": ", det \u00e4r ruskigt"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Spr\u00e5k inst\u00e4llt: {}"
+		], 
+		"say": [
+			"Ange det spr\u00e5k som ska st\u00e4llas in."
+		], 
+		"notindb": [
+			"Jag kan inte hitta detta spr\u00e5k."
+		]
+	}, 
+	"cancel": [
+		"ingenting"
+	], 
+	"news": {
+		"error": [
+			"Fel."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} gata {} nummer {}"
+		], 
+		"near": [
+			"Det finns {} marknader i n\u00e4rheten."
+		], 
+		"no": [
+			"Det finns inga marknader i n\u00e4rheten."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Jag kunde inte hitta svaret p\u00e5 din fr\u00e5ga."
+		], 
+		"what": [
+			"Vilket svar ska jag leta efter?"
+		], 
+		"internetneeded": [
+			"F\u00f6r att s\u00f6ka p\u00e5 din fr\u00e5ga beh\u00f6ver jag en internetuppkoppling."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"Den %d %m %Y kl. %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "Det finns", 
+			"aftstr": "p\u00e5minnelser"
+		}, 
+		"one": {
+			"prestr": "Det finns", 
+			"aftstr": "p\u00e5minnelse"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Vad ska jag ber\u00e4kna?"
+		], 
+		"notvalid": [
+			"Ogiltigt uttryck."
+		]
+	}, 
+	"for": "f\u00f6r", 
+	"divided": "delad", 
+	"weekdays": [
+		"l\u00f6rdag"
+	], 
+	"music": {
+		"what": [
+			"Vad ska jag \u00e5terge?"
+		], 
+		"downloading": [
+			"H\u00e4mta {}..."
+		], 
+		"setvolumeask": [
+			"Hur h\u00f6gt ska jag st\u00e4lla in volymen?"
+		], 
+		"wasnothingplay": [
+			"Det fanns inget som spelades."
+		], 
+		"nothingplay": [
+			"Det finns inget att spela."
+		], 
+		"setvolumepercentage": [
+			"Ange volymprocenten."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} gata {} nummer {}"
+		], 
+		"near": [
+			"Det finns {} banker i n\u00e4rheten."
+		], 
+		"no": [
+			"Det finns inga banker i n\u00e4rheten."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"Stad satt: {}"
+		], 
+		"say": [
+			"Ber\u00e4tta f\u00f6r mig vilken stad jag ska v\u00e4lja."
+		], 
+		"notindb": [
+			"Jag kan inte hitta den h\u00e4r staden."
+		]
+	}, 
+	"todayis": [
+		"Idag \u00e4r det {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} gata {} nummer {}"
+		], 
+		"near": [
+			"Det finns {} kaf\u00e9er i n\u00e4rheten."
+		], 
+		"no": [
+			"Det finns inga kaf\u00e9er i n\u00e4rheten."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Vad ska jag upprepa?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Ja, det regnar."
+		], 
+		"0": [
+			"Det regnar, det \u00e4r v\u00e4rt att ta det."
+		], 
+		"3": [
+			"Inget paraply beh\u00f6vs."
+		], 
+		"2": [
+			"Det \u00e4r mulet, kan b\u00f6rja regna. Ta den."
+		]
+	}, 
+	"seconds": "sekunder", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Hur h\u00f6gt ska jag st\u00e4lla in systemvolymen?"
+		], 
+		"setvolumepercentage": [
+			"Ange den procentuella andelen av systemvolymen."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} gata {} nummer {}"
+		], 
+		"near": [
+			"Det finns {} hotell i n\u00e4rheten."
+		], 
+		"no": [
+			"Det finns inga hotell i n\u00e4rheten."
+		]
+	}, 
+	"hours": "timmar", 
+	"phone": {
+		"noUnreadMessages": [
+			"Inga meddelanden att l\u00e4sa."
+		], 
+		"messageSent": [
+			"Meddelande skickat till {}."
+		], 
+		"contactNotFound": [
+			"Kontakt saknas."
+		], 
+		"messageSentShort": [
+			"{} skickat till {}."
+		], 
+		"textOfMessage": [
+			"Vad ska jag skriva till {}?"
+		], 
+		"readMsgList": [
+			"Fr\u00e5n {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Vem ska jag skicka meddelandet till?"
+		], 
+		"markedAsRead": [
+			"Meddelanden markerade som l\u00e4sta."
+		], 
+		"notLogged": [
+			"Du m\u00e5ste vara inloggad i Telegram f\u00f6r att kunna anv\u00e4nda den h\u00e4r funktionen."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"Det finns bara {} anpassade kommandon:\\n{}"
+		], 
+		"listmore": [
+			"Det finns {} anpassade kommandon:\\n{}"
+		], 
+		"tellcmdrm": [
+			"Ange det anpassade kommandot som ska tas bort."
+		], 
+		"listno": [
+			"Det finns inga anpassade kommandon."
+		], 
+		"paired": [
+			"Nytt kommando \"{}\" parat med \"{}\"."
+		], 
+		"tellcmdadd": [
+			"S\u00e4g vilket kommando som ska l\u00e4ggas till."
+		], 
+		"tellcmdpair": [
+			"S\u00e4g mig kommandot f\u00f6r parning."
+		], 
+		"removed": [
+			"Det anpassade kommandot \"{}\" har tagits bort."
+		], 
+		"rmnotfound": [
+			"Det anpassade kommandot f\u00f6r att ta bort en fil har inte hittats."
+		]
+	}, 
+	"negative": [
+		"ingen"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Anm\u00e4rkning:\\n{}"
+		], 
+		"saynote": [
+			"Ber\u00e4tta vilken anteckning som ska l\u00e4ggas till."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Timern l\u00f6per ut om {}."
+		], 
+		"notimer": [
+			"Det finns ingen inst\u00e4lld timer."
+		]
+	}, 
+	"affirmative": [
+		"ja"
+	], 
+	"day": "dag", 
+	"minute": "minut", 
+	"execute": {
+		"executing": [
+			"Utf\u00f6r {}..."
+		], 
+		"what": [
+			"Vad ska jag g\u00f6ra?"
+		], 
+		"error": [
+			"Fel i utf\u00f6randet."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Timer p\u00e5 {} inst\u00e4lld."
+		], 
+		"howmany": [
+			"Hur m\u00e5nga sekunder?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"Det \u00e4r {}:{}"
+		]
+	}, 
+	"hour": "timme", 
+	"restaurant": {
+		"print": [
+			"{} gata {} nummer {}"
+		], 
+		"near": [
+			"Det finns {} restauranger i n\u00e4rheten."
+		], 
+		"no": [
+			"Det finns inga restauranger i n\u00e4rheten."
+		]
+	}, 
+	"internetneeded": [
+		"Den h\u00e4r funktionen kr\u00e4ver internet."
+	], 
+	"months": [
+		"December"
+	], 
+	"days": "dagar", 
+	"oldyear": [
+		"Jag \u00e4r {} \u00e5r gammal."
+	], 
+	"plus": "plus", 
+	"removenote": {
+		"notenotfound": [
+			"Anteckningen hittades inte."
+		], 
+		"noteremoved": [
+			"Anm\u00e4rkning borttagen:\\n{}"
+		], 
+		"saynote": [
+			"Vilken anteckning m\u00e5ste jag radera?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Fungerar inte \u00e4nnu."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"Ber\u00e4tta vilket memo som ska l\u00e4ggas till."
+		], 
+		"memoadded": [
+			"Memo l\u00e4ggs till:\\n{}"
+		], 
+		"when": [
+			"S\u00e4g till mig n\u00e4r jag ska s\u00e4tta in minnesanteckningen."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Landet avgjordes: {}"
+		], 
+		"say": [
+			"Ber\u00e4tta f\u00f6r mig vilket land jag ska st\u00e4lla in."
+		], 
+		"notindb": [
+			"Jag kan inte hitta det h\u00e4r landet."
+		]
+	}, 
+	"minutes": "minuter", 
+	"minus": "minus", 
+	"two": [
+		"tv\u00e5"
+	]
+}

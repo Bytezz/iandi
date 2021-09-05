@@ -1,0 +1,378 @@
+{
+	"removememo": {
+		"saymemo": [
+			"Millise memo ma pean kustutama?"
+		], 
+		"memoremoved": [
+			"Memo kustutatud:\\n{}"
+		], 
+		"notenotfound": [
+			"Memo ei leitud."
+		]
+	}, 
+	"one": [
+		"\u00fcks"
+	], 
+	"readnote": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"multiple": {
+			"prestr": "On olemas ", 
+			"aftstr": "m\u00e4rkmed"
+		}, 
+		"one": {
+			"prestr": "On olemas ", 
+			"aftstr": "m\u00e4rkus"
+		}
+	}, 
+	"second": "teine", 
+	"weather": {
+		"clear": " ja see on selge.", 
+		"cloudy": " ja see on pilves.", 
+		"bitcloudy": " ja see on veidi pilvine.", 
+		"degrees": " on {} kraadi", 
+		"at": "{}", 
+		"rain": ", sajab vihma", 
+		"drizzle": ", see on rizzling"
+	}, 
+	"langsettings": {
+		"setted": [
+			"Language setted: {}"
+		], 
+		"say": [
+			"\u00dctle mulle, millist keelt m\u00e4\u00e4rata."
+		], 
+		"notindb": [
+			"Ma ei leia seda keelt."
+		]
+	}, 
+	"cancel": [
+		"mitte midagi"
+	], 
+	"news": {
+		"error": [
+			"Viga."
+		]
+	}, 
+	"market": {
+		"print": [
+			"{} t\u00e4nav {} number {}"
+		], 
+		"near": [
+			"L\u00e4heduses on {} turud."
+		], 
+		"no": [
+			"L\u00e4heduses ei ole turge."
+		]
+	}, 
+	"searchanswer": {
+		"notfound": [
+			"Ma ei leidnud vastust teie k\u00fcsimusele."
+		], 
+		"what": [
+			"Millist vastust ma peaksin otsima?"
+		], 
+		"internetneeded": [
+			"Teie k\u00fcsimuse otsimiseks on mul vaja interneti\u00fchendust."
+		]
+	}, 
+	"readmemo": {
+		"print": [
+			"{} {} {}:\\n{}"
+		], 
+		"oneprint": [
+			"%d %m %Y kell %H:%M:%S"
+		], 
+		"multiple": {
+			"prestr": "On olemas", 
+			"aftstr": "meeldetuletused"
+		}, 
+		"one": {
+			"prestr": "On olemas", 
+			"aftstr": "meeldetuletus"
+		}
+	}, 
+	"calculate": {
+		"what": [
+			"Mida ma pean arvutama?"
+		], 
+		"notvalid": [
+			"Invaliidne v\u00e4ljendus."
+		]
+	}, 
+	"for": "for", 
+	"divided": "jagatud", 
+	"weekdays": [
+		"laup\u00e4ev"
+	], 
+	"music": {
+		"what": [
+			"Mida ma peaksin reprodutseerima?"
+		], 
+		"downloading": [
+			"Allalaadimine {}..."
+		], 
+		"setvolumeask": [
+			"Kui k\u00f5rgele peaksin helitugevuse seadma?"
+		], 
+		"wasnothingplay": [
+			"Midagi ei m\u00e4nginud."
+		], 
+		"nothingplay": [
+			"Midagi ei m\u00e4ngi."
+		], 
+		"setvolumepercentage": [
+			"\u00dctle mulle mahu protsentuaalset osakaalu."
+		]
+	}, 
+	"bank": {
+		"print": [
+			"{} t\u00e4nav {} number {}"
+		], 
+		"near": [
+			"L\u00e4heduses on {} pangad."
+		], 
+		"no": [
+			"L\u00e4heduses ei ole panku."
+		]
+	}, 
+	"citysettings": {
+		"setted": [
+			"City setted: {}"
+		], 
+		"say": [
+			"\u00dctle mulle linn, mis tuleb m\u00e4\u00e4rata."
+		], 
+		"notindb": [
+			"Ma ei leia seda linna."
+		]
+	}, 
+	"todayis": [
+		"T\u00e4na on see {} {} {} {} {} {}."
+	], 
+	"coffee": {
+		"print": [
+			"{} t\u00e4nav {} number {}"
+		], 
+		"near": [
+			"L\u00e4heduses on {} kohvikud."
+		], 
+		"no": [
+			"L\u00e4heduses ei ole kohvikuid."
+		]
+	}, 
+	"repeat": {
+		"what": [
+			"Mida ma pean kordama?"
+		]
+	}, 
+	"umbrella": {
+		"1": [
+			"Jah, sajab vihma."
+		], 
+		"0": [
+			"See tilgub, tasub v\u00f5tta."
+		], 
+		"3": [
+			"Vihmavarju ei ole vaja."
+		], 
+		"2": [
+			"On pilves, v\u00f5ib hakata sadama. V\u00f5tke see."
+		]
+	}, 
+	"seconds": "sekundit", 
+	"systemaudio": {
+		"setvolumeask": [
+			"Kui suureks peaksin seadma s\u00fcsteemi helitugevuse?"
+		], 
+		"setvolumepercentage": [
+			"\u00dctle mulle s\u00fcsteemi mahu protsentuaalne osakaal."
+		]
+	}, 
+	"hotel": {
+		"print": [
+			"{} t\u00e4nav {} number {}"
+		], 
+		"near": [
+			"L\u00e4heduses on {} hotellid."
+		], 
+		"no": [
+			"L\u00e4heduses ei ole hotelle."
+		]
+	}, 
+	"hours": "tundi", 
+	"phone": {
+		"noUnreadMessages": [
+			"Ei mingeid s\u00f5numeid, mida lugeda."
+		], 
+		"messageSent": [
+			"S\u00f5num saadetakse {}."
+		], 
+		"contactNotFound": [
+			"Kontakti ei leitud."
+		], 
+		"messageSentShort": [
+			"{} saadetakse {}."
+		], 
+		"textOfMessage": [
+			"Mida ma peaksin kirjutama {}?"
+		], 
+		"readMsgList": [
+			"Alates {}:\\n{}\\n"
+		], 
+		"toWhoMessage": [
+			"Kellele ma peaksin s\u00f5numi saatma?"
+		], 
+		"markedAsRead": [
+			"S\u00f5numid, mis on m\u00e4rgitud loetud."
+		], 
+		"notLogged": [
+			"Selle funktsiooni kasutamiseks peate olema Telegrami sisse logitud."
+		]
+	}, 
+	"custCmds": {
+		"listone": [
+			"On ainult {} kohandatud k\u00e4sk:\\n{}"
+		], 
+		"listmore": [
+			"On olemas {} kohandatud k\u00e4sud:\\n{}"
+		], 
+		"tellcmdrm": [
+			"\u00dctle mulle, millist kohandatud k\u00e4sku eemaldada."
+		], 
+		"listno": [
+			"Kohandatud k\u00e4ske ei ole."
+		], 
+		"paired": [
+			"Uus k\u00e4sk \"{}\" on \u00fchendatud k\u00e4suga \"{}\"."
+		], 
+		"tellcmdadd": [
+			"\u00dctle mulle k\u00e4sk, mida lisada."
+		], 
+		"tellcmdpair": [
+			"\u00dctle mulle k\u00e4sk paaristamiseks."
+		], 
+		"removed": [
+			"\u00dctle mulle k\u00e4sk paaristamiseks."
+		], 
+		"rmnotfound": [
+			"Kohandatud k\u00e4sk eemaldamiseks ei leitud."
+		]
+	}, 
+	"negative": [
+		"ei"
+	], 
+	"addnote": {
+		"noteadded": [
+			"Lisatud m\u00e4rkus:\\n{}"
+		], 
+		"saynote": [
+			"\u00dctle mulle m\u00e4rkus, mida lisada."
+		]
+	}, 
+	"checktimer": {
+		"eta": [
+			"Taimer l\u00f5peb {}."
+		], 
+		"notimer": [
+			"Ei ole seadistatud taimer."
+		]
+	}, 
+	"affirmative": [
+		"jah"
+	], 
+	"day": "p\u00e4ev", 
+	"minute": "minut", 
+	"execute": {
+		"executing": [
+			"T\u00e4itmine {}..."
+		], 
+		"what": [
+			"Mida ma pean t\u00e4itma?"
+		], 
+		"error": [
+			"Viga t\u00e4itmisel."
+		]
+	}, 
+	"settimer": {
+		"setted": [
+			"Taimer {} seatud."
+		], 
+		"howmany": [
+			"Mitu sekundit?"
+		]
+	}, 
+	"ctime": {
+		"ofmorning": [
+			" am."
+		], 
+		"its": [
+			"See on {}:{}"
+		]
+	}, 
+	"hour": "tund", 
+	"restaurant": {
+		"print": [
+			"{} t\u00e4nav {} number {}"
+		], 
+		"near": [
+			"L\u00e4heduses on {} restoranid."
+		], 
+		"no": [
+			"L\u00e4heduses ei ole restorane."
+		]
+	}, 
+	"internetneeded": [
+		"See funktsioon n\u00f5uab internetti."
+	], 
+	"months": [
+		"Detsember"
+	], 
+	"days": "p\u00e4evad", 
+	"oldyear": [
+		"Ma olen {}aastane."
+	], 
+	"plus": "pluss", 
+	"removenote": {
+		"notenotfound": [
+			"M\u00e4rkust ei leitud."
+		], 
+		"noteremoved": [
+			"M\u00e4rkus v\u00e4lja j\u00e4etud:\\n{}"
+		], 
+		"saynote": [
+			"Millise m\u00e4rkuse ma pean kustutama?"
+		]
+	}, 
+	"notWorkingYet": [
+		"Ei t\u00f6\u00f6ta veel."
+	], 
+	"addmemo": {
+		"saymemo": [
+			"\u00dctle mulle memo lisada."
+		], 
+		"memoadded": [
+			"Lisatud m\u00e4rkus:\\n{}"
+		], 
+		"when": [
+			"\u00dctle mulle, millal ma memo m\u00e4\u00e4ran."
+		]
+	}, 
+	"countrysettings": {
+		"setted": [
+			"Riik, mis on m\u00e4\u00e4ratud: {}"
+		], 
+		"say": [
+			"\u00dctle mulle riik, mis tuleb m\u00e4\u00e4rata."
+		], 
+		"notindb": [
+			"Ma ei leia seda riiki."
+		]
+	}, 
+	"minutes": "protokoll", 
+	"minus": "miinus", 
+	"two": [
+		"kaks"
+	]
+}
