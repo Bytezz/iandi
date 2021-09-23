@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Infos
-installerVersion="0.1"
+installerVersion="0.1.1"
 while read line; do
 	if [[ $line == "globalvars.version="* ]]; then
 		iandiVersion="$(cut -d'"' -f 2 <<< $line)"
@@ -579,7 +579,7 @@ if $installOnSys; then
 	fi
 
 	if [ "$installOnSysPath" == "$cuserPath/.iandi/" ]; then
-		chown -R user-001:user-001 "$installOnSysPath"
+		chown -R $cuser:$cuser "$installOnSysPath"
 		prgexitstatus=$?
 		if [ $prgexitstatus -ne 0 ] ; then
 			echo "chown failed with exit code $prgexitstatus."
@@ -636,6 +636,12 @@ if $installOnSys; then
 			exit 3
 		fi
 
+		chmod -R $cuser:$cuser "$autostartPath"
+		if [ $prgexitstatus -ne 0 ] ; then
+			echo "chmod failed with exit code $prgexitstatus."
+			exit 3
+		fi
+
 		cp -r resources/launcher/iandi.desktop "$autostartPath"
 		prgexitstatus=$?
 		if [ $prgexitstatus -ne 0 ] ; then
@@ -644,7 +650,7 @@ if $installOnSys; then
 		fi
 		
 		if [ "$installOnSysPath" == "$cuserPath/.iandi/" ]; then
-			chown -R user-001:user-001 "$autostartPath/iandi.desktop"
+			chown -R $cuser:$cuser "$autostartPath/iandi.desktop"
 			prgexitstatus=$?
 			if [ $prgexitstatus -ne 0 ] ; then
 				echo "chmod failed with exit code $prgexitstatus."

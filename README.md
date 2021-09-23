@@ -137,7 +137,10 @@ To log into Telegram:
 
 ### Uninstall
 
-Uninstall instructions.
+The uninstall process depends on where you installed Iandi.  
+For the default installation path this will fit:
+
+`sudo rm -rf /usr/local/bin/iandi ~/.iandi`
 
 <a name="exectypes"></a>
 ## Execution types
@@ -229,4 +232,4 @@ To disable a plugin, just put a "-" in front of folder name.
 ---
 
 Iandi 0.1
-Readme update of 2021/09/05
+Readme update of 2021/09/23
