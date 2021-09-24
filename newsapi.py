@@ -1,19 +1,33 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import urllib,json
+import sys,json
 
-version="0.1"
+if sys.version_info[0]<3:
+	import urllib
+else:
+	import urllib.request
+	import urllib.parse
+
+version="0.1.1"
 
 def _readurl(url):
-	page=urllib.urlopen(url)
+	if sys.version_info[0]<3:
+		page=urllib.urlopen(url)
+	else:
+		page=urllib.request.urlopen(url)
 	content=page.read()
 	page.close()
 	return content
+def _urlencode(toParse):
+	if sys.version_info[0]<3:
+		return(urllib.urlencode(toParse))
+	else:
+		return(urllib.parse.urlencode(toParse))
 ####
 token="ef1f15ea31cf4c0dbd49deaa880d5d56"
 server="https://newsapi.org/v2/"
 def topheads(country="us",category="general",q="",pageSize=20,page=1,source=True):
-	p=urllib.urlencode({"apiKey":token,"country":country,"category":category,"pageSize":pageSize,"page":page})
+	p=_urlencode({"apiKey":token,"country":country,"category":category,"pageSize":pageSize,"page":page})
 	r=json.loads(_readurl(server+"top-headlines?"+p))
 	if r["status"]=="ok":
 		heads=[]
@@ -29,7 +43,7 @@ def topheads(country="us",category="general",q="",pageSize=20,page=1,source=True
 	else:
 		return "!Error: "+r["code"]
 def everything(q="",qInTitle="",domains="",excludeDomains="",since="",to="",language="en",sortBy="",pageSize=20,page=1,source=True):
-	p=urllib.urlencode({"apiKey":token,
+	p=_urlencode({"apiKey":token,
 		"q":q,
 		"qInTitle":qInTitle,
 		"domains":domains,
@@ -58,4 +72,4 @@ def everything(q="",qInTitle="",domains="",excludeDomains="",since="",to="",lang
 ####
 if __name__=="__main__":
 	c=raw_input("Country> ")
-	print "\n".join(topheads(country=c,pageSize=3,source=False))
+	print("\n".join(topheads(country=c,pageSize=3,source=False)))

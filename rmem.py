@@ -1,19 +1,21 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-import os,sys,urllib,ast,json,datetime,random,time,re,subprocess,locale,iso639,countries,cities,translations,apertium,alsaaudio,vlc,newsapi,tdlib,globalvars,xml.etree.ElementTree as xmletree
-try:
+import os,sys,ast,json,datetime,random,time,re,subprocess,locale,iso639,countries,cities,translations,apertium,alsaaudio,vlc,newsapi,tdlib,globalvars,xml.etree.ElementTree as xmletree,traceback
+if sys.version_info[0]<3:
 	import thread
-except:
+	import urllib
+else:
 	import _thread as thread
+	import urllib.request as urllib
 from playsound import playsound
 from difflib import SequenceMatcher
 
-globalvars.rmemversion="0.1"
+globalvars.rmemversion="0.1.1"
 
 def log(txt):
 	txt=str(datetime.datetime.now().strftime("%Y.%m.%d.%H.%M.%S"))+" - "+str(txt)
 	print(txt)
-	with open("iandi.log","a") as log:
+	with open("/tmp/iandi.log","a") as log:
 		log.write(txt+"\n")
 		log.close()
 def encode(o):
@@ -64,7 +66,7 @@ def update_memory(mem):
 		f.write(str(mem))
 		f.close()
 try:
-	if os.path.exist(os.path.expanduser("~")+"/.iandi/"):
+	if os.path.exists(os.path.expanduser("~")+"/.iandi/"):
 		mempath=os.path.expanduser("~")+"/.iandi/mem"
 	else:
 		mempath="mem"
@@ -82,7 +84,7 @@ try:
 			update_memory(mem)
 		f.close()
 except Exception as e:
-	log(e)
+	log(traceback.format_exc())
 	mem={}
 	update_memory(mem)
 def verify_existence(var,t=None):
@@ -759,7 +761,7 @@ def execute(args):
 			thread.start_new_thread(subprocess.call,(args,))
 			return translations.getstr("execute","executing").format(" ".join(args))
 		except Exception as e:
-			log(e)
+			log(traceback.format_exc())
 			return translations.getstr("execute","error")
 def calculate(args):
 	if args==[] or args==[""]:
@@ -972,7 +974,7 @@ def searchanswer(args):
 		else:
 			pairs=apertium.listPairs()["responseData"]
 			q=apertium.translate(encode2(" ".join(args)),mem["lang"],"eng",pairs)
-			o=readurl("https://www.answers.com/search?q="+urllib.quote_plus(q)).replace("\n","")
+			o=readurl("https://www.answers.com/search?q="+urllib.quote(q)).replace("\n","")
 			if re.findall("<link rel='canonical' href='(.*?)'>",o)[0]=="https://www.answers.com/search":
 				r=re.findall('"slug":"(.*?)"',o)
 				a=re.findall('"num_answers":(.*?),',o)
@@ -1207,7 +1209,7 @@ def music(args,sayDownloading=True):
 			return call_from_brain(translations.getstr("cancel"))
 		else:
 			q=" ".join(args)
-			url="https://www.youtube.com/watch?v="+re.findall(r'{"webCommandMetadata":{"url":"/watch\?v=(.*?)"',readurl("https://www.youtube.com/results?q="+urllib.quote_plus(encode2(q))))[0]
+			url="https://www.youtube.com/watch?v="+re.findall(r'{"webCommandMetadata":{"url":"/watch\?v=(.*?)"',readurl("https://www.youtube.com/results?q="+urllib.quote(encode2(q))))[0]
 			title=re.findall(r'<meta name="title" content="(.*?)">',readurl(url))[0]
 			thread.start_new_thread(downloadmusic,(url,))
 			if sayDownloading:

@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sys,os,json,thread,time,random
+import sys,os,json,time,random
+try:
+	import thread
+except:
+	import _thread
 from ctypes.util import find_library
 from ctypes import *
 from difflib import SequenceMatcher
@@ -13,7 +17,7 @@ global isWorking;isWorking=True
 def log(txt):
 	txt=json.dumps(txt).encode('utf-8')
 	with open("tdlib.log","a+") as l:
-		l.write(txt+"\n")
+		l.write(str(txt)+"\n")
 		l.close()
 
 # You MUST obtain your own api_id and api_hash at https://my.telegram.org
