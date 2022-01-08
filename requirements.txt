@@ -1,0 +1,16 @@
+# Python Requirements
+## pip install -r requirements.txt
+
+### Requirements without Version Specifiers
+setuptools
+pyaudio
+playsound
+pyttsx3
+speechrecognition
+pocketsphinx
+pyalsaaudio
+youtube-dl
+wxpython
+
+### Requirements with Version Specifiers
+python-vlc == 3.0.11115

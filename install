@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Infos
-installerVersion="0.1.2"
+installerVersion="0.1.3"
 while read line; do
 	if [[ $line == "globalvars.version="* ]]; then
 		iandiVersion="$(cut -d'"' -f 2 <<< $line)"
@@ -38,59 +38,96 @@ else
 	cuser=$SUDO_USER
 fi
 
+# Check args
+yes2all=false
+
+for arg in $@; do
+	case $arg in
+		-y|--yes) # skip all questions simply by answering with the default value
+			yes2all=true
+			;;
+	esac
+done
+
 # Inputs
 ## package manager
 while true
 do
-	read -p "Install dependencies? [Y/n] " installDep
-	case $installDep in
-		[nN][oO]|[nN])
-			echo "No."
-			installDep=false
-			break
-			;;
-		*)
-		echo "Yes."
+	if $yes2all ; then
 		installDep=true
 		break
-		;;
-	esac
+	else
+		read -p "Install dependencies? [Y/n] " installDep
+		case $installDep in
+			[nN][oO]|[nN])
+				echo "No."
+				installDep=false
+				break
+				;;
+			*)
+			echo "Yes."
+			installDep=true
+			break
+			;;
+		esac
+	fi
 done
 if $installDep ; then
+
+	# Get default package manager
+	if command -v apt &> /dev/null; then
+		pmDefault="apt"
+	elif command -v dnf &> /dev/null; then
+		pmDefault="dnf"
+	elif command -v yum &> /dev/null; then
+		pmDefault="yum"
+	elif command -v pacman &> /dev/null; then
+		pmDefault="pacman"
+	fi
+
 	while true
 	do
-		read -p "Package manager: " pm
-		case $pm in
-			[aA][pP][tT])
-				pm="apt"
-				break
-				;;
-			[dD][nN][fF])
-				pm="dnf"
-				break
-				;;
-			[yY][uU][mM])
-				pm="yum"
-				break
-				;;
-			#[hH][oO][mM][eE][bB][rR][eE][wW]|[bB][rR][eE][wW])
-			#	pm="homebrew"
-			#	break
-			#	;;
-			[pP][aA][cC][mM][aA][nN])
-				pm="pacman"
-				break
-				;;
-			#[pP][oO][rR][tT][aA][gG][eE]|[eE][mM][eE][rR][gG][eE])
-			#	pm="portage"
-			#	break
-			#	;;
-			*)
-				echo "Package manager not supported."
-				echo "Use it manually out of installer."
-				exit 1
-				;;
-		esac
+		if $yes2all ; then
+			pm=$pmDefault
+			break
+		else
+			read -p "Package manager: " pm
+			case $pm in
+				[aA][pP][tT])
+					pm="apt"
+					break
+					;;
+				[dD][nN][fF])
+					pm="dnf"
+					break
+					;;
+				[yY][uU][mM])
+					pm="yum"
+					break
+					;;
+				#[hH][oO][mM][eE][bB][rR][eE][wW]|[bB][rR][eE][wW])
+				#	pm="homebrew"
+				#	break
+				#	;;
+				[pP][aA][cC][mM][aA][nN])
+					pm="pacman"
+					break
+					;;
+				#[pP][oO][rR][tT][aA][gG][eE]|[eE][mM][eE][rR][gG][eE])
+				#	pm="portage"
+				#	break
+				#	;;
+				#[zZ][yY][pP][eE][rR])
+				#	pm="zypper"
+				#	break
+				#	;;
+				*)
+					echo "Package manager not supported."
+					echo "Use it manually out of installer."
+					exit 1
+					;;
+			esac
+		fi
 	done
 	echo "$pm."
 fi
@@ -98,115 +135,149 @@ fi
 ## precompiled snowboy
 while true
 do
-	read -p "Install snowboy? [Y/n] " installSb
-	case $installSb in
-		[nN][oO]|[nN])
-			installSb=false
-			echo "No."
-			break
-			;;
-		*)
-			installSb=true
-			echo "Yes."
-			break
-			;;
-	esac
+	if $yes2all ; then
+		installSb=true
+		break
+	else
+		read -p "Install snowboy? [Y/n] " installSb
+		case $installSb in
+			[nN][oO]|[nN])
+				installSb=false
+				echo "No."
+				break
+				;;
+			*)
+				installSb=true
+				echo "Yes."
+				break
+				;;
+		esac
+	fi
 done
 
 ## Procname
 while true
 do
-	read -p "Compile procname? [Y/n] " compileProcname
-	case $compileProcname in
-		[nN][oO]|[nN])
-			echo "No."
-			compileProcname=false
-			break
-			;;
-		*)
-			echo "Yes."
-			compileProcname=true
-			break
-			;;
-	esac
+	if $yes2all ; then
+		compileProcname=true
+		break
+	else
+		read -p "Compile procname? [Y/n] " compileProcname
+		case $compileProcname in
+			[nN][oO]|[nN])
+				echo "No."
+				compileProcname=false
+				break
+				;;
+			*)
+				echo "Yes."
+				compileProcname=true
+				break
+				;;
+		esac
+	fi
 done
 
 ## Terminal Virtual Face
 while true
 do
-	read -p "Get Terminal Virtual Face? [Y/n] " getTermVFace
-	case $getTermVFace in
-		[nN][oO]|[nN])
-			echo "No."
-			getTermVFace=false
-			break
-			;;
-		*)
-			echo "Yes."
-			getTermVFace=true
-			break
-			;;
-	esac
+	if $yes2all ; then
+		getTermVFace=true
+		break
+	else
+		read -p "Get Terminal Virtual Face? [Y/n] " getTermVFace
+		case $getTermVFace in
+			[nN][oO]|[nN])
+				echo "No."
+				getTermVFace=false
+				break
+				;;
+			*)
+				echo "Yes."
+				getTermVFace=true
+				break
+				;;
+		esac
+	fi
 done
 
 ## Tdlib
 while true
 do
-	read -p "Install tdlib? [Y/n] " installTdl
-	case $installTdl in
-		[nN][oO]|[nN])
-			echo "No."
-			installTdl=false
-			break
-			;;
-		*)
-			echo "Yes."
-			installTdl=true
-			break
-			;;
-	esac
+	if $yes2all ; then
+		installTdl=true
+		break
+	else
+		read -p "Install tdlib? [Y/n] " installTdl
+		case $installTdl in
+			[nN][oO]|[nN])
+				echo "No."
+				installTdl=false
+				break
+				;;
+			*)
+				echo "Yes."
+				installTdl=true
+				break
+				;;
+		esac
+	fi
 done
 
 ## Brain mime type
 while true
 do
-	read -p "Install brain MIME type? [Y/n] " installBrnMime
-	case $installBrnMime in
-		[nN][oO]|[nN])
-			echo "No."
-			installBrnMime=false
-			break
-			;;
-		*)
-			echo "Yes."
-			installBrnMime=true
-			break
-			;;
-	esac
+	if $yes2all ; then
+		installBrnMime=true
+		break
+	else
+		read -p "Install brain MIME type? [Y/n] " installBrnMime
+		case $installBrnMime in
+			[nN][oO]|[nN])
+				echo "No."
+				installBrnMime=false
+				break
+				;;
+			*)
+				echo "Yes."
+				installBrnMime=true
+				break
+				;;
+		esac
+	fi
 done
 
 ## Install Iandi on system
 while true
 do
-	read -p "Install Iandi on system? [Y/n] " installOnSys
-	case $installOnSys in
-		[nN][oO]|[nN])
-			echo "No."
-			installOnSys=false
-			break
-			;;
-		*)
-			echo "Yes."
-			installOnSys=true
-			break
-			;;
-	esac
+	if $yes2all ; then
+		installOnSys=true
+		break
+	else
+		read -p "Install Iandi on system? [Y/n] " installOnSys
+		case $installOnSys in
+			[nN][oO]|[nN])
+				echo "No."
+				installOnSys=false
+				break
+				;;
+			*)
+				echo "Yes."
+				installOnSys=true
+				break
+				;;
+		esac
+	fi
 done
 if $installOnSys ; then
 	installOnSysBinDefaultPath="/usr/local/bin/"
-	read -p "Executable path: [$installOnSysBinDefaultPath] " installOnSysBinPath
-	if [ "$installOnSysBinPath" == "" ] ; then
+	if $yes2all ; then
 		installOnSysBinPath=$installOnSysBinDefaultPath
+	else
+		read -p "Executable path: [$installOnSysBinDefaultPath] " installOnSysBinPath
+		if [ "$installOnSysBinPath" == "" ] ; then
+			installOnSysBinPath=$installOnSysBinDefaultPath
+		fi
 	fi
 
 	if [ "$cuser" == "root" ]; then
@@ -215,23 +286,31 @@ if $installOnSys ; then
 		cuserPath="/home/$cuser"
 	fi
 	installOnSysDefaultPath="$cuserPath/.iandi/"
-	read -p "Resources path: [$installOnSysDefaultPath] " installOnSysPath
-	if [ "$installOnSysPath" == "" ] ; then
+	if $yes2all ; then
 		installOnSysPath=$installOnSysDefaultPath
+	else
+		read -p "Resources path: [$installOnSysDefaultPath] " installOnSysPath
+		if [ "$installOnSysPath" == "" ] ; then
+			installOnSysPath=$installOnSysDefaultPath
+		fi
 	fi
 fi
 if $installOnSys ; then
-	read -p "Autostart Iandi on login? [Y/n] " autostartIandi
-	case $autostartIandi in
-		[nN][oO]|[nN])
-			echo "No."
-			autostartIandi=false
-			;;
-		*)
-			echo "Yes."
-			autostartIandi=true
-			;;
-	esac
+	if $yes2all ; then
+		autostartIandi=true
+	else
+		read -p "Autostart Iandi on login? [Y/n] " autostartIandi
+		case $autostartIandi in
+			[nN][oO]|[nN])
+				echo "No."
+				autostartIandi=false
+				;;
+			*)
+				echo "Yes."
+				autostartIandi=true
+				;;
+		esac
+	fi
 fi
 
 echo "[ Ok ] Now you can go afk."
@@ -342,7 +421,8 @@ if $installDep ; then
 	else
 		pipcmd="pip"
 	fi
-	$pipcmd install --no-input setuptools pyaudio playsound pyttsx3 speechrecognition pocketsphinx pyalsaaudio python-vlc==3.0.11115 youtube-dl
+	#$pipcmd install --no-input setuptools pyaudio playsound pyttsx3 speechrecognition pocketsphinx pyalsaaudio python-vlc==3.0.11115 youtube-dl
+	$pipcmd install --no-input -r requirements.txt
 	prgexitstatus=$?
 	if [ $prgexitstatus -ne 0 ] ; then
 		echo "$pipcmd failed with exit code $prgexitstatus."
@@ -398,7 +478,7 @@ fi
 if $getTermVFace; then
 	rawFileUrl="https://raw.githubusercontent.com/Bytezz/VirtualFace/master/terminal_virtualface.py"
 	# search an installed program to download the raw file
-	if commad -v curl &> /dev/null; then # verify if curl is installed, if true use it to download
+	if command -v curl &> /dev/null; then # verify if curl is installed, if true use it to download
 		curl -o terminal_virtualface.py $rawFileUrl
 		prgexitstatus=$?
 		if [ $prgexitstatus -ne 0 ] ; then
@@ -597,9 +677,9 @@ if $installOnSys; then
 			exit 3
 		fi
 
-		chmod -R $cuser:$cuser "$autostartPath"
+		chown -R $cuser:$cuser "$autostartPath"
 		if [ $prgexitstatus -ne 0 ] ; then
-			echo "chmod failed with exit code $prgexitstatus."
+			echo "chown failed with exit code $prgexitstatus."
 			exit 3
 		fi
 
@@ -614,7 +694,7 @@ if $installOnSys; then
 			chown -R $cuser:$cuser "$autostartPath/iandi.desktop"
 			prgexitstatus=$?
 			if [ $prgexitstatus -ne 0 ] ; then
-				echo "chmod failed with exit code $prgexitstatus."
+				echo "chown failed with exit code $prgexitstatus."
 				exit 3
 			fi
 		fi
