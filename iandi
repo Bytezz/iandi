@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os,sys,re,ast,random,time,datetime,pyttsx3,traceback
 try:
@@ -52,7 +52,7 @@ if os.name!="nt":
 	except:
 		pass
 
-globalvars.version="0.1.1"
+globalvars.version="0.1.2"
 
 # Functions
 #from internals import *

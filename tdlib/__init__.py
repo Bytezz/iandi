@@ -4,13 +4,13 @@ import sys,os,json,time,random
 try:
 	import thread
 except:
-	import _thread
+	import _thread as thread
 from ctypes.util import find_library
 from ctypes import *
 from difflib import SequenceMatcher
 from playsound import playsound
 
-version="0.1"
+version="0.1.1"
 
 global isWorking;isWorking=True
 

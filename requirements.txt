@@ -10,7 +10,6 @@ speechrecognition
 pocketsphinx
 pyalsaaudio
 youtube-dl
-wxpython
 
 ### Requirements with Version Specifiers
 python-vlc == 3.0.11115
